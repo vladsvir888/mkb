@@ -1,0 +1,9 @@
+@mixin placeholder {
+  &.placeholder {
+    @content;
+  }
+
+  &::placeholder {
+    @content;
+  }
+}

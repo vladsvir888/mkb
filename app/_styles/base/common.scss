@@ -1,0 +1,174 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: currentcolor;
+}
+
+button {
+  color: currentcolor;
+}
+
+fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+}
+
+input[type='search'] {
+  &::-webkit-search-decoration,
+  &::-webkit-search-cancel-button,
+  &::-webkit-search-results-button,
+  &::-webkit-search-results-decoration {
+    appearance: none;
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  appearance: textfield;
+}
+
+address {
+  font-style: normal;
+}
+
+small {
+  font-size: inherit;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+:focus-visible {
+  outline: rem(2) solid var(--palette-mine-shaft);
+}
+
+::selection {
+  // add selection for corporate styles of the site
+}
+
+.lock {
+  overflow: hidden;
+  padding-right: var(--scrollbar-width);
+}
+
+[hidden] {
+  display: none !important;
+}
+
+.swiper-pagination-lock {
+  display: none !important;
+}
+
+html {
+  height: 100%;
+  scrollbar-color: var(--palette-mine-shaft) transparent;
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+
+  &::-webkit-scrollbar {
+    width: rem(12);
+    height: rem(12);
+    background-color: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--palette-mine-shaft);
+    border-radius: rem(10);
+  }
+}
+
+body {
+  @include flex-column;
+
+  height: 100%;
+  font-family: var(--font-primary);
+  color: var(--palette-mine-shaft);
+}
+
+.header {
+  flex-shrink: 0;
+}
+
+.main {
+  position: relative;
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: 0;
+  margin-top: auto;
+}
+
+.container {
+  @include container;
+}
