@@ -1,0 +1,29 @@
+<svg width="1440" height="2520" viewBox="0 0 1440 2520" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.5" clip-path="url(#clip0_1303_843)">
+<path d="M177 -19.5L177 962.384L-125 1264" stroke="#E0DFE9" stroke-width="20"/>
+<path d="M246 -37.5L246 983.329L-87.9999 1317" stroke="#E0DFE9" stroke-width="10"/>
+<path d="M147 -24L147 944.329L-187 1278" stroke="#E0DFE9" stroke-width="4"/>
+<path opacity="0.3" d="M499 256L499 944.327L-211.672 1655" stroke="#E0DFE9" stroke-width="4"/>
+<path d="M1442 986.672L222.672 986.672L-488 276" stroke="#E0DFE9" stroke-width="4"/>
+</g>
+<g opacity="0.5" clip-path="url(#clip1_1303_843)">
+<path d="M1263 2539.5L1263 1557.62L1565 1256" stroke="#E0DFE9" stroke-width="20"/>
+<path d="M1194 2557.5L1194 1536.67L1528 1203" stroke="#E0DFE9" stroke-width="10"/>
+<path d="M1293 2544L1293 1575.67L1627 1242" stroke="#E0DFE9" stroke-width="4"/>
+<path opacity="0.3" d="M941 2264L941 1575.67L1651.67 865" stroke="#E0DFE9" stroke-width="4"/>
+<path d="M-2 1533.33L1217.33 1533.33L1928 2244" stroke="#E0DFE9" stroke-width="4"/>
+<rect x="1043" y="2074" width="439" height="446" fill="url(#paint0_linear_1303_843)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1303_843" x1="1262.5" y1="2520" x2="1262.5" y2="2246.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F7F8FA"/>
+<stop offset="1" stop-color="#F7F8FA" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip0_1303_843">
+<rect width="1440" height="1544" fill="white" transform="matrix(-1 0 0 1 1440 0)"/>
+</clipPath>
+<clipPath id="clip1_1303_843">
+<rect width="1440" height="1544" fill="white" transform="matrix(1 0 0 -1 0 2520)"/>
+</clipPath>
+</defs>
+</svg>
