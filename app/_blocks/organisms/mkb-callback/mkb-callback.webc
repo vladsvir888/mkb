@@ -1,0 +1,15 @@
+<section class="callback">
+  <div class="container">
+    <div class="callback__content">
+      <h2 class="callback__title">
+        Предложим индивидуальное решение вашей задачи
+      </h2>
+      <form class="callback__form" action="/" method="post">
+        <mkb-input @type-input="default" class="callback__form-input" placeholder="Ваше имя" name="name"></mkb-input>
+        <mkb-input @type-input="default" class="callback__form-input" placeholder="Номер телефона" type="tel" name="phone"></mkb-input>
+        <mkb-input @type-input="default" class="callback__form-input" placeholder="Комментарий" name="comment"></mkb-input>
+        <mkb-button @is-button="true" class="button--purple callback__form-button" type="submit">Оставить заявку</mkb-button>
+      </form>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,51 @@
+.maintenance {
+  color: var(--palette-white);
+
+  &__slide {
+    position: relative;
+    padding: rem(73) 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    &::before {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(86deg, rgba(0, 0, 0, 0.9) 17.9%, rgba(0, 0, 0, 0) 97.03%);
+      content: '';
+    }
+
+    &-icon {
+      width: rem(60);
+      height: rem(60);
+    }
+  }
+
+  &__content {
+    @include flex-center-y;
+
+    column-gap: rem(40);
+    opacity: 0.999;
+  }
+
+  &__title {
+    @include font48;
+
+    width: 46%;
+    padding-right: rem(10);
+    border-right: rem(2) solid rgba(var(--palette-rgb-white), 0.5);
+  }
+
+  &__list {
+    @include font24-light;
+
+    width: 43%;
+    list-style: disc;
+
+    > * {
+      &:not(:last-child) {
+        margin-bottom: rem(10);
+      }
+    }
+  }
+}

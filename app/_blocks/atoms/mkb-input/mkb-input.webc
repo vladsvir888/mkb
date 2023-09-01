@@ -1,0 +1,8 @@
+<input
+  webc:if="typeInput === 'default'"
+  class="input"
+  :placeholder="placeholder"
+  :type="type ? type : 'text'"
+  :name="name ? name : 'name'"
+  webc:root="override"
+>

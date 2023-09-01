@@ -1,0 +1,3 @@
+<svg class="icon" aria-hidden="true" webc:root="override">
+  <use :href="`/assets/sprites/sprite-${type}.svg#${name}`"></use>
+</svg>

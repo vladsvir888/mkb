@@ -1,7 +1,8 @@
-<app-base webc:nokeep>
-  <div>
-    <b>
-      WebC *is* HTML.
-    </b>
-  </div>
-</app-base>
+<mkb-base webc:nokeep>
+  <mkb-hero></mkb-hero>
+  <mkb-activities></mkb-activities>
+  <mkb-maintenance></mkb-maintenance>
+  <mkb-callback></mkb-callback>
+  <mkb-team-professionals></mkb-team-professionals>
+  <mkb-portfolio-slider></mkb-portfolio-slider>
+</mkb-base>

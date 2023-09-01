@@ -1,6 +1,6 @@
 <button
   webc:if="isButton"
-  class="button button--button"
+  class="button"
   webc:root="override"
 >
   <slot></slot>

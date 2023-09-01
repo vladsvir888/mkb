@@ -1,0 +1,19 @@
+.input {
+  @include font14;
+
+  padding: rem(20) rem(12);
+  background-color: var(--palette-white);
+  border: rem(1) solid var(--palette-blue-marguerite);
+
+  &::placeholder {
+    color: var(--palette-silver);
+  }
+
+  &:focus-visible {
+    outline: none;
+
+    &::placeholder {
+      color: var(--palette-cod-gray);
+    }
+  }
+}

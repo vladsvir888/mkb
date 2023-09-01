@@ -1,0 +1,131 @@
+<script webc:setup>
+  const activities = [
+    {
+      title: {
+        href: '#',
+        text: 'Системы видеонаблюдения “под ключ”'
+      },
+      image: {
+        src: "/assets/images/activities/01.svg"
+      }
+    },
+    {
+      title: {
+        href: '#',
+        text: 'Шлагбаумы и дорожные блокираторы “под ключ”'
+      },
+      image: {
+        src: "/assets/images/activities/02.svg"
+      }
+    },
+    {
+      title: {
+        href: '#',
+        text: 'Системы контроля и управления доступом СКУД'
+      },
+      image: {
+        src: "/assets/images/activities/03.svg"
+      }
+    },
+    {
+      title: {
+        href: '#',
+        text: 'Турникеты, ограждения, системы управления'
+      },
+      image: {
+        src: "/assets/images/activities/04.svg"
+      }
+    },
+    {
+      title: {
+        href: '#',
+        text: 'Учет рабочего времени и биометрический контроль доступа'
+      },
+      image: {
+        src: "/assets/images/activities/05.svg"
+      }
+    },
+    {
+      title: {
+        href: '#',
+        text: 'Автоматизация доступа, пропускных систем, системы оплаты'
+      },
+      image: {
+        src: "/assets/images/activities/06.svg"
+      }
+    },
+    {
+      title: {
+        href: '#',
+        text: 'Автоматические парковочные системы со взиманием платежей'
+      },
+      image: {
+        src: "/assets/images/activities/07.svg"
+      }
+    },
+    {
+      title: {
+        href: '#',
+        text: 'Программное обеспечение для СКУД'
+      },
+      image: {
+        src: "/assets/images/activities/08.svg"
+      }
+    },
+    {
+      title: {
+        href: '#',
+        text: 'Оснащение парковки и паркинга, средства ОДД '
+      },
+      image: {
+        src: "/assets/images/activities/09.svg"
+      }
+    },
+    {
+      title: {
+        href: '#',
+        text: 'Системы аналоговой и IP домофонии'
+      },
+      image: {
+        src: "/assets/images/activities/10.svg"
+      }
+    },
+  ]
+</script>
+
+<section class="activities">
+  <div class="activities__wrap">
+    <div class="container">
+      <div class="activities__header">
+        <div class="activities__header-text">
+          <span class="activities__header-span activities__header-span--1">Реализуем решения полного цикла.</span>
+          <span class="activities__header-span activities__header-span--2">Воплотим ваши идеи в готовом проекте.</span>
+        </div>
+        <div class="activities__header-benefits">
+          <div class="activities__header-benefit">
+            <span class="activities__header-benefit-num">>10</span>
+            <span class="activities__header-benefit-text">лет опыта</span>
+          </div>
+          <div class="activities__header-benefit">
+            <span class="activities__header-benefit-num">1000+</span>
+            <span class="activities__header-benefit-text">проектов</span>
+          </div>
+          <div class="activities__header-benefit">
+            <span class="activities__header-benefit-num">>30</span>
+            <span class="activities__header-benefit-text">лет на рынке</span>
+          </div>
+        </div>
+      </div>
+      <div class="activities__body">
+        <h2 class="activities__title">
+          Направления деятельности
+        </h2>
+        <ul class="activities__list">
+          <li webc:for="activity of activities">
+            <mkb-activity-card :activity="activity"></mkb-activity-card>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

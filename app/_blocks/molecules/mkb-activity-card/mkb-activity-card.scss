@@ -1,0 +1,33 @@
+.activity-card {
+  position: relative;
+  height: 100%;
+  padding: rem(30) rem(20);
+  border: rem(1) solid var(--palette-manatee);
+  border-radius: var(--bdrs20);
+  text-align: center;
+  transition: all var(--transition300ms);
+
+  @media (hover: hover) {
+    &:hover {
+      background-color: var(--palette-white);
+      box-shadow: 0 rem(20) rem(40) rem(-10) rgba(69, 66, 110, 0.25);
+      border-color: transparent;
+    }
+  }
+
+  &__title {
+    @include font16;
+  }
+
+  &__link {
+    &::before {
+      position: absolute;
+      inset: 0;
+      content: '';
+    }
+  }
+
+  &__img {
+    margin: 0 auto rem(30);
+  }
+}

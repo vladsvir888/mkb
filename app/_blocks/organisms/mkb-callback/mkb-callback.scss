@@ -1,0 +1,44 @@
+.callback {
+  padding: rem(56) 0 rem(27);
+  background-image: url('../assets/images/decorative-element/callback-form.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: var(--palette-athens-gray);
+
+  &__content {
+    @include flex-center-column;
+
+    padding: rem(87) rem(20) rem(79);
+    border: rem(2) solid var(--palette-blue-marguerite);
+    border-radius: var(--bdrs20);
+    text-align: center;
+  }
+
+  &__title {
+    @include font56;
+
+    max-width: rem(843);
+    margin-bottom: rem(80);
+  }
+
+  &__form {
+    max-width: rem(325);
+
+    &-button {
+      @include font14-button-uppercase;
+
+      width: 100%;
+      padding: rem(20);
+      margin-top: rem(90);
+    }
+
+    &-input {
+      width: 100%;
+      border-bottom: none;
+
+      &:last-of-type {
+        border-bottom: rem(1) solid var(--palette-blue-marguerite);
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+<article class="activity-card">
+  <img class="activity-card__img" :src="activity.image.src" alt="" loading="lazy">
+  <h3 class="activity-card__title">
+    <mkb-button
+      class="activity-card__link"
+      :href="activity.title.href"
+      @text="activity.title.text"
+      webc:nokeep
+    ></mkb-button>
+  </h3>
+</article>

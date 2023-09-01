@@ -1,0 +1,64 @@
+.header {
+  @include font14-button-lowercase;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  color: var(--palette-white);
+
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: rem(20) 0;
+    border-bottom: rem(1) solid rgba(var(--palette-rgb-white), 0.5);
+  }
+
+  &__item {
+    @include flex-center-y;
+
+    &--start {
+      column-gap: rem(32);
+    }
+
+    &--end {
+      column-gap: rem(40);
+    }
+  }
+
+  &__burger {
+    display: flex;
+
+    &-icon {
+      width: rem(40);
+      height: rem(10);
+    }
+  }
+
+  &__list {
+    display: flex;
+    column-gap: rem(32);
+  }
+
+  &__work {
+    @include flex-center-y;
+    @include font-size(12, 13.2);
+
+    column-gap: rem(10);
+    color: var(--palette-blue-marguerite);
+
+    &-icon {
+      width: rem(28);
+      height: rem(24);
+    }
+
+    &-text {
+      max-width: rem(80);
+    }
+  }
+
+  &__callback {
+    padding: rem(12) rem(22);
+  }
+}

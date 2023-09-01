@@ -1,0 +1,35 @@
+<section class="team-professionals">
+  <div class="container">
+    <div class="team-professionals__banner">
+      <div class="team-professionals__img-wrap">
+        <eleventy-image class="team-professionals__img" src="./app/_images/banner/01.png" alt="" loading="lazy"></eleventy-image>
+      </div>
+      <div class="team-professionals__content">
+        <h2 class="team-professionals__title">
+          С вами работает команда профессионалов
+        </h2>
+        <mkb-button class="button--outline team-professionals__button" href="#">Подробнее о нас</mkb-button>
+      </div>
+    </div>
+    <ul class="team-professionals__list">
+      <li class="team-professionals__list-item">
+        Опыт сложных проектов
+      </li>
+      <li class="team-professionals__list-item">
+        Оперативность выполнения поставленных задач
+      </li>
+      <li class="team-professionals__list-item">
+        Комплексная автоматизация объекта
+      </li>
+      <li class="team-professionals__list-item">
+        Ориентация на клиента
+      </li>
+      <li class="team-professionals__list-item">
+        Гарантия качества
+      </li>
+      <li class="team-professionals__list-item">
+        Гарантийное и&nbsp;постгарантийное обслуживание
+      </li>
+    </ul>
+  </div>
+</section>

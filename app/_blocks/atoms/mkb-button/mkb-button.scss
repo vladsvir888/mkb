@@ -1,0 +1,27 @@
+.button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color var(--transition300ms);
+
+  &--purple {
+    color: var(--palette-white);
+    background-color: var(--palette-blue-marguerite);
+
+    &:focus-visible {
+      outline: rem(2) solid var(--palette-cod-gray);
+    }
+
+    @media (hover: hover) {
+      &:hover {
+        background-color: var(--palette-indigo);
+      }
+    }
+  }
+
+  &--outline {
+    border: rem(1) solid var(--palette-white);
+    border-radius: var(--bdrs12);
+  }
+}

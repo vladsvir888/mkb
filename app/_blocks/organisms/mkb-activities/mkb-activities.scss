@@ -1,0 +1,65 @@
+.activities {
+  background: linear-gradient(180deg, #dae0ec 0%, #f7f8fa 100%);
+
+  &__wrap {
+    padding: rem(100) 0 rem(50);
+    background-image: url('../assets/images/decorative-element/activities-home.svg');
+    background-repeat: no-repeat;
+    background-position: right bottom rem(-80);
+  }
+
+  &__header {
+    @include flex-center-between;
+
+    flex-wrap: wrap;
+    gap: rem(20);
+    margin-bottom: rem(138);
+
+    &-text {
+      @include font40;
+    }
+
+    &-span {
+      display: block;
+
+      &--2 {
+        color: var(--palette-silver-chalice);
+      }
+    }
+
+    &-benefits {
+      display: flex;
+      column-gap: rem(100);
+    }
+
+    &-benefit {
+      &-num,
+      &-text {
+        display: block;
+      }
+
+      &-num {
+        @include font48;
+
+        margin-bottom: rem(10);
+        color: var(--palette-blue-marguerite);
+      }
+
+      &-text {
+        @include font16;
+      }
+    }
+  }
+
+  &__title {
+    @include font56;
+
+    margin-bottom: rem(40);
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(#{rem(236)}, 1fr));
+    gap: rem(20);
+  }
+}
