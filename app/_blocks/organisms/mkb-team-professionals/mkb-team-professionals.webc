@@ -8,7 +8,7 @@
         <h2 class="team-professionals__title">
           С вами работает команда профессионалов
         </h2>
-        <mkb-button class="button--outline team-professionals__button" href="#">Подробнее о нас</mkb-button>
+        <mkb-button class="button--outline button--outline-white team-professionals__button" href="#">Подробнее о нас</mkb-button>
       </div>
     </div>
     <ul class="team-professionals__list">

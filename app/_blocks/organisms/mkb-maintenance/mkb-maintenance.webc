@@ -59,5 +59,35 @@
         </div>
       </div>
     </swiper-slide>
+
+    <swiper-slide class="maintenance__slide" style="background-image: url('/assets/images/banner/02.png');">
+      <div class="container">
+        <div class="maintenance__content">
+          <h2 class="maintenance__title">
+            Техническое обслуживание систем автоматизации контроля и управления доступом
+          </h2>
+          <ul class="maintenance__list">
+            <li>
+              Диагностика
+            </li>
+            <li>
+              Ремонт
+            </li>
+            <li>
+              Разовое техническое обслуживание по заявке
+            </li>
+            <li>
+              Регламентное абонентское техническое обслуживание по срочным договорам
+            </li>
+            <li>
+              Диспетчеризация 24/7
+            </li>
+          </ul>
+          <mkb-button class="maintenance__slide-button" @is-button="true" aria-label="Следующий слайд">
+            <mkb-icon class="maintenance__slide-icon" @type="multi" @name="chevron-right-circle"></mkb-icon>
+          </mkb-button>
+        </div>
+      </div>
+    </swiper-slide>
   </swiper-container>
 </section>

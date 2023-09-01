@@ -1,4 +1,63 @@
 .portfolio-slider-block {
   padding: rem(100) 0;
   background-color: var(--palette-athens-gray);
+  background-image: url('../assets/images/decorative-element/portfolio-slider.svg');
+  background-repeat: no-repeat;
+  background-position: center top rem(-150);
+
+  &__header {
+    @include flex-center-between;
+
+    margin-bottom: rem(40);
+  }
+
+  &__title {
+    @include font56;
+
+    max-width: rem(376);
+  }
+
+  &__button {
+    padding: rem(14) rem(16);
+  }
+
+  &__slider {
+    @include center-fullhd;
+
+    padding-left: var(--container-padding);
+    counter-reset: num;
+  }
+
+  &__card {
+    position: relative;
+
+    &-img {
+      margin-bottom: rem(20);
+    }
+
+    &-text {
+      @include font14;
+
+      display: flex;
+      column-gap: rem(23);
+      max-width: rem(271);
+
+      &::before {
+        color: var(--palette-spun-pearl);
+        counter-increment: num;
+        content: "(" counters(num, ".", decimal-leading-zero) ")";
+      }
+    }
+  }
+
+  &__actions {
+    @include flex-center-y;
+
+    column-gap: rem(38);
+  }
+
+  &__icon {
+    width: rem(48);
+    height: rem(32);
+  }
 }

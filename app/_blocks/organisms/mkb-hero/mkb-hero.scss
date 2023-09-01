@@ -1,7 +1,7 @@
 .hero {
+  @include center-fullhd;
+
   min-height: calc(min(100vh, 1080px));
-  max-width: rem(1920);
-  margin: 0 auto;
   color: var(--palette-white);
   background-repeat: no-repeat;
   background-position: center center;

@@ -1,0 +1,58 @@
+.clients-slider-block {
+  padding: rem(37) 0 rem(56);
+  background-color: var(--palette-athens-gray);
+
+  &__header {
+    @include flex-center-between;
+
+    margin-bottom: rem(40);
+  }
+
+  &__title {
+    @include font56;
+  }
+
+  &__buttons {
+    @include flex-center-y;
+
+    column-gap: rem(8);
+  }
+
+  &__button {
+    @include flex-center;
+
+    width: rem(48);
+    height: rem(32);
+    color: var(--palette-ship-gray);
+    border: rem(1) solid var(--palette-manatee);
+    border-radius: var(--bdrs20);
+
+    @media (hover: hover) {
+      &:hover {
+        color: var(--palette-white);
+        background-color: var(--palette-abbey);
+        border-color: transparent;
+      }
+    }
+  }
+
+  &__icon {
+    width: rem(18);
+    height: rem(16);
+    stroke: currentcolor;
+  }
+
+  &__slide {
+    height: auto;
+  }
+
+  &__card {
+    @include flex-center;
+
+    height: 100%;
+    padding: rem(50);
+    background-color: var(--palette-white);
+    border-radius: var(--bdrs20);
+    border: rem(1) solid var(--palette-link-water);
+  }
+}

@@ -2,7 +2,8 @@
   <mkb-hero></mkb-hero>
   <mkb-activities></mkb-activities>
   <mkb-maintenance></mkb-maintenance>
-  <mkb-callback></mkb-callback>
+  <mkb-callback title="Предложим индивидуальное решение вашей задачи"></mkb-callback>
   <mkb-team-professionals></mkb-team-professionals>
   <mkb-portfolio-slider></mkb-portfolio-slider>
+  <mkb-clients-slider></mkb-clients-slider>
 </mkb-base>

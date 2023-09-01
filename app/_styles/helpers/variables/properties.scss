@@ -10,6 +10,12 @@
   --palette-mercury: #e2e2e2;
   --palette-silver: #bebebe;
   --palette-athens-gray: #f7f8fa;
+  --palette-shuttle-gray: #526168;
+  --palette-regent-gray: #838F9D;
+  --palette-ship-gray: #424146;
+  --palette-spun-pearl: #B1AFBB;
+  --palette-link-water: #E1E3F5;
+  --palette-abbey: #4A494E;
 
   // containers
   --container-width: #{rem(1360)};
@@ -28,54 +34,63 @@
 
 @mixin font56 {
   @include font-size(56, 44.8);
+
   font-weight: 500;
   letter-spacing: rem(-1.12);
 }
 
 @mixin font48 {
   @include font-size(48, 52.8);
+
   font-weight: 500;
   letter-spacing: rem(-0.96);
 }
 
 @mixin font40 {
   @include font-size(40, 44);
+
   font-weight: 500;
   letter-spacing: rem(-0.8);
 }
 
 @mixin font36 {
   @include font-size(36, 39.6);
+
   font-weight: 500;
   letter-spacing: rem(-0.72);
 }
 
 @mixin font24 {
   @include font-size(24, 24);
+
   font-weight: 500;
   letter-spacing: rem(-0.48);
 }
 
 @mixin font24-light {
   @include font-size(24, 26.4);
+
   font-weight: 300;
   letter-spacing: rem(-0.48);
 }
 
 @mixin font16 {
   @include font-size(16, 19.2);
+
   font-weight: 300;
   letter-spacing: rem(-0.32);
 }
 
 @mixin font14 {
   @include font-size(14, 16.8);
+
   font-weight: 300;
   letter-spacing: rem(-0.28);
 }
 
 @mixin font14-button-uppercase {
   @include font-size(14, 15.4);
+
   font-weight: 300;
   letter-spacing: rem(-0.28);
   text-transform: uppercase;
@@ -83,6 +98,12 @@
 
 @mixin font14-button-lowercase {
   @include font-size(14, 15.4);
+
   font-weight: 300;
   letter-spacing: rem(-0.28);
+}
+
+@mixin center-fullhd {
+  max-width: rem(1920);
+  margin: 0 auto;
 }

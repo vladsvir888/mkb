@@ -1,8 +1,8 @@
 <div class="hero" style="background-image: url('/assets/images/hero-section/01.png');">
   <div class="container hero__container">
     <h1 class="hero__title">Мир комфорта и безопасности</h1>
-    <div class="hero__text">
+    <p class="hero__text">
       Профессиональный интегратор систем автоматизации доступа и безопасности
-    </div>
+    </p>
   </div>
 </div>

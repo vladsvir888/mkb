@@ -3,7 +3,19 @@
   border: none;
   background-color: transparent;
   cursor: pointer;
-  transition: background-color var(--transition300ms);
+  transition:
+    background-color var(--transition300ms),
+    color var(--transition300ms),
+    border-color var(--transition300ms)
+    ;
+
+  &--link {
+    @media (hover: hover) {
+      &:hover {
+        color: var(--palette-blue-marguerite);
+      }
+    }
+  }
 
   &--purple {
     color: var(--palette-white);
@@ -21,7 +33,28 @@
   }
 
   &--outline {
-    border: rem(1) solid var(--palette-white);
+    @include font14-button-lowercase;
+
+    padding: rem(14) rem(16);
     border-radius: var(--bdrs12);
+    border-width: rem(1);
+    border-style: solid;
+
+    &-white {
+      border-color: var(--palette-white);
+    }
+
+    &-gray {
+      color: var(--palette-ship-gray);
+      border-color: var(--palette-regent-gray);
+    }
+
+    @media (hover: hover) {
+      &:hover {
+        background-color: var(--palette-blue-marguerite);
+        border-color: transparent;
+        color: var(--palette-white);
+      }
+    }
   }
 }

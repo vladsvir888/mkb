@@ -1,4 +1,6 @@
 .activity-card {
+  $this: &;
+
   position: relative;
   height: 100%;
   padding: rem(30) rem(20);
@@ -12,6 +14,12 @@
       background-color: var(--palette-white);
       box-shadow: 0 rem(20) rem(40) rem(-10) rgba(69, 66, 110, 0.25);
       border-color: transparent;
+
+      #{$this}__link {
+        text-decoration: underline;
+        text-underline-offset: rem(3);
+        color: var(--palette-shuttle-gray);
+      }
     }
   }
 
