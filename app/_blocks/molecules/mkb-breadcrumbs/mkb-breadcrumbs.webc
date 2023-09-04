@@ -1,0 +1,20 @@
+<nav class="breadcrumbs" aria-label="Хлебные крошки">
+  <ol class="breadcrumbs__list">
+    <li class="breadcrumbs__item" webc:for="breadcrumb of breadcrumbs.items">
+      <mkb-button
+        webc:if="breadcrumb.href"
+        class="button--link breadcrumbs__link"
+        @text="breadcrumb.text"
+        :href="breadcrumb.href"
+        webc:nokeep
+      ></mkb-button>
+      <mkb-button
+        webc:else
+        class="breadcrumbs__link"
+        @text="breadcrumb.text"
+        aria-current="page"
+        webc:nokeep
+      ></mkb-button>
+    </li>
+  </ol>
+</nav>

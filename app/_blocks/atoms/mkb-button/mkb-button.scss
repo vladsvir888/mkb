@@ -18,6 +18,9 @@
   }
 
   &--purple {
+    @include font14-button-uppercase;
+
+    padding: rem(20);
     color: var(--palette-white);
     background-color: var(--palette-blue-marguerite);
 
@@ -32,10 +35,18 @@
     }
   }
 
+  &--white {
+    @include font14-button-uppercase;
+
+    padding: rem(20);
+    background-color: var(--palette-white);
+    color: var(--palette-cod-gray);
+  }
+
   &--outline {
     @include font14-button-lowercase;
 
-    padding: rem(14) rem(16);
+    padding: rem(10) rem(16);
     border-radius: var(--bdrs12);
     border-width: rem(1);
     border-style: solid;

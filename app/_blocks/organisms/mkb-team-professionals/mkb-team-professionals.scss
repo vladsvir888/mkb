@@ -1,5 +1,6 @@
 .team-professionals {
   padding: rem(72) 0;
+  background-color: var(--palette-white);
 
   &__banner {
     position: relative;
@@ -41,7 +42,7 @@
   }
 
   &__button {
-    padding: rem(14) rem(32);
+    padding: rem(11) rem(32);
   }
 
   &__list {

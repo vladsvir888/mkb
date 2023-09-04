@@ -1,0 +1,37 @@
+<script webc:setup>
+  const breadcrumbs = {
+    items: [
+      {
+        text: 'Главная',
+        href: '/'
+      },
+      {
+        text: 'Направление (Видеонаблюдение и видеоаналитика)',
+      },
+    ]
+  }
+
+  const heroInner = {
+    title: 'Установим систему видеонаблюдения “ПОД&nbsp;КЛЮЧ” или подключимся на любом&nbsp;из&nbsp;этапов.',
+    button: {
+      type: 'first'
+    },
+    form: true,
+    bgi: "background-image: url('/assets/images/hero-section/02.png');",
+  }
+</script>
+
+<mkb-base webc:nokeep>
+  <mkb-page-top
+    page-top-class="page-top--turnkey-videoanalytics"
+    :breadcrumbs="breadcrumbs"
+    title="Системы видеонаблюдения и видеоаналитики под ключ"
+  ></mkb-page-top>
+  <mkb-hero-inner :hero-inner="heroInner"></mkb-hero-inner>
+  <mkb-implementation-objects></mkb-implementation-objects>
+  <mkb-callback title="Предложим индивидуальное решение вашей задачи"></mkb-callback>
+  <mkb-portfolio-slider></mkb-portfolio-slider>
+  <mkb-callback-banner></mkb-callback-banner>
+  <mkb-possible-solutions></mkb-possible-solutions>
+  <mkb-category></mkb-category>
+</mkb-base>

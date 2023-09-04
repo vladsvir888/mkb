@@ -1,0 +1,51 @@
+<section class="solutions">
+  <div class="container">
+    <div class="solutions__header">
+      <h2 class="solutions__title">Решения которые мы готовы реализовать</h2>
+      <mkb-button class="button--outline button--outline-gray solutions__link" href="#">Посмотреть все решения</mkb-button>
+    </div>
+    <div class="solutions__grid">
+      <div class="solutions__item">
+        <mkb-solution-card
+          class-card="solutions__card solution-card--big"
+          src="./app/_images/implemented-solutions/01.png"
+          alt="Автоматизация доступа - радиочастотная идентификация"
+          title="Автоматизация доступа - радиочастотная идентификация"
+          text="Установка видеокамер с единым пунктом наблюдения - это простой и бюджетный вариант для охраны складов, автостоянок, частных домовладений. Мы работаем 'под ключ' и сдаем в эксплуатацию полностью готовый комплекс для наблюдения за охраняемой территорией"
+        ></mkb-solution-card>
+      </div>
+      <div class="solutions__item">
+        <mkb-solution-card
+          class-card="solutions__card solution-card--small"
+          src="./app/_images/implemented-solutions/02.png"
+          alt="Комплексная установка видеонаблюдения в офисе А1"
+          text="Комплексная установка видеонаблюдения в офисе А1"
+        ></mkb-solution-card>
+      </div>
+      <div class="solutions__item">
+        <mkb-solution-card
+          class-card="solutions__card solution-card--small"
+          src="./app/_images/implemented-solutions/03.png"
+          alt="Комплексная установка видеонаблюдения в офисе А1"
+          text="Комплексная установка видеонаблюдения в офисе А1"
+        ></mkb-solution-card>
+      </div>
+      <div class="solutions__item">
+        <mkb-solution-card
+          class-card="solutions__card solution-card--small"
+          src="./app/_images/implemented-solutions/04.png"
+          alt="Комплексная установка видеонаблюдения в офисе А1"
+          text="Комплексная установка видеонаблюдения в офисе А1"
+        ></mkb-solution-card>
+      </div>
+      <div class="solutions__item">
+        <mkb-solution-card
+          class-card="solutions__card solution-card--small"
+          src="./app/_images/implemented-solutions/05.png"
+          alt="Комплексная установка видеонаблюдения в офисе А1"
+          text="Комплексная установка видеонаблюдения в офисе А1"
+        ></mkb-solution-card>
+      </div>
+    </div>
+  </div>
+</section>

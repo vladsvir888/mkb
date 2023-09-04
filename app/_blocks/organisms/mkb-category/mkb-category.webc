@@ -1,0 +1,12 @@
+<section class="category">
+  <div class="container">
+    <div class="category__header">
+      <h2 class="category__title">Наш каталог продукции по всем категориям</h2>
+    </div>
+    <div class="category__grid">
+      <mkb-category-card src="./app/_images/product-catalog/01.png" title="Видеокамеры и видеорегистраторы"></mkb-category-card>
+      <mkb-category-card src="./app/_images/product-catalog/02.png" title="Прочее оборудование для видеонаблюдения"></mkb-category-card>
+      <mkb-category-card src="./app/_images/product-catalog/03.png" title="Кабель и монтажные материалы для видеонаблюдения"></mkb-category-card>
+    </div>
+  </div>
+</section>

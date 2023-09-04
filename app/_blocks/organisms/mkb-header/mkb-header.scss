@@ -6,7 +6,12 @@
   left: 0;
   width: 100%;
   z-index: 10;
-  color: var(--palette-white);
+  background-color: var(--palette-white);
+
+  &--without-bg {
+    color: var(--palette-white);
+    background-color: transparent;
+  }
 
   &__wrap {
     display: flex;
@@ -33,6 +38,7 @@
     &-icon {
       width: rem(40);
       height: rem(10);
+      stroke: currentcolor;
     }
   }
 
@@ -60,5 +66,6 @@
 
   &__callback {
     padding: rem(12) rem(22);
+    text-transform: unset;
   }
 }

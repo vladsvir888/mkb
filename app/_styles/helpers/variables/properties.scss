@@ -1,7 +1,7 @@
 :root {
   // palette
   --palette-blue-marguerite: #7084c8;
-  --palette-cod-gray: #181717;
+  --palette-cod-gray: #000;
   --palette-white: #fff;
   --palette-rgb-white: 255, 255, 255;
   --palette-indigo: #546bbd;
@@ -16,9 +16,11 @@
   --palette-spun-pearl: #B1AFBB;
   --palette-link-water: #E1E3F5;
   --palette-abbey: #4A494E;
+  --palette-mystic: #E9ECF3;
+  --palette-french-gray: #B7B5C3;
 
   // containers
-  --container-width: #{rem(1360)};
+  --container-width: #{rem(1440)};
   --container-padding: #{rem(40)};
 
   // transitions
@@ -30,6 +32,14 @@
   // bdrs
   --bdrs20: #{rem(20)};
   --bdrs12: #{rem(12)};
+  --bdrs10: #{rem(10)};
+  --bdrs30: #{rem(30)};
+
+  // margins
+  --mb40: #{rem(40)};
+
+  // transform-animation
+  --trY: #{rem(-2)};
 }
 
 @mixin font56 {

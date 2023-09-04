@@ -1,0 +1,47 @@
+<footer class="footer">
+  <div class="container footer__container">
+    <ul class="footer__list">
+      <li>
+        <mkb-button class="button--link footer__link" href="#">О компании</mkb-button>
+      </li>
+      <li>
+        <mkb-button class="button--link footer__link" href="#">Продукция</mkb-button>
+      </li>
+      <li>
+        <mkb-button class="button--link footer__link" href="#">Документация</mkb-button>
+      </li>
+      <li>
+        <mkb-button class="button--link footer__link" href="#">Галерея</mkb-button>
+      </li>
+      <li>
+        <mkb-button class="button--link footer__link" href="#">Услуги</mkb-button>
+      </li>
+      <li>
+        <mkb-button class="button--link footer__link" href="#">Контакты</mkb-button>
+      </li>
+      <li>
+        <mkb-button class="button--link footer__link" href="#">Статьи</mkb-button>
+      </li>
+      <li>
+        <mkb-button class="button--link footer__link" href="#">Карта сайта</mkb-button>
+      </li>
+    </ul>
+    <address class="footer__address">
+      <mkb-button class="button--link footer__phone" href="tel:+375445735357">+375 (44) 57-353-57</mkb-button>
+      <mkb-button class="button--link footer__phone" href="tel:+375175016404">+375 (17) 501-64-04</mkb-button>
+      <div class="footer__text">
+        ООО "ФорматЛайн" УНП 191853402, <br> 223016, Минский р-н, Новодворский <br> с/с, аг. Новый Двор, ул. Новая, 12
+      </div>
+      <mkb-button class="button--link footer__email" href="mailto:info@mkb.by">info@mkb.by</mkb-button>
+      <mkb-button class="button--link footer__insta" href="#" target="_blank">instagram</mkb-button>
+    </address>
+    <div class="footer__info">
+      <mkb-button href="#" class="button--link footer__info-link">Пользовательское соглашение</mkb-button>
+      <mkb-button href="#" class="button--link footer__info-link">Политика конфиденциальности</mkb-button>
+      <div class="footer__info-text">
+        Разработка сайта — <mkb-button href="https://www.imedia.by/" class="button--link footer__info-link" target="_blank">Imedia Solutions</mkb-button>
+      </div>
+      <small class="footer__copyright">© MKB.BY 2023. Все права защищены!</small>
+    </div>
+  </div>
+</footer>

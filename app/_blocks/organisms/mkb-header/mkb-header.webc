@@ -1,4 +1,4 @@
-<header class="header">
+<header class="header" :class="header?.class ? header.class : ''">
   <div class="container">
     <div class="header__wrap">
       <div class="header__item header__item--start">
@@ -6,7 +6,7 @@
           <eleventy-image class="header__logo-img" src="./app/_images/icons/logo.png" alt="МКБ главная"></eleventy-image>
         </mkb-button>
         <mkb-button @is-button="true" class="header__burger" aria-label="Открыть меню">
-          <mkb-icon class="header__burger-icon" @type="multi" @name="menu"></mkb-icon>
+          <mkb-icon class="header__burger-icon" @type="mono" @name="menu"></mkb-icon>
         </mkb-button>
         <nav class="header__nav" aria-label="Главное">
           <ul class="header__list">

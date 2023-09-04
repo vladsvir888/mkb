@@ -1,0 +1,58 @@
+.footer {
+  padding: rem(82) 0 rem(38);
+  background-image: url('../assets/images/decorative-element/footer.svg');
+  background-repeat: no-repeat;
+  background-position: 60% center;
+  background-size: contain;
+  color: var(--palette-ship-gray);
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: rem(20);
+  }
+
+  &__list {
+    @include flex-column;
+    @include font14;
+
+    row-gap: rem(20);
+  }
+
+  &__phone {
+    @include font24;
+  }
+
+  &__address {
+    @include flex-column;
+    @include font14;
+
+    grid-column: span 3;
+    margin-left: rem(75);
+  }
+
+  &__email {
+    margin-bottom: rem(20);
+    margin-top: auto;
+  }
+
+  &__text {
+    margin-bottom: rem(50);
+    margin-top: rem(20);
+  }
+
+  &__phone {
+    margin-bottom: rem(16);
+  }
+
+  &__info {
+    @include flex-column;
+    @include font14;
+
+    row-gap: rem(20);
+
+    &-text {
+      margin-top: auto;
+    }
+  }
+}

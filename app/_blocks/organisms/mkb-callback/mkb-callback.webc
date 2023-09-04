@@ -1,7 +1,7 @@
 <section class="callback">
   <div class="container">
     <div class="callback__content">
-      <h2 class="callback__title" @text="title"></h2>
+      <h2 class="callback__title" @html="title"></h2>
       <form class="callback__form" action="/" method="post">
         <mkb-input @type-input="default" class="callback__form-input" placeholder="Ваше имя" name="name"></mkb-input>
         <mkb-input @type-input="default" class="callback__form-input" placeholder="Номер телефона" type="tel" name="phone"></mkb-input>

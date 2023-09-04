@@ -1,0 +1,6 @@
+<div class="page-top" :class="pageTopClass ? pageTopClass : ''">
+  <div class="container">
+    <mkb-breadcrumbs :breadcrumbs="breadcrumbs"></mkb-breadcrumbs>
+    <h1 class="page-top__title" @text="title"></h1>
+  </div>
+</div>

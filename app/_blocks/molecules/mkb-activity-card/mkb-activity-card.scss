@@ -25,6 +25,8 @@
 
   &__title {
     @include font16;
+
+    color: var(--palette-ship-gray);
   }
 
   &__link {

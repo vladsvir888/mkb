@@ -2,7 +2,7 @@
   const activities = [
     {
       title: {
-        href: '#',
+        href: '/turnkey-videoanalytics',
         text: 'Системы видеонаблюдения “под ключ”'
       },
       image: {
@@ -98,8 +98,8 @@
     <div class="container">
       <div class="activities__header">
         <div class="activities__header-text">
-          <span class="activities__header-span activities__header-span--1">Реализуем решения полного цикла.</span>
-          <span class="activities__header-span activities__header-span--2">Воплотим ваши идеи в готовом проекте.</span>
+          <p class="activities__header-item activities__header-item--1">Реализуем решения полного цикла.</p>
+          <p class="activities__header-item activities__header-item--2">Воплотим ваши идеи в готовом проекте.</p>
         </div>
         <div class="activities__header-benefits">
           <div class="activities__header-benefit">

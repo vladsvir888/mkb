@@ -1,0 +1,46 @@
+.service-card {
+  display: grid;
+  grid-template-columns: 1fr 40%;
+  column-gap: rem(80);
+  position: relative;
+  background-color: var(--palette-white);
+  border-radius: var(--bdrs20);
+
+  &__content {
+    @include flex-column;
+
+    padding: rem(30) 0 rem(35) rem(147);
+    align-items: flex-start;
+    row-gap: rem(32);
+  }
+
+  &__title {
+    @include font36;
+
+    &::before {
+      @include font36;
+      @include flex-center;
+
+      position: absolute;
+      top: rem(30);
+      left: rem(30);
+      min-width: rem(69);
+      min-height: rem(54);
+      border: rem(1) solid currentcolor;
+      border-radius: var(--bdrs30);
+      counter-increment: list;
+      content: counter(list, decimal-leading-zero);
+    }
+  }
+
+  &__text {
+    @include font16;
+  }
+
+  &__img {
+    @include img(cover);
+
+    border-top-right-radius: var(--bdrs20);
+    border-bottom-right-radius: var(--bdrs20);
+  }
+}

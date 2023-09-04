@@ -1,0 +1,35 @@
+<script webc:setup>
+  const breadcrumbs = {
+    items: [
+      {
+        text: 'Главная',
+        href: '/'
+      },
+      {
+        text: 'Направление (Видеонаблюдение и видеоаналитика)',
+        href: '/turnkey-videoanalytics'
+      },
+      {
+        text: 'Разработка проекта для вашего решения',
+      },
+    ]
+  }
+
+  const heroInner = {
+    title: 'Проектирование видеонаблюдения является важнейшим этапом в процессе установки видеонаблюдения. Наша команда помогает на любом из этапов. ',
+    bgi: "background-image: url('/assets/images/hero-section/03.png');",
+  }
+</script>
+
+<mkb-base webc:nokeep>
+  <mkb-page-top
+    :breadcrumbs="breadcrumbs"
+    title="Разработка проекта для вашего решения"
+  ></mkb-page-top>
+  <mkb-hero-inner :hero-inner="heroInner"></mkb-hero-inner>
+  <mkb-callback title="Закажите консультацию. <br> Предложим индивидуальное решение"></mkb-callback>
+  <mkb-portfolio-slider></mkb-portfolio-slider>
+  <mkb-callback-banner></mkb-callback-banner>
+  <mkb-possible-solutions></mkb-possible-solutions>
+  <mkb-category></mkb-category>
+</mkb-base>

@@ -21,9 +21,10 @@
   <script src="/scripts/main.js" defer webc:keep></script>
 </head>
 <body>
-  <mkb-header></mkb-header>
+  <mkb-header :header="header"></mkb-header>
   <main class="main">
     <slot></slot>
   </main>
+  <mkb-footer></mkb-footer>
 </body>
 </html>

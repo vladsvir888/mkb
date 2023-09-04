@@ -1,6 +1,5 @@
 .portfolio-slider-block {
   padding: rem(100) 0;
-  background-color: var(--palette-athens-gray);
   background-image: url('../assets/images/decorative-element/portfolio-slider.svg');
   background-repeat: no-repeat;
   background-position: center top rem(-150);
@@ -8,17 +7,13 @@
   &__header {
     @include flex-center-between;
 
-    margin-bottom: rem(40);
+    margin-bottom: var(--mb40);
   }
 
   &__title {
     @include font56;
 
     max-width: rem(376);
-  }
-
-  &__button {
-    padding: rem(14) rem(16);
   }
 
   &__slider {
@@ -41,6 +36,7 @@
       display: flex;
       column-gap: rem(23);
       max-width: rem(271);
+      color: var(--palette-ship-gray);
 
       &::before {
         color: var(--palette-spun-pearl);
@@ -56,8 +52,14 @@
     column-gap: rem(38);
   }
 
+  &__buttons {
+    @include flex-center-y;
+
+    column-gap: rem(30);
+  }
+
   &__icon {
-    width: rem(48);
-    height: rem(32);
+    width: rem(18);
+    height: rem(16);
   }
 }

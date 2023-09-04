@@ -1,0 +1,16 @@
+.implementation-objects {
+  padding: rem(60) 0 rem(39);
+
+  &__title {
+    @include font36;
+
+    max-width: rem(1084);
+    margin-bottom: rem(60);
+  }
+
+  &__list {
+    display: grid;
+    row-gap: rem(15);
+    counter-reset: list;
+  }
+}

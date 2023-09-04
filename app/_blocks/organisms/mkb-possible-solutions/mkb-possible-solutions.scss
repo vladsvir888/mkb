@@ -1,0 +1,38 @@
+.possible-solutions {
+  padding: rem(40) 0;
+  margin-bottom: rem(100);
+  background-color: var(--palette-white);
+
+  &__header {
+    @include flex-center-between;
+
+    margin-bottom: var(--mb40);
+  }
+
+  &__title {
+    @include font56;
+
+    max-width: rem(518);
+  }
+
+  &__grid {
+    display: flex;
+    gap: rem(20);
+  }
+
+  &__item {
+    &--start {
+      width: 70%;
+    }
+
+    &--end {
+      @include flex-column;
+      row-gap: rem(20);
+      width: 30%;
+    }
+  }
+
+  &__card {
+    height: 100%;
+  }
+}

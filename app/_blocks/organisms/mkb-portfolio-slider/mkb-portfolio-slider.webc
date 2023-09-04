@@ -5,7 +5,7 @@
         Портфолио наших работ
       </h2>
       <div class="portfolio-slider-block__actions">
-        <div class="portolio-slider-block__buttons">
+        <div class="portfolio-slider-block__buttons">
           <mkb-button @is-button="true" class="portfolio-slider-block__button portfolio-slider-block__button--left" aria-label="Предыдущий слайд">
             <mkb-icon class="portfolio-slider-block__icon" @type="multi" @name="arrow-left"></mkb-icon>
           </mkb-button>
@@ -21,19 +21,19 @@
     <swiper-slide class="portfolio-slider-block__slide">
       <div class="portfolio-slider-block__card">
         <eleventy-image src="./app/_images/portfolio-slider/01.png" class="portfolio-slider-block__card-img" alt="" loading="lazy"></eleventy-image>
-        <p class="portfolio-slider-block__card-text">Комплексная установка видеонаблюдения в офисе А1</p>
+        <div class="portfolio-slider-block__card-text">Комплексная установка видеонаблюдения в офисе А1</div>
       </div>
     </swiper-slide>
     <swiper-slide class="portfolio-slider-block__slide">
       <div class="portfolio-slider-block__card">
         <eleventy-image src="./app/_images/portfolio-slider/02.png" class="portfolio-slider-block__card-img" alt="" loading="lazy"></eleventy-image>
-        <p class="portfolio-slider-block__card-text">Комплексная установка видеонаблюдения в офисе А1</p>
+        <div class="portfolio-slider-block__card-text">Комплексная установка видеонаблюдения в офисе А1</div>
       </div>
     </swiper-slide>
     <swiper-slide class="portfolio-slider-block__slide">
       <div class="portfolio-slider-block__card">
         <eleventy-image src="./app/_images/portfolio-slider/03.png" class="portfolio-slider-block__card-img" alt="" loading="lazy"></eleventy-image>
-        <p class="portfolio-slider-block__card-text">Комплексная установка видеонаблюдения в офисе А1</p>
+        <div class="portfolio-slider-block__card-text">Комплексная установка видеонаблюдения в офисе А1</div>
       </div>
     </swiper-slide>
   </swiper-container>

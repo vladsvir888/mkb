@@ -1,0 +1,16 @@
+.page-top {
+  $this: &;
+
+  padding: rem(136) 0 rem(60);
+  background-color: var(--palette-athens-gray);
+
+  &--turnkey-videoanalytics {
+    #{$this}__title {
+      max-width: rem(684);
+    }
+  }
+
+  &__title {
+    @include font56;
+  }
+}

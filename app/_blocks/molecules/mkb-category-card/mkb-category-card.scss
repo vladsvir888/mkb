@@ -1,0 +1,46 @@
+.category-card {
+  $this: &;
+
+  @include flex-column;
+
+  position: relative;
+  padding: rem(40) rem(20) rem(20) rem(40);
+  min-height: rem(449);
+  background-color: var(--palette-white);
+  border-radius: var(--bdrs20);
+  transition: transform var(--transition300ms);
+  background-image: url('../assets/images/icons/chevron-right-circle.svg');
+  background-repeat: no-repeat;
+  background-position: left #{rem(40)} bottom #{rem(40)};
+
+  @media (hover: hover) {
+    &:hover {
+      transform: translateY(var(--trY));
+    }
+  }
+
+  &__title {
+    @include font24;
+
+    max-width: rem(255);
+    margin-bottom: rem(20);
+    color: var(--palette-abbey);
+  }
+
+  &__img {
+    border-radius: var(--bdrs20);
+
+    @at-root #{$this}__img-wrap {
+      margin-left: auto;
+      margin-top: auto;
+    }
+  }
+
+  &__link {
+    &::before {
+      position: absolute;
+      inset: 0;
+      content: '';
+    }
+  }
+}

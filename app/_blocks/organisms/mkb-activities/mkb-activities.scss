@@ -19,9 +19,7 @@
       @include font40;
     }
 
-    &-span {
-      display: block;
-
+    &-item {
       &--2 {
         color: var(--palette-silver-chalice);
       }
@@ -54,7 +52,7 @@
   &__title {
     @include font56;
 
-    margin-bottom: rem(40);
+    margin-bottom: var(--mb40);
   }
 
   &__list {

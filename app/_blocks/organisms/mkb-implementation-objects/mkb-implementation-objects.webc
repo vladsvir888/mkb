@@ -1,0 +1,55 @@
+<script webc:setup>
+  const serviceCards = [
+    {
+      title: 'Разработка проектного решения',
+      text: 'Разработка проекта является первым этапом работы над любым проектом. Разработка проектного решения по автоматизации видеонаблюдения зависит&nbsp;от&nbsp;особенностей вашего объекта;',
+      image: {
+        src: './app/_images/implementation-objects-numeric-list/01.png'
+      },
+      link: {
+        href: '/turnkey-videoanalytics/project-development'
+      }
+    },
+    {
+      title: 'Подбор оборудования для решения вашей задачи',
+      text: 'Разработка проекта является первым этапом работы над любым проектом. Разработка проектного решения по автоматизации видеонаблюдения зависит&nbsp;от&nbsp;особенностей вашего объекта;',
+      image: {
+        src: './app/_images/implementation-objects-numeric-list/02.png'
+      }
+    },
+    {
+      title: 'Строительные и монтажные работы по установке',
+      text: 'Разработка проекта является первым этапом работы над любым проектом. Разработка проектного решения по автоматизации видеонаблюдения зависит&nbsp;от&nbsp;особенностей вашего объекта;',
+      image: {
+        src: './app/_images/implementation-objects-numeric-list/03.png'
+      }
+    },
+    {
+      title: 'Интеграция в общую систему контроля',
+      text: 'Разработка проекта является первым этапом работы над любым проектом. Разработка проектного решения по автоматизации видеонаблюдения зависит&nbsp;от&nbsp;особенностей вашего объекта;',
+      image: {
+        src: './app/_images/implementation-objects-numeric-list/04.png'
+      }
+    },
+    {
+      title: 'Проведение работ по техническому обслуживанию',
+      text: 'Разработка проекта является первым этапом работы над любым проектом. Разработка проектного решения по автоматизации видеонаблюдения зависит&nbsp;от&nbsp;особенностей вашего объекта;',
+      image: {
+        src: './app/_images/implementation-objects-numeric-list/05.png'
+      }
+    },
+  ]
+</script>
+
+<section class="implementation-objects">
+  <div class="container">
+    <h2 class="implementation-objects__title">
+      Реализация объектов по установке видеонаблюдения, внедрение видеоаналитики и решения по автоматизации бизнес-процессов в области контроля и управления доступом: инжиниринг, установка, сопровождение и техническое обслуживание.
+    </h2>
+    <ol class="implementation-objects__list">
+      <li webc:for="serviceCard of serviceCards">
+        <mkb-service-card :service-card="serviceCard"></mkb-service-card>
+      </li>
+    </ol>
+  </div>
+</section>

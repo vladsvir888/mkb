@@ -1,0 +1,34 @@
+.breadcrumbs {
+  --col-gap: #{rem(29)};
+
+  @include font16;
+
+  margin-bottom: rem(24);
+
+  &__list {
+    @include flex-center-y;
+
+    flex-wrap: wrap;
+    column-gap: var(--col-gap);
+  }
+
+  &__link {
+    &:not([aria-current]) {
+      position: relative;
+      text-decoration: underline;
+      text-underline-offset: rem(3);
+
+      &::after {
+        position: absolute;
+        right: calc(var(--col-gap) / 2 * -1);
+        color: var(--palette-french-gray);
+        content: '/';
+      }
+    }
+
+    &[aria-current] {
+      cursor: default;
+      color: var(--palette-french-gray);
+    }
+  }
+}

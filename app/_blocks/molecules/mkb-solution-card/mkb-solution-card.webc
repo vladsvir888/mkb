@@ -1,0 +1,9 @@
+<article class="solution-card" :class="classCard ? classCard : ''">
+  <a class="solution-card__link" href="#">
+    <eleventy-image class="solution-card__img" :src="src" :alt="alt" loading="lazy"></eleventy-image>
+  </a>
+  <div class="solution-card__content">
+    <h3 class="solution-card__title" webc:if="title" @text="title"></h3>
+    <div class="solution-card__text" @text="text"></div>
+  </div>
+</article>
