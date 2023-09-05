@@ -27,11 +27,18 @@
     :breadcrumbs="breadcrumbs"
     title="Системы видеонаблюдения и видеоаналитики под ключ"
   ></mkb-page-top>
+
   <mkb-hero-inner :hero-inner="heroInner"></mkb-hero-inner>
+
   <mkb-implementation-objects></mkb-implementation-objects>
-  <mkb-callback title="Предложим индивидуальное решение вашей задачи"></mkb-callback>
-  <mkb-portfolio-slider></mkb-portfolio-slider>
-  <mkb-callback-banner></mkb-callback-banner>
-  <mkb-possible-solutions></mkb-possible-solutions>
-  <mkb-category></mkb-category>
+
+  <mkb-callback title="Предложим индивидуальное решение&nbsp;вашей задачи"></mkb-callback>
+
+  <mkb-portfolio-slider portfolio-slider-block-class="portfolio-slider-block--no-decorative-element" title="Портфолио <br> наших работ"></mkb-portfolio-slider>
+
+  <mkb-callback-banner title="Мы обладаем огромным опытом, а значит готовы предложить решение  любой вашей задачи"></mkb-callback-banner>
+
+  <mkb-possible-solutions title="Посмотрите примеры <br> возможных решений"></mkb-possible-solutions>
+
+  <mkb-category title="Наш каталог продукции <br> по всем категориям"></mkb-category>
 </mkb-base>

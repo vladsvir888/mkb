@@ -1,8 +1,14 @@
 .portfolio-slider-block {
+  $this: &;
+
   padding: rem(100) 0;
   background-image: url('../assets/images/decorative-element/portfolio-slider.svg');
   background-repeat: no-repeat;
   background-position: center top rem(-150);
+
+  &--no-decorative-element {
+    background-image: none;
+  }
 
   &__header {
     @include flex-center-between;
@@ -13,7 +19,7 @@
   &__title {
     @include font56;
 
-    max-width: rem(376);
+    max-width: rem(730);
   }
 
   &__slider {
@@ -41,7 +47,7 @@
       &::before {
         color: var(--palette-spun-pearl);
         counter-increment: num;
-        content: "(" counters(num, ".", decimal-leading-zero) ")";
+        content: '(' counters(num, '.', decimal-leading-zero) ')';
       }
     }
   }

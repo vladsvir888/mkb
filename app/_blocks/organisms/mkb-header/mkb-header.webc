@@ -11,7 +11,7 @@
         <nav class="header__nav" aria-label="Главное">
           <ul class="header__list">
             <li class="header__item">
-              <mkb-button href="#" class="button--link header__link">
+              <mkb-button href="/catalog" class="button--link header__link">
                 Каталог
               </mkb-button>
             </li>

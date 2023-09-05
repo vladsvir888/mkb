@@ -3,6 +3,10 @@
   margin-bottom: rem(100);
   background-color: var(--palette-white);
 
+  &--without-mb {
+    margin-bottom: 0;
+  }
+
   &__header {
     @include flex-center-between;
 
@@ -12,7 +16,7 @@
   &__title {
     @include font56;
 
-    max-width: rem(518);
+    max-width: rem(814);
   }
 
   &__grid {

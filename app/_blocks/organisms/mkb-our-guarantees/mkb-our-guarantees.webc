@@ -1,0 +1,47 @@
+<section class="our-guarantees">
+  <div class="container">
+    <div class="our-guarantees__header">
+      <h2 class="our-guarantees__title">Наши гарантии</h2>
+      <mkb-button href="#" class="button--outline button--outline-gray our-guarantees__button">Подробнее о нас</mkb-button>
+    </div>
+    <div class="our-guarantees__info">
+      <div class="our-guarantees__img-wrap">
+        <eleventy-image class="our-guarantees__img" src="./app/_images/guarantees/01.png" loading="lazy" alt=""></eleventy-image>
+      </div>
+      <div class="our-guarantees__content">
+        <div class="our-guarantees__content-item">
+          <div class="our-guarantees__content-title">
+            Мы работаем под ключ
+          </div>
+          <div class="our-guarantees__content-text">
+            Решим любую комплексную задачу за счет огромного опыта
+          </div>
+        </div>
+        <div class="our-guarantees__content-item">
+          <div class="our-guarantees__content-title">
+            Учтем желаемые сроки
+          </div>
+          <div class="our-guarantees__content-text">
+            Решив купить видеонаблюдение для дома в Минске, вам стоит определиться в том, какой уровень контроля вы бы хотели обеспечить.
+          </div>
+        </div>
+        <div class="our-guarantees__content-item">
+          <div class="our-guarantees__content-title">
+            Имеем опыт работы со сложными решениями
+          </div>
+          <div class="our-guarantees__content-text">
+            Подключение ip-камер может быть произведено напрямую через модем, с использованием мобильного устройства связи.
+          </div>
+        </div>
+        <div webc:if="isFourItem" class="our-guarantees__content-item">
+          <div class="our-guarantees__content-title">
+            Команда профессионалов
+          </div>
+          <div class="our-guarantees__content-text">
+            Решим любую комплексную задачу за счет огромного опыта
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

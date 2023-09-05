@@ -6,8 +6,7 @@
   transition:
     background-color var(--transition300ms),
     color var(--transition300ms),
-    border-color var(--transition300ms)
-    ;
+    border-color var(--transition300ms);
 
   &--link {
     @media (hover: hover) {

@@ -1,0 +1,50 @@
+<section class="faq">
+  <div class="container">
+    <h2 class="faq__title">Часто задаваемые вопросы</h2>
+    <sl-details class="faq__details" summary="Какие виды систем безопасности мы предлагаем?">
+      <div class="faq__icon" slot="expand-icon">
+        <mkb-icon @type="multi" @name="chevron-down-circle"></mkb-icon>
+      </div>
+      <div class="faq__icon" slot="collapse-icon">
+        <mkb-icon @type="multi" @name="chevron-top-circle"></mkb-icon>
+      </div>
+      Мы предлагаем широкий спектр систем безопасности, включая системы контроля доступа, видеонаблюдение, охранную сигнализацию, системы пожарной безопасности, а также интеграцию этих систем для обеспечения комплексной безопасности объектов.
+    </sl-details>
+    <sl-details class="faq__details" summary="Каков процесс сотрудничества с нами?">
+      <div class="faq__icon" slot="expand-icon">
+        <mkb-icon @type="multi" @name="chevron-down-circle"></mkb-icon>
+      </div>
+      <div class="faq__icon" slot="collapse-icon">
+        <mkb-icon @type="multi" @name="chevron-top-circle"></mkb-icon>
+      </div>
+      Мы предлагаем широкий спектр систем безопасности, включая системы контроля доступа, видеонаблюдение, охранную сигнализацию, системы пожарной безопасности, а также интеграцию этих систем для обеспечения комплексной безопасности объектов.
+    </sl-details>
+    <sl-details class="faq__details" summary="Каковы сроки реализации проекта?">
+      <div class="faq__icon" slot="expand-icon">
+        <mkb-icon @type="multi" @name="chevron-down-circle"></mkb-icon>
+      </div>
+      <div class="faq__icon" slot="collapse-icon">
+        <mkb-icon @type="multi" @name="chevron-top-circle"></mkb-icon>
+      </div>
+      Мы предлагаем широкий спектр систем безопасности, включая системы контроля доступа, видеонаблюдение, охранную сигнализацию, системы пожарной безопасности, а также интеграцию этих систем для обеспечения комплексной безопасности объектов.
+    </sl-details>
+    <sl-details class="faq__details" summary="Какая поддержка предоставляется после установки системы?">
+      <div class="faq__icon" slot="expand-icon">
+        <mkb-icon @type="multi" @name="chevron-down-circle"></mkb-icon>
+      </div>
+      <div class="faq__icon" slot="collapse-icon">
+        <mkb-icon @type="multi" @name="chevron-top-circle"></mkb-icon>
+      </div>
+      Мы предлагаем широкий спектр систем безопасности, включая системы контроля доступа, видеонаблюдение, охранную сигнализацию, системы пожарной безопасности, а также интеграцию этих систем для обеспечения комплексной безопасности объектов.
+    </sl-details>
+    <sl-details class="faq__details" summary="У вас есть опыт реализации крупных и сложных проектов?">
+      <div class="faq__icon" slot="expand-icon">
+        <mkb-icon @type="multi" @name="chevron-down-circle"></mkb-icon>
+      </div>
+      <div class="faq__icon" slot="collapse-icon">
+        <mkb-icon @type="multi" @name="chevron-top-circle"></mkb-icon>
+      </div>
+      Мы предлагаем широкий спектр систем безопасности, включая системы контроля доступа, видеонаблюдение, охранную сигнализацию, системы пожарной безопасности, а также интеграцию этих систем для обеспечения комплексной безопасности объектов.
+    </sl-details>
+  </div>
+</section>

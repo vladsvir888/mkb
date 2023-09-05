@@ -1,0 +1,54 @@
+<script webc:setup>
+  const activities = [
+    {
+      title: {
+        href: '#',
+        text: 'Техническое обсуживание шлагбаумов'
+      },
+      image: {
+        src: "/assets/images/activities/02.svg"
+      }
+    },
+    {
+      title: {
+        href: '#',
+        text: 'Техническое обслуживание дорожных блокираторов'
+      },
+      image: {
+        src: "/assets/images/activities/11.svg"
+      }
+    },
+    {
+      title: {
+        href: '#',
+        text: 'Системы контроля и управления доступом СКУД'
+      },
+      image: {
+        src: "/assets/images/activities/03.svg"
+      }
+    },
+    {
+      title: {
+        href: '#',
+        text: 'Техническое обсуживание боллардов'
+      },
+      image: {
+        src: "/assets/images/activities/12.svg"
+      }
+    },
+  ]
+</script>
+
+<section class="maintenance-objects">
+  <div class="container">
+    <div class="maintenance-objects__header">
+      <h2 class="maintenance-objects__title">
+        Осуществляем техническое обслуживание следующих объектов
+      </h2>
+      <mkb-button class="button--outline button--outline-gray maintenance-objects__button" href="#">Посмотреть все решения</mkb-button>
+    </div>
+    <div class="maintenance-objects__grid">
+      <mkb-activity-card webc:for="activity of activities" :activity="activity"></mkb-activity-card>
+    </div>
+  </div>
+</section>

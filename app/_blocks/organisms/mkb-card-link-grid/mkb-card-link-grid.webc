@@ -1,0 +1,27 @@
+<section class="card-link-grid" :class="cardLinkGrid?.class || ''">
+  <div class="container card-link-grid__container">
+    <h2
+      webc:if="cardLinkGrid?.title"
+      @text="cardLinkGrid?.title"
+      class="card-link-grid__title"
+    ></h2>
+    <ul class="card-link-grid__wrap">
+      <li webc:for="item of cardLinkGrid?.items">
+        <mkb-button
+          webc:if="item.isCurrentItem"
+          class="card-link-grid__item"
+          aria-current="page"
+        >
+          <span @text="item.text"></span>
+        </mkb-button>
+        <mkb-button
+          webc:else
+          href="#"
+          class="card-link-grid__item"
+        >
+          <span @text="item.text"></span>
+        </mkb-button>
+      </li>
+    </ul>
+  </div>
+</section>

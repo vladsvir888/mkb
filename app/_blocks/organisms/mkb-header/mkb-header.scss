@@ -13,6 +13,11 @@
     background-color: transparent;
   }
 
+  &.active {
+    background-color: var(--palette-white);
+    color: unset;
+  }
+
   &__wrap {
     display: flex;
     justify-content: space-between;

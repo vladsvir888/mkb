@@ -10,24 +10,24 @@
         href: '/turnkey-videoanalytics'
       },
       {
-        text: 'Разработка проекта для вашего решения',
+        text: 'Подбор оборудования для решения вашей задачи',
       },
     ]
   }
 
   const heroInner = {
     title: 'Проектирование видеонаблюдения является важнейшим этапом в процессе установки видеонаблюдения. Наша команда помогает на любом из этапов. ',
-    bgi: "background-image: url('/assets/images/hero-section/03.png');",
+    bgi: "background-image: url('/assets/images/hero-section/04.png');",
   }
 
   const cardLinkGrid = {
     items: [
       {
         text: 'Разработка проектного решения',
-        isCurrentItem: true
       },
       {
         text: 'Монтаж видеонаблюдения',
+        isCurrentItem: true
       },
       {
         text: 'Строительные и монтажные работы по установке',
@@ -47,10 +47,10 @@
     items: [
       {
         text: 'Разработка проектного решения',
-        isCurrentItem: true
       },
       {
         text: 'Монтаж видеонаблюдения',
+        isCurrentItem: true
       },
       {
         text: 'Строительные и монтажные работы по установке',
@@ -68,7 +68,7 @@
 <mkb-base webc:nokeep>
   <mkb-page-top
     :breadcrumbs="breadcrumbs"
-    title="Разработка проекта для вашего решения"
+    title="Установка системы видеонаблюдения и видеоаналитики"
   ></mkb-page-top>
 
   <mkb-hero-inner :hero-inner="heroInner"></mkb-hero-inner>
@@ -76,21 +76,21 @@
   <mkb-card-link-grid :card-link-grid="cardLinkGrid"></mkb-card-link-grid>
 
   <div class="text-block">
-    <h4>Разработка проекта является важнейшим этапом при установке системы видеонаблюдения</h4>
+    <h4>Монтаж видеонаблюдения является <br> важнейшим этапом </h4>
     <p>
       Цена установки видеонаблюдения будет зависеть от выбранной комплектации системы, необходимой зоны охвата (наблюдения), желаемого качества изображения и количества времени хранения записей. Также на стоимость влияет сложность монтажных работ и необходимость выполнения дополнительных настроек. При необходимости обработки большого архива записи и данных необходимо прорабатывать вопрос применения аналитических модулей (модули видеоаналитики).
     </p>
     <p>
-      Традиционная система видеонаблюдения представляет собой комплекс, состоящий из камеры видеонаблюдения, регистратора или видеосервер, накопителя (жесткий диск), а также периферийного оборудования (сетевое, устройства резервного питания). 
+      Традиционная система видеонаблюдения представляет собой комплекс, состоящий из камеры видеонаблюдения, регистратора или видеосервер, накопителя (жесткий диск), а также периферийного оборудования (сетевое, устройства резервного питания).
     </p>
-    <eleventy-image src="./app/_images/text-block/01.png" alt="" loading="lazy"></eleventy-image>
+    <eleventy-image src="./app/_images/text-block/02.png" alt="" loading="lazy"></eleventy-image>
   </div>
 
   <mkb-callback title="Закажите консультацию. <br> Предложим индивидуальное решение"></mkb-callback>
 
-  <mkb-our-guarantees></mkb-our-guarantees>
+  <mkb-our-guarantees is-four-item="true"></mkb-our-guarantees>
 
-  <mkb-portfolio-slider portfolio-slider-block-class="portfolio-slider-block--no-decorative-element" title="Разрабатываем проекты для самых сложных объектов"></mkb-portfolio-slider>
+  <mkb-portfolio-slider portfolio-slider-block-class="portfolio-slider-block--no-decorative-element" title="Осуществили монтаж для самых сложных объектов"></mkb-portfolio-slider>
 
   <mkb-callback-banner title="Мы обладаем огромным опытом, а значит готовы предложить решение  любой вашей задачи"></mkb-callback-banner>
 

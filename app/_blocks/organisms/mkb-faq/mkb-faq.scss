@@ -1,0 +1,65 @@
+.faq {
+  padding: rem(80) 0;
+  background: linear-gradient(180deg, #dae0ec -29.75%, #fff 46.6%);
+
+  &__title {
+    @include font48;
+
+    margin-bottom: rem(56);
+    text-align: center;
+  }
+
+  &__details {
+    max-width: rem(848);
+    margin: 0 auto;
+    color: var(--palette-ship-gray);
+
+    &:not(:last-child) {
+      margin-bottom: rem(16);
+    }
+
+    &::part(base) {
+      border: rem(1) solid var(--palette-manatee);
+      border-radius: var(--bdrs20);
+    }
+
+    &::part(header) {
+      padding: rem(20);
+    }
+
+    &::part(summary) {
+      @include font24;
+
+      padding: rem(7.5) 0;
+    }
+
+    &::part(content) {
+      @include font14;
+
+      padding: rem(20);
+    }
+
+    &::part(summary-icon) {
+      rotate: none;
+    }
+
+    &[open] {
+      &::part(base) {
+        border-color: transparent;
+        background: var(--palette-white);
+        box-shadow: 0 rem(20) rem(40) rem(-10) rgba(69, 66, 110, 0.04);
+      }
+
+      &::part(summary) {
+        color: var(--palette-blue-marguerite);
+      }
+    }
+  }
+
+  &__icon {
+    > svg {
+      width: rem(32);
+      height: rem(32);
+    }
+  }
+}

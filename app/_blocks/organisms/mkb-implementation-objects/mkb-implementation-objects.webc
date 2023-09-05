@@ -15,6 +15,9 @@
       text: 'Разработка проекта является первым этапом работы над любым проектом. Разработка проектного решения по автоматизации видеонаблюдения зависит&nbsp;от&nbsp;особенностей вашего объекта;',
       image: {
         src: './app/_images/implementation-objects-numeric-list/02.png'
+      },
+      link: {
+        href: '/turnkey-videoanalytics/equipment-selection'
       }
     },
     {
@@ -29,6 +32,9 @@
       text: 'Разработка проекта является первым этапом работы над любым проектом. Разработка проектного решения по автоматизации видеонаблюдения зависит&nbsp;от&nbsp;особенностей вашего объекта;',
       image: {
         src: './app/_images/implementation-objects-numeric-list/04.png'
+      },
+      link: {
+        href: '/turnkey-videoanalytics/integration-into-control-system'
       }
     },
     {

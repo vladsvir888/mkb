@@ -1,11 +1,19 @@
 <mkb-base webc:nokeep :header="header">
   <mkb-hero></mkb-hero>
+
   <mkb-activities></mkb-activities>
+
   <mkb-maintenance></mkb-maintenance>
-  <mkb-callback title="Предложим индивидуальное решение вашей задачи"></mkb-callback>
+
+  <mkb-callback title="Предложим индивидуальное решение&nbsp;вашей задачи"></mkb-callback>
+
   <mkb-team-professionals></mkb-team-professionals>
-  <mkb-portfolio-slider></mkb-portfolio-slider>
+
+  <mkb-portfolio-slider title="Портфолио <br> наших работ"></mkb-portfolio-slider>
+
   <mkb-solutions></mkb-solutions>
+
   <mkb-clients-slider></mkb-clients-slider>
-  <mkb-category></mkb-category>
+
+  <mkb-category title="Наш каталог продукции <br> по всем категориям"></mkb-category>
 </mkb-base>

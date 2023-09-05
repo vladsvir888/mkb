@@ -1,4 +1,6 @@
 .callback-banner {
+  $this: &;
+
   position: relative;
   padding: rem(105) 0;
   margin-bottom: rem(100);

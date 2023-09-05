@@ -1,9 +1,7 @@
-<section class="portfolio-slider-block">
+<section class="portfolio-slider-block" :class="portfolioSliderBlockClass ? portfolioSliderBlockClass : ''">
   <div class="container">
     <div class="portfolio-slider-block__header">
-      <h2 class="portfolio-slider-block__title">
-        Портфолио наших работ
-      </h2>
+      <h2 class="portfolio-slider-block__title" @html="title"></h2>
       <div class="portfolio-slider-block__actions">
         <div class="portfolio-slider-block__buttons">
           <mkb-button @is-button="true" class="portfolio-slider-block__button portfolio-slider-block__button--left" aria-label="Предыдущий слайд">

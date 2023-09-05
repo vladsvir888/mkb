@@ -1,8 +1,6 @@
 <section class="callback-banner" style="background-image: url('/assets/images/banner/02.png');">
   <div class="container callback-banner__container">
-    <h2 class="callback-banner__title">
-      Мы обладаем огромным опытом, а значит готовы предложить решение  любой вашей задачи
-    </h2>
+    <h2 class="callback-banner__title" @html="title"></h2>
     <mkb-button class="button--white callback-banner__button" @is-button="true">Оставить заявку</mkb-button>
   </div>
 </section>
