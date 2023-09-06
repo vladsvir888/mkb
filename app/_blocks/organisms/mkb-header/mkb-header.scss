@@ -7,6 +7,7 @@
   width: 100%;
   z-index: 10;
   background-color: var(--palette-white);
+  transition: background-color var(--transition300ms);
 
   &--without-bg {
     color: var(--palette-white);

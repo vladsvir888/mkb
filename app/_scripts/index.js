@@ -7,6 +7,8 @@ import portfolioSlider from '../_blocks/organisms/mkb-portfolio-slider/mkb-portf
 import clientsSlider from '../_blocks/organisms/mkb-clients-slider/mkb-clients-slider';
 import '@shoelace-style/shoelace/dist/components/details/details.js';
 import changeColorHeader from '../_blocks/organisms/mkb-header/mkb-header';
+// eslint-disable-next-line no-unused-vars
+import MkbRangeSlider from '../_blocks/molecules/mkb-range-slider/mkb-range-slider';
 
 register();
 

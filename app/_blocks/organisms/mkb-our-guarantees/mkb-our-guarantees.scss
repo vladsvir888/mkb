@@ -5,7 +5,7 @@
   &__header {
     @include flex-center-between;
 
-    margin-bottom: var(--mb40);
+    margin-bottom: rem(40);
   }
 
   &__title {
@@ -26,14 +26,13 @@
   }
 
   &__img {
-    @include img(cover);
-
     border-radius: var(--bdrs10);
   }
 
   &__info {
     @include flex-between;
 
+    align-items: flex-start; // **
     column-gap: rem(40);
     padding: rem(10);
     background-color: var(--palette-athens-gray);

@@ -59,6 +59,10 @@
       border-color: var(--palette-regent-gray);
     }
 
+    &-purple {
+      border-color: var(--palette-blue-marguerite);
+    }
+
     @media (hover: hover) {
       &:hover {
         background-color: var(--palette-blue-marguerite);

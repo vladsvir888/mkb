@@ -1,0 +1,162 @@
+<script webc:setup>
+  const cards = [
+    {
+      title: 'IP видеокамера HIKVISION DS-2CD4A24FWD-IZHS (4.7-94 mm)',
+      img: './app/_images/catalog/01.png'
+    },
+    {
+      title: 'IP видеокамера HIKVISION DS-2CD2342FWD-I (2.8мм / 4мм)',
+      img: './app/_images/catalog/02.png'
+    },
+    {
+      title: 'IP видеокамера FE-SD6580-HN',
+      img: './app/_images/catalog/03.png'
+    },
+    {
+      title: 'IP видеокамера HIKVISION DS-2CD2642FWD-I',
+      img: './app/_images/catalog/04.png'
+    },
+    {
+      title: 'IP видеокамера HIKVISION DS-2CD2642FWD-I',
+      img: './app/_images/catalog/05.png'
+    },
+    {
+      title: 'IP видеокамера FE-SD6580-HN',
+      img: './app/_images/catalog/06.png'
+    },
+    {
+      title: 'IP видеокамера HIKVISION DS-2CD4A24FWD-IZHS (4.7-94 mm)',
+      img: './app/_images/catalog/01.png'
+    },
+    {
+      title: 'IP видеокамера HIKVISION DS-2CD2342FWD-I (2.8мм / 4мм)',
+      img: './app/_images/catalog/02.png'
+    },
+    {
+      title: 'IP видеокамера FE-SD6580-HN',
+      img: './app/_images/catalog/03.png'
+    },
+    {
+      title: 'IP видеокамера HIKVISION DS-2CD2642FWD-I',
+      img: './app/_images/catalog/04.png'
+    },
+    {
+      title: 'IP видеокамера HIKVISION DS-2CD2642FWD-I',
+      img: './app/_images/catalog/05.png'
+    },
+    {
+      title: 'IP видеокамера FE-SD6580-HN',
+      img: './app/_images/catalog/06.png'
+    },
+  ]
+</script>
+
+<div class="catalog">
+  <div class="container">
+    <mkb-search search-class="catalog__search"></mkb-search>
+
+    <div class="catalog__wrap">
+      <div class="catalog__left">
+        <aside class="catalog__filter">
+          <sl-details class="catalog__details" summary="Цена">
+            <div class="catalog__details-icon" slot="expand-icon">
+              <mkb-icon @type="multi" @name="chevron-bottom"></mkb-icon>
+            </div>
+            <div class="catalog__details-icon" slot="collapse-icon">
+              <mkb-icon @type="multi" @name="chevron-top"></mkb-icon>
+            </div>
+            <mkb-range-slider></mkb-range-slider>
+          </sl-details>
+          <sl-details class="catalog__details" summary="Бренд">
+            <div class="catalog__details-icon" slot="expand-icon">
+              <mkb-icon @type="multi" @name="chevron-bottom"></mkb-icon>
+            </div>
+            <div class="catalog__details-icon" slot="collapse-icon">
+              <mkb-icon @type="multi" @name="chevron-top"></mkb-icon>
+            </div>
+          </sl-details>
+          <sl-details class="catalog__details" summary="Цвет">
+            <div class="catalog__details-icon" slot="expand-icon">
+              <mkb-icon @type="multi" @name="chevron-bottom"></mkb-icon>
+            </div>
+            <div class="catalog__details-icon" slot="collapse-icon">
+              <mkb-icon @type="multi" @name="chevron-top"></mkb-icon>
+            </div>
+            <div class="catalog__details-content">
+              <mkb-input @type-input="check" text="Белый" checked="true"></mkb-input>
+              <mkb-input @type-input="check" text="Черный"></mkb-input>
+              <mkb-input @type-input="check" text="Серый"></mkb-input>
+              <mkb-input @type-input="check" text="Черный/Белый"></mkb-input>
+            </div>
+          </sl-details>
+          <sl-details class="catalog__details" summary="Способ монтажа">
+            <div class="catalog__details-icon" slot="expand-icon">
+              <mkb-icon @type="multi" @name="chevron-bottom"></mkb-icon>
+            </div>
+            <div class="catalog__details-icon" slot="collapse-icon">
+              <mkb-icon @type="multi" @name="chevron-top"></mkb-icon>
+            </div>
+          </sl-details>
+          <sl-details class="catalog__details" summary="Высота">
+            <div class="catalog__details-icon" slot="expand-icon">
+              <mkb-icon @type="multi" @name="chevron-bottom"></mkb-icon>
+            </div>
+            <div class="catalog__details-icon" slot="collapse-icon">
+              <mkb-icon @type="multi" @name="chevron-top"></mkb-icon>
+            </div>
+            <div class="catalog__details-content">
+              <mkb-input @type-input="check" text="100 мм" checked="true"></mkb-input>
+              <mkb-input @type-input="check" text="103 мм"></mkb-input>
+              <mkb-input @type-input="check" text="115 мм"></mkb-input>
+              <mkb-input @type-input="check" text="117 мм"></mkb-input>
+              <mkb-input @type-input="check" text="130 мм" checked="true"></mkb-input>
+              <mkb-input @type-input="check" text="150 мм"></mkb-input>
+            </div>
+          </sl-details>
+          <sl-details class="catalog__details" summary="Глубина">
+            <div class="catalog__details-icon" slot="expand-icon">
+              <mkb-icon @type="multi" @name="chevron-bottom"></mkb-icon>
+            </div>
+            <div class="catalog__details-icon" slot="collapse-icon">
+              <mkb-icon @type="multi" @name="chevron-top"></mkb-icon>
+            </div>
+            <div class="catalog__details-content">
+              <mkb-input @type-input="check" text="Глубина 1"></mkb-input>
+            </div>
+          </sl-details>
+          <sl-details class="catalog__details" summary="Диаметр">
+            <div class="catalog__details-icon" slot="expand-icon">
+              <mkb-icon @type="multi" @name="chevron-bottom"></mkb-icon>
+            </div>
+            <div class="catalog__details-icon" slot="collapse-icon">
+              <mkb-icon @type="multi" @name="chevron-top"></mkb-icon>
+            </div>
+          </sl-details>
+        </aside>
+      </div>
+      <div class="catalog__right">
+        <div class="catalog__options">
+          <mkb-button @is-button="true" class="catalog__option">
+            48.99 – 1144.89
+          </mkb-button>
+          <mkb-button @is-button="true" class="catalog__option">
+            Белый
+          </mkb-button>
+          <mkb-button @is-button="true" class="catalog__option">
+            100 мм
+          </mkb-button>
+          <mkb-button @is-button="true" class="catalog__option">
+            130 мм
+          </mkb-button>
+          <mkb-button @is-button="true" class="catalog__reset">Сбросить фильтры</mkb-button>
+        </div>
+        <ul class="catalog__list">
+          <li webc:for="card of cards">
+            <mkb-product-card :card="card"></mkb-product-card>
+          </li>
+        </ul>
+        <mkb-pagination></mkb-pagination>
+      </div>
+    </div>
+  </div>
+</div>

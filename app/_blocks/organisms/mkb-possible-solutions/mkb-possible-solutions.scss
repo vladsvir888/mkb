@@ -1,4 +1,5 @@
 .possible-solutions {
+  position: relative;
   padding: rem(40) 0;
   margin-bottom: rem(100);
   background-color: var(--palette-white);
@@ -7,10 +8,24 @@
     margin-bottom: 0;
   }
 
+  &--with-decorative {
+    &::before {
+      position: absolute;
+      top: rem(-450);
+      right: 0;
+      z-index: -1;
+      width: rem(1440);
+      height: rem(1544);
+      background-image: url('../assets/images/decorative-element/possible-solutions-2.svg');
+      background-repeat: no-repeat;
+      content: '';
+    }
+  }
+
   &__header {
     @include flex-center-between;
 
-    margin-bottom: var(--mb40);
+    margin-bottom: rem(40);
   }
 
   &__title {
@@ -21,7 +36,7 @@
 
   &__grid {
     display: flex;
-    gap: rem(20);
+    gap: var(--gap20);
   }
 
   &__item {
@@ -31,6 +46,7 @@
 
     &--end {
       @include flex-column;
+
       row-gap: rem(20);
       width: 30%;
     }

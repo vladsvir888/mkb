@@ -1,8 +1,8 @@
 function changeColorHeader() {
-  const targetSection = document.querySelector('.hero');
+  const target = document.querySelector('.js-title');
   const header = document.querySelector('.header');
 
-  if (!targetSection) return;
+  if (!target) return;
 
   function callback(entries) {
     entries.forEach((entry) => {
@@ -13,8 +13,11 @@ function changeColorHeader() {
       }
     });
   }
-  const observer = new IntersectionObserver(callback, {});
-  observer.observe(targetSection);
+
+  const observer = new IntersectionObserver(callback, {
+    rootMargin: '-100px 0px 0px 0px',
+  });
+  observer.observe(target);
 }
 
 export default changeColorHeader;

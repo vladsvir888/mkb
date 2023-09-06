@@ -16,7 +16,7 @@
               </mkb-button>
             </li>
             <li class="header__item">
-              <mkb-button href="#" class="button--link header__link">
+              <mkb-button href="/videoanalytics-common" class="button--link header__link">
                 Направления
               </mkb-button>
             </li>

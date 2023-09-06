@@ -1,7 +1,7 @@
 .portfolio-slider-block {
   $this: &;
 
-  padding: rem(100) 0;
+  padding: rem(100) 0 rem(50);
   background-image: url('../assets/images/decorative-element/portfolio-slider.svg');
   background-repeat: no-repeat;
   background-position: center top rem(-150);
@@ -13,7 +13,7 @@
   &__header {
     @include flex-center-between;
 
-    margin-bottom: var(--mb40);
+    margin-bottom: rem(40);
   }
 
   &__title {
@@ -48,6 +48,14 @@
         color: var(--palette-spun-pearl);
         counter-increment: num;
         content: '(' counters(num, '.', decimal-leading-zero) ')';
+      }
+    }
+
+    &-link {
+      &::before {
+        position: absolute;
+        inset: 0;
+        content: '';
       }
     }
   }

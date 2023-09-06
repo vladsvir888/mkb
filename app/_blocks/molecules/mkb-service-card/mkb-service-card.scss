@@ -35,11 +35,15 @@
 
   &__text {
     @include font16;
+
+    > * {
+      &:not(:last-child) {
+        margin-bottom: rem(20);
+      }
+    }
   }
 
   &__img {
-    @include img(cover);
-
     border-top-right-radius: var(--bdrs20);
     border-bottom-right-radius: var(--bdrs20);
   }

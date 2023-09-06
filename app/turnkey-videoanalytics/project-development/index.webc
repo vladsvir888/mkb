@@ -92,7 +92,10 @@
 
   <mkb-portfolio-slider portfolio-slider-block-class="portfolio-slider-block--no-decorative-element" title="Разрабатываем проекты для самых сложных объектов"></mkb-portfolio-slider>
 
-  <mkb-callback-banner title="Мы обладаем огромным опытом, а значит готовы предложить решение  любой вашей задачи"></mkb-callback-banner>
+  <mkb-callback-banner>
+    <span slot="heading" webc:nokeep>Мы обладаем огромным опытом, <br> а значит готовы предложить <br> решение  любой вашей задачи</span>
+    <mkb-button slot="button" class="button--white callback-banner__button" @is-button="true">Оставить заявку</mkb-button>
+  </mkb-callback-banner>
 
   <mkb-possible-solutions possible-solutions-class="possible-solutions--without-mb" title="Посмотрите примеры возможных решений в этой области"></mkb-possible-solutions>
 

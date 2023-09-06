@@ -1,6 +1,13 @@
-<section class="callback-banner" style="background-image: url('/assets/images/banner/02.png');">
-  <div class="container callback-banner__container">
-    <h2 class="callback-banner__title" @html="title"></h2>
-    <mkb-button class="button--white callback-banner__button" @is-button="true">Оставить заявку</mkb-button>
+<section class="callback-banner" :class="callbackBannerClass ? callbackBannerClass : ''">
+  <div class="container" webc:if="topTitle">
+    <h2 class="callback-banner__pretitle">Установка видеонаблюдения не ограничивается только приобритением комплектующих</h2>
+  </div>
+  <div class="callback-banner__wrap">
+    <div class="container callback-banner__container">
+      <h2 class="callback-banner__title">
+        <slot name="heading"></slot>
+      </h2>
+      <slot name="button"></slot>
+    </div>
   </div>
 </section>

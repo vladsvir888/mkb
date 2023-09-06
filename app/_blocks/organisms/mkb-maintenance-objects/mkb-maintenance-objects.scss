@@ -1,10 +1,10 @@
 .maintenance-objects {
-  padding: rem(56) 0 rem(100);
+  padding: rem(30) 0 rem(100);
 
   &__header {
     @include flex-center-between;
 
-    margin-bottom: var(--mb40);
+    margin-bottom: rem(40);
   }
 
   &__title {
@@ -16,6 +16,6 @@
   &__grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(#{rem(325)}, 1fr));
-    gap: rem(20);
+    gap: var(--gap20);
   }
 }

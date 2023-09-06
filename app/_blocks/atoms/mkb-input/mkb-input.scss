@@ -1,9 +1,11 @@
 .input {
   @include font14;
 
-  padding: rem(20) rem(12);
-  background-color: var(--palette-white);
-  border: rem(1) solid var(--palette-blue-marguerite);
+  &--default {
+    padding: rem(20) rem(12);
+    background-color: var(--palette-white);
+    border: rem(1) solid var(--palette-blue-marguerite);
+  }
 
   &::placeholder {
     color: var(--palette-silver);
@@ -14,6 +16,28 @@
 
     &::placeholder {
       color: var(--palette-cod-gray);
+    }
+  }
+}
+
+.form-check {
+  @include flex-center-y;
+
+  column-gap: rem(8);
+  color: var(--palette-ship-gray);
+
+  &__input {
+    width: rem(20);
+    height: rem(20);
+    margin: 0;
+    background-color: var(--palette-athens-gray-2);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    appearance: none;
+
+    &:checked {
+      background-image: url('../assets/images/icons/checked.svg');
     }
   }
 }

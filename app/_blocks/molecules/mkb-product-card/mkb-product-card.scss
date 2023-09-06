@@ -1,0 +1,27 @@
+.product-card {
+  @include flex-column;
+
+  padding: rem(20);
+  row-gap: rem(16);
+  height: 100%;
+  border-radius: var(--bdrs20);
+  background-color: var(--palette-white);
+
+  &__img {
+    margin: 0 auto;
+  }
+
+  &__title {
+    @include font-size(18, 18);
+
+    color: var(--palette-abbey);
+    margin-bottom: rem(32);
+    font-weight: 500;
+    letter-spacing: rem(-0.36);
+  }
+
+  &__button {
+    margin-top: auto;
+    text-align: center;
+  }
+}

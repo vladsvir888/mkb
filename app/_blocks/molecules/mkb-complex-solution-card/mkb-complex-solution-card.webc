@@ -1,0 +1,16 @@
+<article class="complex-solution-card">
+  <div class="complex-solution-card__img-wrap">
+    <eleventy-image class="complex-solution-card__img" :src="img" alt="" loading="lazy"></eleventy-image>
+  </div>
+  <div class="complex-solution-card__content">
+    <h2 class="complex-solution-card__title" @text="title">
+      Видеокамеры и видеорегистраторы
+    </h2>
+    <div class="complex-solution-card__text">
+      <p>
+        Цена установки видеонаблюдения будет зависеть от выбранной комплектации системы, необходимой зоны охвата (наблюдения), желаемого качества изображения и количества времени хранения записей. Также на стоимость влияет сложность монтажных работ и необходимость выполнения дополнительных настроек. При необходимости обработки большого архива записи и данных необходимо прорабатывать вопрос применения аналитических модулей (модули видеоаналитики).
+      </p>
+    </div>
+    <mkb-button href="#" class="button--outline button--outline-gray complex-solution-card__button">Узнать подробнее</mkb-button>
+  </div>
+</article>

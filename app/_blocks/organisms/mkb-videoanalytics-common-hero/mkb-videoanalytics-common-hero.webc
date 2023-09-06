@@ -1,0 +1,8 @@
+<div class="videoanalytics-common-hero">
+  <div class="container">
+    <mkb-search search-class="videoanalytics-common-hero__search"></mkb-search>
+    <mkb-complex-solution-card title="Видеокамеры и видеорегистраторы" img="./app/_images/system-videoanalytics/01.png"></mkb-complex-solution-card>
+    <mkb-complex-solution-card title="Прочее оборудование для видеонаблюдения" img="./app/_images/system-videoanalytics/02.png"></mkb-complex-solution-card>
+    <mkb-complex-solution-card title="Кабель и монтажное оборудование для видеонаблюдения" img="./app/_images/system-videoanalytics/03.png"></mkb-complex-solution-card>
+  </div>
+</div>

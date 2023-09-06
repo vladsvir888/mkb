@@ -1,0 +1,40 @@
+.pagination {
+  @include flex-center;
+
+  gap: rem(16);
+  color: var(--palette-ship-gray);
+
+  &__list {
+    @include flex-center-y;
+
+    gap: rem(6);
+  }
+
+  &__link {
+    @include flex-center;
+    @include font14;
+
+    min-width: rem(40);
+    min-height: rem(40);
+    padding: rem(5);
+    border-radius: var(--bdrs12);
+    border: rem(1) solid var(--palette-athens-gray-2);
+
+    &[aria-current] {
+      color: var(--palette-white);
+      background-color: var(--palette-blue-marguerite);
+      border-color: transparent;
+      cursor: default;
+    }
+  }
+
+  &__button {
+    display: flex;
+
+    &-icon {
+      width: rem(24);
+      height: rem(24);
+      stroke-width: 1.5;
+    }
+  }
+}

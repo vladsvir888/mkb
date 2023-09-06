@@ -1,0 +1,15 @@
+.search {
+  &__form {
+    background-image: url('../assets/images/icons/magnifying-glass.svg');
+    background-repeat: no-repeat;
+    background-position: left center;
+  }
+
+  &__input {
+    width: 100%;
+    padding: rem(19) 0 rem(19) rem(28);
+    background-color: transparent;
+    border: none;
+    border-bottom: rem(1) solid var(--palette-cod-gray);
+  }
+}

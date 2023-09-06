@@ -1,0 +1,10 @@
+<article class="product-card">
+  <eleventy-image
+    class="product-card__img"
+    :src="card.img"
+    alt=""
+    loading="lazy"
+  ></eleventy-image>
+  <h2 class="product-card__title" @text="card.title"></h2>
+  <mkb-button class="button--outline button--outline-purple product-card__button" href="#">Подробнее</mkb-button>
+</article>

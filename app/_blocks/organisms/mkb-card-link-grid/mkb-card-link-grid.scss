@@ -14,7 +14,7 @@
   &__wrap {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(#{rem(256)}, 1fr));
-    gap: rem(20);
+    gap: var(--gap20);
     padding-top: rem(40);
   }
 

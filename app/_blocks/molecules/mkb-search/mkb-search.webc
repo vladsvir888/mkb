@@ -1,0 +1,10 @@
+<div class="search" :class="searchClass || ''">
+  <form class="search__form" action="/" method="get">
+    <input
+      type="search"
+      class="input search__input"
+      placeholder="Поиск по каталогу"
+      name="q"
+    >
+  </form>
+</div>

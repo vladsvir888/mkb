@@ -1,0 +1,18 @@
+<mkb-range-slider class="range-slider" webc:keep>
+  <div class="range-slider__inputs">
+    <input type="text" class="input range-slider__input range-slider__input--from">
+    <input type="text" class="input range-slider__input range-slider__input--to">
+  </div>
+  <div
+    class="range-slider__slider"
+    data-range-slider-min-value="48.99"
+    data-range-slider-max-value="2150.89"
+    data-range-slider-start-value="48.99"
+    data-range-slider-end-value="2150.89"
+  >
+  </div>
+  <div class="range-slider__values">
+    <span class="range-slider__value range-slider__value--1">48.99</span>
+    <span class="range-slider__value range-slider__value--2">2150.89</span>
+  </div>
+</mkb-range-slider>

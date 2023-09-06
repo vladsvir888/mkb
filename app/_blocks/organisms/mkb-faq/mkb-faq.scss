@@ -25,6 +25,10 @@
 
     &::part(header) {
       padding: rem(20);
+
+      &:focus-visible {
+        outline: rem(2) solid var(--palette-blue-marguerite);
+      }
     }
 
     &::part(summary) {
@@ -57,6 +61,8 @@
   }
 
   &__icon {
+    pointer-events: none;
+
     > svg {
       width: rem(32);
       height: rem(32);

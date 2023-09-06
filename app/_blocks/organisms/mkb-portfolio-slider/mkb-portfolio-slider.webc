@@ -19,19 +19,25 @@
     <swiper-slide class="portfolio-slider-block__slide">
       <div class="portfolio-slider-block__card">
         <eleventy-image src="./app/_images/portfolio-slider/01.png" class="portfolio-slider-block__card-img" alt="" loading="lazy"></eleventy-image>
-        <div class="portfolio-slider-block__card-text">Комплексная установка видеонаблюдения в офисе А1</div>
+        <div class="portfolio-slider-block__card-text">
+          <mkb-button class="button--link portfolio-slider-block__card-link" href="#">Комплексная установка видеонаблюдения в офисе А1</mkb-button>
+        </div>
       </div>
     </swiper-slide>
     <swiper-slide class="portfolio-slider-block__slide">
       <div class="portfolio-slider-block__card">
         <eleventy-image src="./app/_images/portfolio-slider/02.png" class="portfolio-slider-block__card-img" alt="" loading="lazy"></eleventy-image>
-        <div class="portfolio-slider-block__card-text">Комплексная установка видеонаблюдения в офисе А1</div>
+        <div class="portfolio-slider-block__card-text">
+          <mkb-button class="button--link portfolio-slider-block__card-link" href="#">Комплексная установка видеонаблюдения в офисе А1</mkb-button>
+        </div>
       </div>
     </swiper-slide>
     <swiper-slide class="portfolio-slider-block__slide">
       <div class="portfolio-slider-block__card">
         <eleventy-image src="./app/_images/portfolio-slider/03.png" class="portfolio-slider-block__card-img" alt="" loading="lazy"></eleventy-image>
-        <div class="portfolio-slider-block__card-text">Комплексная установка видеонаблюдения в офисе А1</div>
+        <div class="portfolio-slider-block__card-text">
+          <mkb-button class="button--link portfolio-slider-block__card-link" href="#">Комплексная установка видеонаблюдения в офисе А1</mkb-button>
+        </div>
       </div>
     </swiper-slide>
   </swiper-container>

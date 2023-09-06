@@ -1,8 +1,22 @@
 <input
   webc:if="typeInput === 'default'"
-  class="input"
+  class="input input--default"
   :placeholder="placeholder"
   :type="type ? type : 'text'"
   :name="name ? name : 'name'"
   webc:root="override"
 >
+
+<div webc:elseif="typeInput === 'check'" class="input form-check">
+  <input
+    class="form-check__input"
+    type="checkbox"
+    :id="uid"
+    :checked="checked"
+  >
+  <label
+    class="form-check__label"
+    :for="uid"
+    @text="text"
+  ></label>
+</div>
