@@ -1,0 +1,7 @@
+.next-solution {
+  &__title {
+    @include font56;
+
+    margin-bottom: rem(40);
+  }
+}

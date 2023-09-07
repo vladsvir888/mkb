@@ -176,7 +176,13 @@ body {
   @include container;
 }
 
-.integration-into-control-system-text-block {
+.text-block-decorative {
+  background-image: url('../assets/images/decorative-element/text-block.svg');
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.text-block-decorative-complex {
   background-image: url('../assets/images/decorative-element/complex-text-block.svg');
   background-repeat: no-repeat;
   background-size: cover;

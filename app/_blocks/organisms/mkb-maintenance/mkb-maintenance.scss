@@ -23,8 +23,7 @@
   }
 
   &__content {
-    @include flex-center-y;
-
+    display: flex;
     column-gap: rem(40);
     opacity: 0.999;
   }

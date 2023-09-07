@@ -1,0 +1,69 @@
+<script webc:setup>
+  const breadcrumbs = {
+    items: [
+      {
+        text: 'Главная',
+        href: '/'
+      },
+      {
+        text: 'Направления',
+        href: '/'
+      },
+      {
+        text: 'Каталог видеокамеры и видеорегистраторы',
+        href: '/catalog'
+      },
+      {
+        text: 'Аналоговая цветная камера TS-10202T',
+      },
+    ]
+  }
+
+  const services = {
+    title: 'Установка видеонаблюдения не ограничивается только приобритением комплектующих',
+    isText: true,
+    list: {
+      items: [
+        {
+          title: 'Разработка проектного решения'
+        },
+        {
+          title: 'Подбор оборудования для решения вашей задачи'
+        },
+        {
+          title: 'Строительные и монтажные работы по установке'
+        },
+        {
+          title: 'Интеграция в общую систему контроля'
+        },
+        {
+          title: 'Интеграция в общую систему контроля'
+        },
+      ]
+    }
+  }
+</script>
+
+<mkb-base webc:nokeep>
+  <mkb-page-top
+    :breadcrumbs="breadcrumbs"
+    title="Аналоговая цветная камера TS-10202T"
+  ></mkb-page-top>
+
+  <mkb-detail-hero></mkb-detail-hero>
+
+  <mkb-similar-products>
+    <span slot="title" webc:nokeep>
+      Похожие товары
+    </span>
+    <mkb-button slot="button" href="/catalog" class="button--outline button--outline-gray similar-products__button">Вернуться в каталог</mkb-button>
+  </mkb-similar-products>
+
+  <mkb-services :services="services"></mkb-services>
+
+  <mkb-possible-solutions title="Посмотрите примеры решений, где использован этот товар"></mkb-possible-solutions>
+
+  <mkb-callback title="Оставьте заявку и наш специалист ответит на любые вопросы по установке"></mkb-callback>
+
+  <mkb-faq faq-class="faq--2"></mkb-faq>
+</mkb-base>

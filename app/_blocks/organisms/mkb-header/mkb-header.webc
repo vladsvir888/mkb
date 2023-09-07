@@ -21,12 +21,12 @@
               </mkb-button>
             </li>
             <li class="header__item">
-              <mkb-button href="#" class="button--link header__link">
+              <mkb-button href="/" class="button--link header__link">
                 Обслуживание
               </mkb-button>
             </li>
             <li class="header__item">
-              <mkb-button href="#" class="button--link header__link">
+              <mkb-button href="/contacts" class="button--link header__link">
                 Контакты
               </mkb-button>
             </li>

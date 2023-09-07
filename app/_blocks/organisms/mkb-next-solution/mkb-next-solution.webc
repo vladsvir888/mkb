@@ -1,0 +1,8 @@
+<section class="next-solution">
+  <div class="container">
+    <h2 class="next-solution__title">
+      Посмотрите следующее решение
+    </h2>
+    <mkb-complex-solution-card complex-solution-card-class="complex-solution-card--secondary" title="Автоматизация доступа —радиочастотная идентификация" img="./app/_images/complex-solutions/01.png"></mkb-complex-solution-card>
+  </div>
+</section>

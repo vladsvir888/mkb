@@ -1,0 +1,41 @@
+.complex-solutions {
+  padding-bottom: rem(100);
+
+  &__header {
+    @include flex-center-between;
+
+    margin-bottom: rem(32);
+  }
+
+  &__pagination {
+    margin-top: rem(32);
+  }
+
+  &__links {
+    display: flex;
+    column-gap: rem(32);
+  }
+
+  &__link {
+    @include font14;
+
+    padding: rem(19) 0;
+    font-weight: 400;
+    color: var(--palette-spun-pearl);
+    border-bottom: rem(1) solid transparent;
+
+    @media (hover: hover) {
+      &:hover {
+        color: var(--palette-blue-marguerite);
+        border-bottom-color: var(--palette-blue-marguerite);
+      }
+    }
+
+    &[aria-current] {
+      color: var(--palette-blue-marguerite);
+      font-weight: 500;
+      cursor: default;
+      border-bottom-color: var(--palette-blue-marguerite);
+    }
+  }
+}

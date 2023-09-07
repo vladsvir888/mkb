@@ -1,4 +1,4 @@
-<section class="faq">
+<section class="faq" :class="faqClass || ''">
   <div class="container">
     <h2 class="faq__title">Часто задаваемые вопросы</h2>
     <sl-details class="faq__details" summary="Какие виды систем безопасности мы предлагаем?">

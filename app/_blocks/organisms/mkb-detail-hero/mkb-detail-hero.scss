@@ -1,0 +1,138 @@
+.detail-hero {
+  &__header {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: var(--gap20);
+    margin-bottom: rem(100);
+
+    > * {
+      grid-column: span 3;
+    }
+  }
+
+  &__img-wrap {
+    @include flex-center;
+
+    min-height: rem(380);
+    padding: rem(10);
+    align-self: start;
+    border-radius: var(--bdrs20);
+    background-color: var(--palette-white);
+  }
+
+  &__content {
+    @include flex-column;
+
+    align-items: flex-start;
+    margin-left: rem(12);
+  }
+
+  &__text {
+    @include font14;
+
+    max-width: rem(544);
+    margin-bottom: rem(20);
+    color: var(--palette-abbey);
+
+    > * {
+      &:not(:last-child) {
+        margin-bottom: rem(20);
+      }
+    }
+  }
+
+  &__button {
+    min-width: rem(281);
+    margin-top: auto;
+  }
+
+  &__tabs {
+    &::part(tabs) {
+      padding-bottom: rem(20);
+      column-gap: rem(40);
+      border-bottom: none;
+    }
+  }
+
+  &__tab {
+    &::part(base) {
+      @include font24;
+
+      padding: 0;
+      font-family: inherit;
+      text-transform: uppercase;
+      color: var(--palette-french-gray);
+
+      &:focus-visible {
+        outline: rem(2) solid var(--palette-blue-marguerite);
+      }
+    }
+
+    &[active] {
+      &::part(base) {
+        color: var(--palette-cod-gray);
+        text-decoration: underline;
+        text-decoration-color: var(--palette-blue-marguerite);
+        text-underline-offset: rem(5);
+      }
+    }
+  }
+
+  &__tab-panel {
+    &::part(base) {
+      padding: rem(20) 0 0;
+    }
+  }
+
+  &__list {
+    column-count: 3;
+    column-gap: rem(56);
+  }
+
+  &__col {
+    @include flex-column;
+
+    row-gap: rem(32);
+  }
+
+  &__row {
+    @include flex-center-between;
+    @include font14;
+  }
+
+  &__term {
+    color: var(--palette-french-gray);
+  }
+
+  &__descr {
+    color: var(--palette-abbey);
+  }
+
+  &__doc {
+    @include font16;
+    @include flex-center-y;
+
+    color: var(--palette-blue-marguerite);
+
+    &:not(:last-child) {
+      margin-bottom: rem(38);
+    }
+
+    &-link {
+      display: flex;
+      margin-left: rem(152);
+    }
+
+    &-icon {
+      width: rem(24);
+      height: rem(24);
+    }
+
+    &-text {
+      padding-left: rem(32);
+      background-image: url('../assets/images/icons/file.svg');
+      background-repeat: no-repeat;
+      background-position: left center;
+    }
+  }
+}

@@ -6,7 +6,7 @@
         href: '/'
       },
       {
-        text: 'Каталог видеокамеры и видеорегистраторы',
+        text: 'Комплексные решения компании мкб',
       },
     ]
   }
@@ -14,21 +14,15 @@
 
 <mkb-base webc:nokeep>
   <mkb-page-top
-    page-top-class="page-top--catalog"
     :breadcrumbs="breadcrumbs"
-    title="Видеокамеры и видеорегистраторы"
+    title="Комплексные решения компании МКБ"
   ></mkb-page-top>
 
-  <mkb-catalog></mkb-catalog>
+  <mkb-complex-solutions></mkb-complex-solutions>
 
-  <mkb-callback title="Возникли вопросы? Оставьте данные и&nbsp;мы с Вами свяжемся"></mkb-callback>
+  <mkb-callback title="Оставьте заявку и мы предложим решение для вас"></mkb-callback>
 
-  <mkb-callback-banner callback-banner-class="callback-banner--without-mb" top-title="true">
-    <span slot="heading" webc:nokeep>Компания МКБ осуществляет работу с системами видеонаблюдения под ключ. Подробнее об этапах работы</span>
-    <mkb-button slot="button" class="button--white callback-banner__button" @is-button="true">Ознакомиться с процессом</mkb-button>
-  </mkb-callback-banner>
-
-  <div class="text-block text-block--2">
+  <div class="text-block">
     <p>
       Задачами традиционной системы видеонаблюдения являются трансляция картинки в режиме реального времени и создание и хранение архива записи. Таким образом, система видеонаблюдения служит для фиксации и хранения массива данных без возможности аналитики по параметрам. Работа с массивом данных требует много временных и трудовых ресурсов для анализа и определения необходимых моментов, а в условиях наличия множества потоков - нет возможности моментально реагировать на нарушения или злоупотребления.
     </p>
@@ -43,5 +37,8 @@
     </p>
   </div>
 
-  <mkb-faq></mkb-faq>
+  <mkb-callback-banner>
+    <span slot="heading" webc:nokeep>Компания мкб реализовала большое количество реальных комплексных проектов</span>
+    <mkb-button slot="button" class="button--white callback-banner__button" @is-button="true">Ознакомиться с процессом</mkb-button>
+  </mkb-callback-banner>
 </mkb-base>

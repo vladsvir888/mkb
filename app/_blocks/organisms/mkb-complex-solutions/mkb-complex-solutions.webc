@@ -1,0 +1,33 @@
+<section class="complex-solutions">
+  <div class="container">
+    <div class="complex-solutions__header">
+      <div class="complex-solutions__links">
+        <mkb-button aria-current="page" class="complex-solutions__link">
+          Все
+        </mkb-button>
+        <mkb-button href="#" class="complex-solutions__link">
+          Больницы
+        </mkb-button>
+        <mkb-button href="#" class="complex-solutions__link">
+          Офисы
+        </mkb-button>
+        <mkb-button href="#" class="complex-solutions__link">
+          Категория 3
+        </mkb-button>
+        <mkb-button href="#" class="complex-solutions__link">
+          Категория 4
+        </mkb-button>
+        <mkb-button href="#" class="complex-solutions__link">
+          Категория 5
+        </mkb-button>
+      </div>
+      <mkb-select></mkb-select>
+    </div>
+    <mkb-complex-solution-card complex-solution-card-class="complex-solution-card--secondary" title="Установка системы видеонаблюдения в офисе" img="./app/_images/complex-solutions/01.png"></mkb-complex-solution-card>
+    <mkb-complex-solution-card complex-solution-card-class="complex-solution-card--secondary" title="Автоматизация доступа — радиочастотная идентификация" img="./app/_images/complex-solutions/02.png"></mkb-complex-solution-card>
+    <mkb-complex-solution-card complex-solution-card-class="complex-solution-card--secondary" title="Автоматизация доступа — радиочастотная идентификация" img="./app/_images/complex-solutions/03.png"></mkb-complex-solution-card>
+    <mkb-complex-solution-card complex-solution-card-class="complex-solution-card--secondary" title="Установка системы видеонаблюдения в офисе" img="./app/_images/complex-solutions/04.png"></mkb-complex-solution-card>
+    <mkb-complex-solution-card complex-solution-card-class="complex-solution-card--secondary" title="Автоматизация доступа — радиочастотная идентификация" img="./app/_images/complex-solutions/05.png"></mkb-complex-solution-card>
+    <mkb-pagination pagination-class="complex-solutions__pagination"></mkb-pagination>
+  </div>
+</section>

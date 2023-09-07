@@ -11,7 +11,7 @@
     },
     {
       title: {
-        href: '#',
+        href: '/turnkey-videoanalytics',
         text: 'Шлагбаумы и дорожные блокираторы “под ключ”'
       },
       image: {
@@ -20,7 +20,7 @@
     },
     {
       title: {
-        href: '#',
+        href: '/turnkey-videoanalytics',
         text: 'Системы контроля и управления доступом СКУД'
       },
       image: {
@@ -29,7 +29,7 @@
     },
     {
       title: {
-        href: '#',
+        href: '/turnkey-videoanalytics',
         text: 'Турникеты, ограждения, системы управления'
       },
       image: {
@@ -38,7 +38,7 @@
     },
     {
       title: {
-        href: '#',
+        href: '/turnkey-videoanalytics',
         text: 'Учет рабочего времени и биометрический контроль доступа'
       },
       image: {
@@ -47,7 +47,7 @@
     },
     {
       title: {
-        href: '#',
+        href: '/turnkey-videoanalytics',
         text: 'Автоматизация доступа, пропускных систем, системы оплаты'
       },
       image: {
@@ -56,7 +56,7 @@
     },
     {
       title: {
-        href: '#',
+        href: '/turnkey-videoanalytics',
         text: 'Автоматические парковочные системы со взиманием платежей'
       },
       image: {
@@ -65,7 +65,7 @@
     },
     {
       title: {
-        href: '#',
+        href: '/turnkey-videoanalytics',
         text: 'Программное обеспечение для СКУД'
       },
       image: {
@@ -74,7 +74,7 @@
     },
     {
       title: {
-        href: '#',
+        href: '/turnkey-videoanalytics',
         text: 'Оснащение парковки и паркинга, средства ОДД '
       },
       image: {
@@ -83,7 +83,7 @@
     },
     {
       title: {
-        href: '#',
+        href: '/turnkey-videoanalytics',
         text: 'Системы аналоговой и IP домофонии'
       },
       image: {

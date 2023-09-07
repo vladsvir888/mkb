@@ -26,6 +26,7 @@
       left: rem(30);
       min-width: rem(69);
       min-height: rem(54);
+      flex-shrink: 0;
       border: rem(1) solid currentcolor;
       border-radius: var(--bdrs30);
       counter-increment: list;
@@ -44,6 +45,8 @@
   }
 
   &__img {
+    height: 100%;
+    object-fit: cover;
     border-top-right-radius: var(--bdrs20);
     border-bottom-right-radius: var(--bdrs20);
   }

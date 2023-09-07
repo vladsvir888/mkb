@@ -21,6 +21,15 @@
       border-top-right-radius: var(--bdrs20);
       border-bottom-right-radius: var(--bdrs20);
     }
+
+    #{$this}__content {
+      max-width: rem(640);
+      padding: rem(30);
+    }
+
+    #{$this}__button {
+      min-width: rem(146);
+    }
   }
 
   &__img-wrap {
@@ -49,7 +58,7 @@
   &__text {
     @include font14;
 
-    margin-bottom: rem(39);
+    margin-bottom: rem(20);
     color: var(--palette-ship-gray);
 
     > * {

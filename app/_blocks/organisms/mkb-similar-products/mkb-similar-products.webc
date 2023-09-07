@@ -1,0 +1,48 @@
+<script webc:setup>
+  const cards = [
+    {
+      title: 'IP видеокамера HIKVISION DS-2CD4A24FWD-IZHS (4.7-94 mm)',
+      img: './app/_images/catalog/01.png'
+    },
+    {
+      title: 'IP видеокамера HIKVISION DS-2CD2342FWD-I (2.8мм / 4мм)',
+      img: './app/_images/catalog/02.png'
+    },
+    {
+      title: 'IP видеокамера FE-SD6580-HN',
+      img: './app/_images/catalog/03.png'
+    },
+    {
+      title: 'IP видеокамера HIKVISION DS-2CD2642FWD-I',
+      img: './app/_images/catalog/04.png'
+    },
+  ]
+</script>
+
+<section class="similar-products" :class="similarProductsClass || ''">
+  <div class="container">
+    <div class="similar-products__header">
+      <h2 class="similar-products__title">
+        <slot name="title"></slot>
+      </h2>
+      <slot name="button"></slot>
+    </div>
+    <div class="similar-products__links" webc:if="similarProductsLinks">
+      <mkb-button aria-current="page" class="similar-products__link">
+        Все
+      </mkb-button>
+      <mkb-button href="#" class="similar-products__link">
+        Видеокамеры и видеоаналитика
+      </mkb-button>
+      <mkb-button href="#" class="similar-products__link">
+        Прочее оборудование для видеонаблюдения
+      </mkb-button>
+      <mkb-button href="#" class="similar-products__link">
+        Кабель и монтажные материалы
+      </mkb-button>
+    </div>
+    <div class="similar-products__grid">
+      <mkb-product-card webc:for="card of cards" :card="card"></mkb-product-card>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,12 @@
+<sl-select class="select" value="option-1">
+  <sl-option class="select__option" value="option-1">Системы видеонаблюдения “под ключ”</sl-option>
+  <sl-option class="select__option" value="option-2">Шлагбаумы и дорожные блокираторы “под ключ”</sl-option>
+  <sl-option class="select__option" value="option-3">Системы контроля и управления доступом СКУД</sl-option>
+  <sl-option class="select__option" value="option-4">Турникеты, ограждения, системы управления</sl-option>
+  <sl-option class="select__option" value="option-5">Учет рабочего времени и биометрический контроль доступа</sl-option>
+  <sl-option class="select__option" value="option-6">Автоматизация доступа, пропускных систем, системы оплаты</sl-option>
+  <sl-option class="select__option" value="option-7">Автоматические парковочные системы со взиманием платежей</sl-option>
+  <sl-option class="select__option" value="option-8">Программное обеспечение для СКУД</sl-option>
+  <sl-option class="select__option" value="option-9">Оснащение парковки и паркинга, средства ОДД </sl-option>
+  <sl-option class="select__option" value="option-10">Системы аналоговой и IP домофонии</sl-option>
+</sl-select>

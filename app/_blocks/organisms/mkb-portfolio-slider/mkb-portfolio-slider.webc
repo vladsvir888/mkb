@@ -11,7 +11,7 @@
             <mkb-icon class="portfolio-slider-block__icon" @type="multi" @name="arrow-right"></mkb-icon>
           </mkb-button>
         </div>
-        <mkb-button class="button--outline button--outline-gray portfolio-slider-block__link" href="#">Посмотреть все работы</mkb-button>
+        <mkb-button class="button--outline button--outline-gray portfolio-slider-block__link" href="/portfolio">Посмотреть все работы</mkb-button>
       </div>
     </div>
   </div>

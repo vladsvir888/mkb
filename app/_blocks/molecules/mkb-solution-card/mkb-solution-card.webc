@@ -1,5 +1,5 @@
 <article class="solution-card" :class="classCard ? classCard : ''">
-  <a class="solution-card__link" href="#">
+  <a class="solution-card__link" href="/complex-solutions/detail-complex-solutions">
     <eleventy-image class="solution-card__img" :src="src" :alt="alt" loading="lazy"></eleventy-image>
   </a>
   <div class="solution-card__content">

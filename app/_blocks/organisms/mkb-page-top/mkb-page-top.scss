@@ -2,11 +2,27 @@
   $this: &;
 
   padding: rem(136) 0 rem(60);
-  background-color: var(--palette-athens-gray);
 
   &--turnkey-videoanalytics {
     #{$this}__title {
       max-width: rem(684);
+    }
+  }
+
+  &--catalog {
+    position: relative;
+
+    &::before {
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: -1;
+      width: rem(433);
+      height: rem(1184);
+      background-image: url('../assets/images/decorative-element/catalog.svg');
+      background-repeat: no-repeat;
+      background-position: right top;
+      content: '';
     }
   }
 

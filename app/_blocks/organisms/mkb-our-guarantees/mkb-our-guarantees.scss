@@ -26,13 +26,14 @@
   }
 
   &__img {
+    height: 100%;
+    object-fit: cover;
     border-radius: var(--bdrs10);
   }
 
   &__info {
     @include flex-between;
 
-    align-items: flex-start; // **
     column-gap: rem(40);
     padding: rem(10);
     background-color: var(--palette-athens-gray);

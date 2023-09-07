@@ -2,7 +2,7 @@
   <div class="container">
     <div class="solutions__header">
       <h2 class="solutions__title">Решения которые мы готовы реализовать</h2>
-      <mkb-button class="button--outline button--outline-gray solutions__link" href="#">Посмотреть все решения</mkb-button>
+      <mkb-button class="button--outline button--outline-gray solutions__link" href="/complex-solutions">Посмотреть все решения</mkb-button>
     </div>
     <div class="solutions__grid">
       <div class="solutions__item">

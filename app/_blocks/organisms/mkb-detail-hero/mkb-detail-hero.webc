@@ -1,0 +1,158 @@
+<section class="detail-hero">
+  <div class="container">
+    <div class="detail-hero__header">
+      <div class="detail-hero__img-wrap">
+        <eleventy-image class="detail-hero__img" src="./app/_images/detail-catalog/01.png" alt=""></eleventy-image>
+      </div>
+      <div class="detail-hero__content">
+        <div class="detail-hero__text">
+          <p>
+            Камера аналоговой цветной модели TS-10202T – это передовое устройство, предназначенное для обеспечения системы видеонаблюдения высокого качества. Ее конструкция и функциональные характеристики разработаны с учетом последних тенденций в области технологий видеонаблюдения и строгих требований к безопасности. Эта камера представляет собой надежное и эффективное решение, способное обеспечить оптимальную видимость и надежный контроль в самых разнообразных ситуациях.
+          </p>
+        </div>
+        <mkb-button class="button--purple detail-hero__button" @is-button="true">Оставить заявку</mkb-button>
+      </div>
+    </div>
+
+    <sl-tab-group class="detail-hero__tabs">
+      <sl-tab class="detail-hero__tab" slot="nav" panel="spec_product">Характеристики товара</sl-tab>
+      <sl-tab class="detail-hero__tab" slot="nav" panel="doc_product">Документация</sl-tab>
+
+      <sl-tab-panel class="detail-hero__tab-panel" name="spec_product">
+        <dl class="detail-hero__list">
+          <div class="detail-hero__col">
+            <div class="detail-hero__row">
+              <dt class="detail-hero__term">
+                Функция день/ночь
+              </dt>
+              <dd class="detail-hero__descr">
+                есть
+              </dd>
+            </div>
+            <div class="detail-hero__row">
+              <dt class="detail-hero__term">
+                Матрица
+              </dt>
+              <dd class="detail-hero__descr">
+                1/3” SONY CCD + nextchip2040
+              </dd>
+            </div>
+            <div class="detail-hero__row">
+              <dt class="detail-hero__term">
+                Разрешение
+              </dt>
+              <dd class="detail-hero__descr">
+                600 ТВЛ
+              </dd>
+            </div>
+            <div class="detail-hero__row">
+              <dt class="detail-hero__term">
+                Чувствительность
+              </dt>
+              <dd class="detail-hero__descr">
+                0,01 лк при ИК выкл
+              </dd>
+            </div>
+          </div>
+
+          <div class="detail-hero__col">
+            <div class="detail-hero__row">
+              <dt class="detail-hero__term">
+                Объектив
+              </dt>
+              <dd class="detail-hero__descr">
+                f= 2,8-12 мм.
+              </dd>
+            </div>
+            <div class="detail-hero__row">
+              <dt class="detail-hero__term">
+                Питание
+              </dt>
+              <dd class="detail-hero__descr">
+                DC12В/400mA
+              </dd>
+            </div>
+            <div class="detail-hero__row">
+              <dt class="detail-hero__term">
+                Дальность подсветки
+              </dt>
+              <dd class="detail-hero__descr">
+                30 метров
+              </dd>
+            </div>
+            <div class="detail-hero__row">
+              <dt class="detail-hero__term">
+                Степень защиты IP
+              </dt>
+              <dd class="detail-hero__descr">
+                IP-66
+              </dd>
+            </div>
+          </div>
+
+          <div class="detail-hero__col">
+            <div class="detail-hero__row">
+              <dt class="detail-hero__term">
+                Функция день/ночь
+              </dt>
+              <dd class="detail-hero__descr">
+                есть
+              </dd>
+            </div>
+            <div class="detail-hero__row">
+              <dt class="detail-hero__term">
+                Матрица
+              </dt>
+              <dd class="detail-hero__descr">
+                1/3” SONY CCD + nextchip2040
+              </dd>
+            </div>
+            <div class="detail-hero__row">
+              <dt class="detail-hero__term">
+                Разрешение
+              </dt>
+              <dd class="detail-hero__descr">
+                600 ТВЛ
+              </dd>
+            </div>
+            <div class="detail-hero__row">
+              <dt class="detail-hero__term">
+                Чувствительность
+              </dt>
+              <dd class="detail-hero__descr">
+                0,01 лк при ИК выкл
+              </dd>
+            </div>
+          </div>
+        </dl>
+      </sl-tab-panel>
+      <sl-tab-panel class="detail-hero__tab-panel" name="doc_product">
+        <div class="detail-hero__doc">
+          <div class="detail-hero__doc-text">
+            Документация по продукт.pdf
+          </div>
+          <mkb-button class="detail-hero__doc-link" href="/assets/1.pdf" aria-label="Скачать документ" download>
+            <mkb-icon class="detail-hero__doc-icon" @type="multi" @name="download"></mkb-icon>
+          </mkb-button>
+        </div>
+        <div class="detail-hero__doc">
+          <div class="detail-hero__doc-text">
+            Документация по продукт.pdf
+          </div>
+          <mkb-button class="detail-hero__doc-link" href="/assets/1.pdf" aria-label="Скачать документ" download>
+            <mkb-icon class="detail-hero__doc-icon" @type="multi" @name="download"></mkb-icon>
+          </mkb-button>
+        </div>
+      </sl-tab-panel>
+    </sl-tab-group>
+
+    <div class="text-block">
+      <p>
+        Задачами традиционной системы видеонаблюдения являются трансляция картинки в режиме реального времени и создание и хранение архива записи. Таким образом, система видеонаблюдения служит для фиксации и хранения массива данных без возможности аналитики по параметрам. Работа с массивом данных требует много временных и трудовых ресурсов для анализа и определения необходимых моментов, а в условиях наличия множества потоков - нет возможности моментально реагировать на нарушения или злоупотребления.
+      </p>
+      <P>
+        Множество задач различного направления призвана решать система видео аналитики, базирующаяся на нейросетях, системах машинного зрения.
+      </P>
+    </div>
+  </div>
+</section>

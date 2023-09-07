@@ -3,10 +3,14 @@
   background-color: var(--palette-white);
 
   &__banner {
-    position: relative;
     display: grid;
     color: var(--palette-white);
     margin-bottom: rem(40);
+  }
+
+  &__img-wrap {
+    position: relative;
+    grid-area: 1 / 2;
 
     &::before {
       position: absolute;
@@ -15,10 +19,6 @@
       border-radius: var(--bdrs20);
       content: '';
     }
-  }
-
-  &__img-wrap {
-    grid-area: 1 / 2;
   }
 
   &__img {

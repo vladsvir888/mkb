@@ -1,0 +1,58 @@
+.select {
+  width: rem(550);
+
+  &::part(combobox) {
+    --sl-focus-ring-width: #{rem(1)};
+    --sl-input-focus-ring-color: var(--palette-blue-marguerite);
+
+    @include font14;
+
+    padding: rem(19) 0;
+    font-family: inherit;
+    font-weight: 400;
+    background-color: transparent;
+    border: none;
+    border-bottom: rem(1) solid var(--palette-cod-gray);
+    border-radius: 0;
+  }
+
+  &::part(display-input) {
+    color: var(--palette-abbey);
+  }
+
+  &::part(listbox) {
+    margin-top: rem(8);
+    padding: 0;
+    background-color: var(--palette-white);
+    border-radius: var(--bdrs20);
+    box-shadow: 0 rem(20) rem(40) rem(-10) rgba(69, 66, 110, 0.25);
+    border: none;
+  }
+
+  &__option {
+    &::part(base) {
+      @include font14;
+
+      --sl-color-primary-600: var(--palette-athens-gray);
+
+      font-family: var(--font-primary);
+      font-weight: 400;
+      padding: rem(19) rem(16);
+      color: var(--palette-abbey);
+    }
+
+    &::part(checked-icon) {
+      display: none;
+    }
+
+    &[aria-selected="true"] {
+      &::part(base) {
+        background-color: var(--palette-athens-gray);
+      }
+    }
+
+    &:focus-visible {
+      outline: none;
+    }
+  }
+}

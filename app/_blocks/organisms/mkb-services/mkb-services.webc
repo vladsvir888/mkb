@@ -1,0 +1,14 @@
+<section class="services">
+  <div class="container services__container">
+    <h2 class="services__title" @text="services.title"></h2>
+    <div class="services__text" webc:if="services.isText">
+      Наши специалисты готовы помочь не только с подбором комплектующих, но и с сопровождением на любом из этапов.
+    </div>
+    <ol class="services__list">
+      <li class="services__card" webc:for="service of services.list.items">
+        <h3 class="services__card-title" @text="service.title"></h3>
+        <mkb-button href="#" class="button--outline button--outline-gray services__card-button">Узнать подробнее</mkb-button>
+      </li>
+    </ol>
+  </div>
+</section>

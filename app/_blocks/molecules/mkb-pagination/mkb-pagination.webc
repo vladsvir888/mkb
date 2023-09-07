@@ -1,4 +1,4 @@
-<nav class="pagination" aria-label="Пагинация">
+<nav class="pagination" aria-label="Пагинация" :class="paginationClass || ''">
   <mkb-button @is-button="true" class="pagination__button" aria-label="Предыдущая страница">
     <mkb-icon class="pagination__button-icon" @type="multi" @name="chevron-left"></mkb-icon>
   </mkb-button>

@@ -1,6 +1,6 @@
 <article class="category-card">
   <h3 class="category-card__title">
-    <a class="category-card__link" href="#" @text="title"></a>
+    <a class="category-card__link" href="/" @text="title"></a>
   </h3>
   <div class="category-card__img-wrap">
     <eleventy-image class="category-card__img" :src="src" alt="" loading="lazy"></eleventy-image>

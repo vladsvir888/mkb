@@ -35,7 +35,7 @@
 
   <mkb-possible-solutions possible-solutions-class="possible-solutions--without-mb possible-solutions--with-decorative" title="Посмотрите примеры возможных решений в этой области"></mkb-possible-solutions>
 
-  <div class="text-block">
+  <div class="text-block text-block--2">
     <p>
       Инновационные технологии обеспечивают надежную защиту современных шлагбаумов от неблагоприятных природных явлений
     </p>

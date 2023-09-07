@@ -27,6 +27,11 @@
     }
 
     &[aria-current] {
+      width: rem(300);
+      display: block;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
       cursor: default;
       color: var(--palette-french-gray);
     }

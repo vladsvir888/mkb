@@ -51,7 +51,7 @@
   ]
 </script>
 
-<div class="catalog">
+<section class="catalog">
   <div class="container">
     <mkb-search search-class="catalog__search"></mkb-search>
 
@@ -159,4 +159,4 @@
       </div>
     </div>
   </div>
-</div>
+</section>

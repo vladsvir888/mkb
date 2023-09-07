@@ -1,0 +1,62 @@
+.services {
+  padding: rem(50) 0 rem(100);
+
+  &__container {
+    @include flex-column;
+
+    row-gap: rem(48);
+  }
+
+  &__title {
+    @include font56;
+
+    max-width: rem(1235);
+    color: var(--palette-abbey);
+  }
+
+  &__text {
+    @include font16;
+
+    max-width: rem(552);
+    color: var(--palette-abbey);
+  }
+
+  &__list {
+    @include flex-column;
+
+    counter-reset: num-list;
+    row-gap: var(--gap20);
+  }
+
+  &__card {
+    @include flex-center-y;
+
+    padding: rem(30);
+    background-color: var(--palette-white);
+    border-radius: var(--bdrs20);
+
+    &-title {
+      @include flex-center-y;
+      @include font36;
+
+      column-gap: rem(48);
+
+      &::before {
+        @include font36;
+        @include flex-center;
+
+        min-width: rem(69);
+        min-height: rem(54);
+        flex-shrink: 0;
+        border: rem(1) solid currentcolor;
+        border-radius: var(--bdrs30);
+        counter-increment: num-list;
+        content: counter(num-list, decimal-leading-zero);
+      }
+    }
+
+    &-button {
+      margin-left: auto;
+    }
+  }
+}

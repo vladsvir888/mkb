@@ -9,6 +9,13 @@ import '@shoelace-style/shoelace/dist/components/details/details.js';
 import changeColorHeader from '../_blocks/organisms/mkb-header/mkb-header';
 // eslint-disable-next-line no-unused-vars
 import MkbRangeSlider from '../_blocks/molecules/mkb-range-slider/mkb-range-slider';
+import '@shoelace-style/shoelace/dist/components/tab-group/tab-group.js';
+import '@shoelace-style/shoelace/dist/components/tab/tab.js';
+import '@shoelace-style/shoelace/dist/components/tab-panel/tab-panel.js';
+import '@shoelace-style/shoelace/dist/components/select/select.js';
+import '@shoelace-style/shoelace/dist/components/option/option.js';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import '@justinribeiro/lite-youtube';
 
 register();
 
