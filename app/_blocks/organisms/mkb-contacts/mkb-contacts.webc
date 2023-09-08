@@ -1,0 +1,36 @@
+<script webc:setup>
+  const panelLinks = {
+    items: [
+      {
+        text: 'О компании',
+        href: '/about'
+      },
+      {
+        text: 'Блог',
+        href: '/blog'
+      },
+      {
+        text: 'Контакты',
+        isCurrent: true
+      }
+    ]
+  }
+</script>
+
+<div class="contacts">
+  <div class="container contacts__container">
+    <mkb-panel-links :panel-links="panelLinks"></mkb-panel-links>
+    <div class="contacts__address">
+      <mkb-button class="button--link contacts__phone" href="tel:+375445735357">+375 (44) 57-353-57</mkb-button>
+      <mkb-button class="button--link contacts__phone" href="tel:+375175016404">+375 (17) 501-64-04</mkb-button>
+      <div class="contacts__text">
+        ООО "ФорматЛайн" УНП 191853402, <br> 223016, Минский р-н, Новодворский <br> с/с, аг. Новый Двор, ул. Новая, 12
+      </div>
+      <mkb-button class="button--link contacts__email" href="mailto:info@mkb.by">info@mkb.by</mkb-button>
+      <mkb-button class="button--link contacts__insta" href="https://www.instagram.com/" target="_blank">instagram</mkb-button>
+    </div>
+    <div class="contacts__map">
+      <eleventy-image src="./app/_images/map/02.png" class="contacts__map-img" alt=""></eleventy-image>
+    </div>
+  </div>
+</div>

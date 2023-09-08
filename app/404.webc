@@ -1,0 +1,7 @@
+---
+permalink: 404.html
+---
+
+<mkb-base webc:nokeep>
+  <mkb-not-found></mkb-not-found>
+</mkb-base>

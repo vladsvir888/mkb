@@ -1,0 +1,103 @@
+<script webc:setup>
+  const panelLinks = {
+    class: 'blog__panel-links',
+    items: [
+      {
+        text: 'О компании',
+        href: '/about'
+      },
+      {
+        text: 'Блог',
+        isCurrent: true
+      },
+      {
+        text: 'Контакты',
+        href: '/contacts'
+      }
+    ]
+  }
+</script>
+
+<section class="blog">
+  <div class="container blog__container">
+    <mkb-panel-links :panel-links="panelLinks"></mkb-panel-links>
+    <div class="blog__content">
+      <mkb-header-with-select></mkb-header-with-select>
+      <div class="blog__grid">
+        <article class="blog__card">
+          <eleventy-image class="blog__card-img" src="./app/_images/blog-grid/01.png" alt=""></eleventy-image>
+          <time class="blog__card-time" datetime="2023-08-14">14.08.2023</time>
+          <h2 class="blog__card-title">
+            <mkb-button class="button--link blog__card-link" href="/blog/detail">Как современные шлагбаумы защищены от неблагоприятных природных явлений?</mkb-button>
+          </h2>
+          <div class="blog__card-text">Задачами традиционной системы видеонаблюдения являются трансляция картинки в режиме реального времени и создание и хранение архива записи.</div>
+        </article>
+        <article class="blog__card">
+          <eleventy-image class="blog__card-img" src="./app/_images/blog-grid/02.png" alt="" loading="lazy"></eleventy-image>
+          <time class="blog__card-time" datetime="2023-08-14">14.08.2023</time>
+          <h2 class="blog__card-title">
+            <mkb-button class="button--link blog__card-link" href="/blog/detail">Как современные шлагбаумы защищены от неблагоприятных природных явлений?</mkb-button>
+          </h2>
+          <div class="blog__card-text">Задачами традиционной системы видеонаблюдения являются трансляция картинки в режиме реального времени и создание и хранение архива записи. </div>
+        </article>
+        <article class="blog__card">
+          <eleventy-image class="blog__card-img" src="./app/_images/blog-grid/03.png" alt="" loading="lazy"></eleventy-image>
+          <time class="blog__card-time" datetime="2023-08-14">14.08.2023</time>
+          <h2 class="blog__card-title">
+            <mkb-button class="button--link blog__card-link" href="/blog/detail">Как современные шлагбаумы защищены от неблагоприятных природных явлений?</mkb-button>
+          </h2>
+          <div class="blog__card-text">Задачами традиционной системы видеонаблюдения являются трансляция картинки в режиме реального времени и создание и хранение архива записи. </div>
+        </article>
+        <article class="blog__card">
+          <eleventy-image class="blog__card-img" src="./app/_images/blog-grid/04.png" alt="" loading="lazy"></eleventy-image>
+          <time class="blog__card-time" datetime="2023-08-14">14.08.2023</time>
+          <h2 class="blog__card-title">
+            <mkb-button class="button--link blog__card-link" href="/blog/detail">Как современные шлагбаумы защищены от неблагоприятных природных явлений?</mkb-button>
+          </h2>
+          <div class="blog__card-text">Задачами традиционной системы видеонаблюдения являются трансляция картинки в режиме реального времени и создание и хранение архива записи. </div>
+        </article>
+        <article class="blog__card">
+          <eleventy-image class="blog__card-img" src="./app/_images/blog-grid/05.png" alt="" loading="lazy"></eleventy-image>
+          <time class="blog__card-time" datetime="2023-08-14">14.08.2023</time>
+          <h2 class="blog__card-title">
+            <mkb-button class="button--link blog__card-link" href="/blog/detail">Как современные шлагбаумы защищены от неблагоприятных природных явлений?</mkb-button>
+          </h2>
+          <div class="blog__card-text">Задачами традиционной системы видеонаблюдения являются трансляция картинки в режиме реального времени и создание и хранение архива записи. </div>
+        </article>
+        <article class="blog__card">
+          <eleventy-image class="blog__card-img" src="./app/_images/blog-grid/06.png" alt="" loading="lazy"></eleventy-image>
+          <time class="blog__card-time" datetime="2023-08-14">14.08.2023</time>
+          <h2 class="blog__card-title">
+            <mkb-button class="button--link blog__card-link" href="/blog/detail">Как современные шлагбаумы защищены от неблагоприятных природных явлений?</mkb-button>
+          </h2>
+          <div class="blog__card-text">Задачами традиционной системы видеонаблюдения являются трансляция картинки в режиме реального времени и создание и хранение архива записи. </div>
+        </article>
+        <article class="blog__card">
+          <eleventy-image class="blog__card-img" src="./app/_images/blog-grid/07.png" alt="" loading="lazy"></eleventy-image>
+          <time class="blog__card-time" datetime="2023-08-14">14.08.2023</time>
+          <h2 class="blog__card-title">
+            <mkb-button class="button--link blog__card-link" href="/blog/detail">Как современные шлагбаумы защищены от неблагоприятных природных явлений?</mkb-button>
+          </h2>
+          <div class="blog__card-text">Задачами традиционной системы видеонаблюдения являются трансляция картинки в режиме реального времени и создание и хранение архива записи. </div>
+        </article>
+        <article class="blog__card">
+          <eleventy-image class="blog__card-img" src="./app/_images/blog-grid/08.png" alt="" loading="lazy"></eleventy-image>
+          <time class="blog__card-time" datetime="2023-08-14">14.08.2023</time>
+          <h2 class="blog__card-title">
+            <mkb-button class="button--link blog__card-link" href="/blog/detail">Как современные шлагбаумы защищены от неблагоприятных природных явлений?</mkb-button>
+          </h2>
+          <div class="blog__card-text">Задачами традиционной системы видеонаблюдения являются трансляция картинки в режиме реального времени и создание и хранение архива записи. </div>
+        </article>
+        <article class="blog__card">
+          <eleventy-image class="blog__card-img" src="./app/_images/blog-grid/09.png" alt="" loading="lazy"></eleventy-image>
+          <time class="blog__card-time" datetime="2023-08-14">14.08.2023</time>
+          <h2 class="blog__card-title">
+            <mkb-button class="button--link blog__card-link" href="/blog/detail">Как современные шлагбаумы защищены от неблагоприятных природных явлений?</mkb-button>
+          </h2>
+          <div class="blog__card-text">Задачами традиционной системы видеонаблюдения являются трансляция картинки в режиме реального времени и создание и хранение архива записи. </div>
+        </article>
+      </div>
+      <mkb-pagination></mkb-pagination>
+    </div>
+  </div>
+</section>

@@ -12,9 +12,12 @@
   }
 </script>
 
-<mkb-base webc:nokeep>
+<mkb-base
+  webc:nokeep
+  is-footer="true"
+>
   <mkb-page-top
-    page-top-class="page-top--catalog"
+    page-top-class="page-top--decorative"
     :breadcrumbs="breadcrumbs"
     title="Видеокамеры и видеорегистраторы"
   ></mkb-page-top>

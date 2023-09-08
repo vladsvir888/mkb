@@ -1,0 +1,8 @@
+<section class="location">
+  <div class="container">
+    <h2 class="location__title" webc:if="title">
+      Где нас найти?
+    </h2>
+  </div>
+  <eleventy-image class="location__img" src="./app/_images/map/01.png" alt=""></eleventy-image>
+</section>

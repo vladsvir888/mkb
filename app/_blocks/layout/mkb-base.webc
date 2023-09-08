@@ -26,6 +26,6 @@
   <main class="main">
     <slot></slot>
   </main>
-  <mkb-footer></mkb-footer>
+  <mkb-footer :is-footer="isFooter"></mkb-footer>
 </body>
 </html>

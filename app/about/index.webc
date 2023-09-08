@@ -1,0 +1,61 @@
+<script webc:setup>
+  const header = {
+    class: "header--without-bg"
+  }
+
+  const services = {
+    title: 'Работаем со следующими направлениями',
+    list: {
+      items: [
+        {
+          title: 'Установка систем видеонаблюдения и видеоаналитики'
+        },
+        {
+          title: 'Шлагбаумы'
+        },
+        {
+          title: 'Системы контроля и управления доступом'
+        },
+        {
+          title: 'Турникеты, ограждения, системы управления'
+        },
+        {
+          title: 'Программы для скуд'
+        },
+      ]
+    }
+  }
+
+  const breadcrumbs = {
+    class: 'js-target',
+    items: [
+      {
+        text: 'Главная',
+        href: '/'
+      },
+      {
+        text: 'О компании',
+      },
+    ]
+  }
+</script>
+
+<mkb-base
+  webc:nokeep
+  :header="header"
+  is-footer="true"
+>
+  <mkb-hero title="О компании МКБ" :breadcrumbs="breadcrumbs" content="true"></mkb-hero>
+
+  <mkb-about></mkb-about>
+
+  <mkb-services :services="services"></mkb-services>
+
+  <mkb-callback callback-class="callback--with-mb" title="Возник вопрос? Оставьте заявку <br> и мы с Вами свяжемся"></mkb-callback>
+
+  <mkb-our-guarantees is-four-item="true"></mkb-our-guarantees>
+
+  <mkb-team-professionals team-professionals-class="team-professionals--gray" is-pretitle="true" is-icon-list="true"></mkb-team-professionals>
+
+  <mkb-location title="Где нас найти?"></mkb-location>
+</mkb-base>

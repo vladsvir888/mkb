@@ -19,16 +19,18 @@
     row-gap: rem(20);
   }
 
-  &__phone {
-    @include font24;
-  }
-
   &__address {
     @include flex-column;
     @include font14;
 
     grid-column: span 3;
     margin-left: rem(75);
+  }
+
+  &__phone {
+    @include font24;
+
+    margin-bottom: rem(16);
   }
 
   &__email {
@@ -39,10 +41,6 @@
   &__text {
     margin-bottom: rem(50);
     margin-top: rem(20);
-  }
-
-  &__phone {
-    margin-bottom: rem(16);
   }
 
   &__info {

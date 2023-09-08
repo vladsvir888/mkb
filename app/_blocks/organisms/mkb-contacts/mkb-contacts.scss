@@ -1,0 +1,38 @@
+.contacts {
+  padding-bottom: rem(70);
+
+  &__container {
+    @include flex-between;
+
+    gap: rem(20);
+  }
+
+  &__address {
+    @include flex-column;
+    @include font14;
+
+    color: var(--palette-ship-gray);
+  }
+
+  &__phone {
+    @include font24;
+
+    margin-bottom: rem(16);
+  }
+
+  &__text {
+    margin: rem(27) 0 rem(43);
+  }
+
+  &__email {
+    margin-bottom: rem(20);
+  }
+
+  &__map {
+    border-radius: var(--bdrs12);
+
+    &-map-img {
+      border-radius: inherit;
+    }
+  }
+}

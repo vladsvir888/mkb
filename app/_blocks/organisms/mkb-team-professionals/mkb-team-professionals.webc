@@ -1,34 +1,75 @@
-<section class="team-professionals">
+<section class="team-professionals" :class="teamProfessionalsClass || ''">
   <div class="container">
+    <h2 class="team-professionals__pretitle" webc:if="isPretitle">
+      Наш инженерно-технический состав
+    </h2>
     <div class="team-professionals__banner">
       <div class="team-professionals__img-wrap">
         <eleventy-image class="team-professionals__img" src="./app/_images/banner/01.png" alt="" loading="lazy"></eleventy-image>
       </div>
-      <div class="team-professionals__content">
+      <div class="team-professionals__content" webc:if="isContent">
         <h2 class="team-professionals__title">
           С вами работает команда профессионалов
         </h2>
         <mkb-button class="button--outline button--outline-white team-professionals__button" href="/about">Подробнее о нас</mkb-button>
       </div>
     </div>
-    <ul class="team-professionals__list">
+    <ul class="team-professionals__list" webc:if="isList">
       <li class="team-professionals__list-item">
-        Опыт сложных проектов
+        <p>
+          Опыт сложных проектов
+        </p>
       </li>
       <li class="team-professionals__list-item">
-        Оперативность выполнения поставленных задач
+        <p>
+          Оперативность выполнения поставленных задач
+        </p>
       </li>
       <li class="team-professionals__list-item">
-        Комплексная автоматизация объекта
+        <p>
+          Комплексная автоматизация объекта
+        </p>
       </li>
       <li class="team-professionals__list-item">
-        Ориентация на клиента
+        <p>
+          Ориентация на клиента
+        </p>
       </li>
       <li class="team-professionals__list-item">
-        Гарантия качества
+        <p>
+          Гарантия качества
+        </p>
       </li>
       <li class="team-professionals__list-item">
-        Гарантийное и&nbsp;постгарантийное обслуживание
+        <p>
+          Гарантийное и постгарантийное обслуживание
+        </p>
+      </li>
+    </ul>
+    <ul class="team-professionals__icon-list" webc:if="isIconList">
+      <li class="team-professionals__icon-item">
+        <mkb-icon class="team-professionals__icon" @type="multi" @name="advantages-1"></mkb-icon>
+        <div class="team-professionals__icon-text">
+          Более 20 лет опыта работы
+        </div>
+      </li>
+      <li class="team-professionals__icon-item">
+        <mkb-icon class="team-professionals__icon" @type="multi" @name="advantages-2"></mkb-icon>
+        <div class="team-professionals__icon-text">
+          Cертификаты и награды
+        </div>
+      </li>
+      <li class="team-professionals__icon-item">
+        <mkb-icon class="team-professionals__icon" @type="multi" @name="advantages-3"></mkb-icon>
+        <div class="team-professionals__icon-text">
+          Высшее образование
+        </div>
+      </li>
+      <li class="team-professionals__icon-item">
+        <mkb-icon class="team-professionals__icon" @type="multi" @name="advantages-4"></mkb-icon>
+        <div class="team-professionals__icon-text">
+          Более 100 специалистов
+        </div>
       </li>
     </ul>
   </div>

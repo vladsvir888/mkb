@@ -1,0 +1,25 @@
+.panel-links {
+  width: 17%;
+
+  &__item {
+    &:not(:last-child) {
+      margin-bottom: rem(24);
+      padding-bottom: rem(24);
+      border-bottom: rem(1) solid var(--palette-french-gray);
+    }
+  }
+
+  &__link {
+    @include font14;
+
+    display: block;
+    padding: rem(19) 0;
+    text-transform: uppercase;
+    color: var(--palette-french-gray);
+
+    &[aria-current] {
+      color: var(--palette-blue-marguerite);
+      cursor: default;
+    }
+  }
+}

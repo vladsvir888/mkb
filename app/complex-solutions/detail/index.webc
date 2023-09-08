@@ -21,10 +21,14 @@
   }
 </script>
 
-<mkb-base webc:nokeep>
+<mkb-base
+  webc:nokeep
+  is-footer="true"
+>
   <mkb-page-top
     :breadcrumbs="breadcrumbs"
     title="Автоматизация паровки. модель 3 “Оплата через платежный терминал выезд автоматический”"
+    page-top-class="page-top--decorative"
   ></mkb-page-top>
 
   <mkb-hero-inner :hero-inner="heroInner"></mkb-hero-inner>

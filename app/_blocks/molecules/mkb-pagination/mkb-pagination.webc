@@ -4,16 +4,16 @@
   </mkb-button>
   <ol class="pagination__list">
     <li class="pagination__item">
-      <mkb-button class="pagination__link" href="#">1</mkb-button>
+      <mkb-button class="pagination__link" href="/page/1">1</mkb-button>
     </li>
     <li class="pagination__item">
-      <mkb-button class="pagination__link" href="#">2</mkb-button>
+      <mkb-button class="pagination__link" href="/page/2">2</mkb-button>
     </li>
     <li class="pagination__item">
-      <mkb-button class="pagination__link" href="#">3</mkb-button>
+      <mkb-button class="pagination__link" href="/page/3">3</mkb-button>
     </li>
     <li class="pagination__item">
-      <mkb-button class="pagination__link" href="#">4</mkb-button>
+      <mkb-button class="pagination__link" href="/page/4">4</mkb-button>
     </li>
     <li class="pagination__item">
       <mkb-button class="pagination__link" aria-current="page">5</mkb-button>

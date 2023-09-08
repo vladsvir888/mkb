@@ -12,7 +12,10 @@
   }
 </script>
 
-<mkb-base webc:nokeep>
+<mkb-base
+  webc:nokeep
+  is-footer="true"
+>
   <mkb-page-top
     :breadcrumbs="breadcrumbs"
     title="Комплексные решения компании МКБ"

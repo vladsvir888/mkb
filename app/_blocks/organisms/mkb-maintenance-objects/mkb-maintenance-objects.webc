@@ -2,7 +2,7 @@
   const activities = [
     {
       title: {
-        href: '#',
+        href: 'activities/some-activity',
         text: 'Техническое обсуживание шлагбаумов'
       },
       image: {
@@ -11,7 +11,7 @@
     },
     {
       title: {
-        href: '#',
+        href: 'activities/some-activity',
         text: 'Техническое обслуживание дорожных блокираторов'
       },
       image: {
@@ -20,7 +20,7 @@
     },
     {
       title: {
-        href: '#',
+        href: 'activities/some-activity',
         text: 'Системы контроля и управления доступом СКУД'
       },
       image: {
@@ -29,7 +29,7 @@
     },
     {
       title: {
-        href: '#',
+        href: 'activities/some-activity',
         text: 'Техническое обсуживание боллардов'
       },
       image: {
@@ -45,7 +45,7 @@
       <h2 class="maintenance-objects__title">
         Осуществляем техническое обслуживание следующих объектов
       </h2>
-      <mkb-button class="button--outline button--outline-gray maintenance-objects__button" href="#">Посмотреть все решения</mkb-button>
+      <mkb-button class="button--outline button--outline-gray maintenance-objects__button" href="/activities">Посмотреть все решения</mkb-button>
     </div>
     <div class="maintenance-objects__grid">
       <mkb-activity-card webc:for="activity of activities" :activity="activity"></mkb-activity-card>

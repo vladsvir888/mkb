@@ -1,0 +1,19 @@
+<section class="not-found">
+  <div class="container not-found__container">
+    <span class="not-found__num">
+      404
+    </span>
+    <hgroup class="not-found__group">
+      <h1 class="not-found__title">
+        Страница не найдена
+      </h1>
+      <p class="not-found__text">
+        Кажется, что-то пошло не так! Страница, которую вы запрашиваете, не существует. Возможно, она устарела, была удалена, или был введен неверный адрес в адресной строке.
+      </p>
+    </hgroup>
+    <mkb-button class="button--outline button--outline-gray not-found__button" href="/">
+      На главную
+      <mkb-icon class="not-found__icon" @type="mono" @name="chevron-right"></mkb-icon>
+    </mkb-button>
+  </div>
+</section>

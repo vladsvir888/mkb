@@ -1,0 +1,26 @@
+<section class="read-more blog">
+  <div class="container">
+    <div class="read-more__header">
+      <h2 class="read-more__title">Читайте также</h2>
+      <mkb-button href="/blog" class="button--outline button--outline-gray read-more__button">Все новости</mkb-button>
+    </div>
+    <div class="read-more__wrap">
+      <article class="blog__card">
+        <eleventy-image class="blog__card-img" src="./app/_images/blog-grid/02.png" alt="" loading="lazy"></eleventy-image>
+        <time class="blog__card-time" datetime="2023-08-14">14.08.2023</time>
+        <h2 class="blog__card-title">
+          <mkb-button class="button--link blog__card-link" href="/blog/detail">Как современные шлагбаумы защищены от неблагоприятных природных явлений?</mkb-button>
+        </h2>
+        <div class="blog__card-text">Задачами традиционной системы видеонаблюдения являются трансляция картинки в режиме реального времени и создание и хранение архива записи. </div>
+      </article>
+      <article class="blog__card">
+        <eleventy-image class="blog__card-img" src="./app/_images/blog-grid/03.png" alt="" loading="lazy"></eleventy-image>
+        <time class="blog__card-time" datetime="2023-08-14">14.08.2023</time>
+        <h2 class="blog__card-title">
+          <mkb-button class="button--link blog__card-link" href="/blog/detail">Как современные шлагбаумы защищены от неблагоприятных природных явлений?</mkb-button>
+        </h2>
+        <div class="blog__card-text">Задачами традиционной системы видеонаблюдения являются трансляция картинки в режиме реального времени и создание и хранение архива записи. </div>
+      </article>
+    </div>
+  </div>
+</section>

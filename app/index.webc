@@ -1,5 +1,15 @@
-<mkb-base webc:nokeep :header="header">
-  <mkb-hero></mkb-hero>
+<script webc:setup>
+  const header = {
+    class: "header--without-bg"
+  }
+</script>
+
+<mkb-base
+  webc:nokeep
+  :header="header"
+  is-footer="true"
+>
+  <mkb-hero title="Мир комфорта и безопасности" is-text="true"></mkb-hero>
 
   <mkb-activities></mkb-activities>
 
@@ -7,7 +17,7 @@
 
   <mkb-callback title="Предложим индивидуальное решение&nbsp;вашей задачи"></mkb-callback>
 
-  <mkb-team-professionals></mkb-team-professionals>
+  <mkb-team-professionals is-content="true" is-list="true"></mkb-team-professionals>
 
   <mkb-portfolio-slider title="Портфолио <br> наших работ"></mkb-portfolio-slider>
 

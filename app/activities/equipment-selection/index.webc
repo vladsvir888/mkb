@@ -7,7 +7,7 @@
       },
       {
         text: 'Направление (Видеонаблюдение и видеоаналитика)',
-        href: '/turnkey-videoanalytics'
+        href: '/activities'
       },
       {
         text: 'Подбор оборудования для решения вашей задачи',
@@ -65,7 +65,10 @@
   }
 </script>
 
-<mkb-base webc:nokeep>
+<mkb-base
+  webc:nokeep
+  is-footer="true"
+>
   <mkb-page-top
     :breadcrumbs="breadcrumbs"
     title="Установка системы видеонаблюдения и видеоаналитики"

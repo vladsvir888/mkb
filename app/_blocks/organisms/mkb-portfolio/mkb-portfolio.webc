@@ -1,0 +1,78 @@
+<section class="portfolio">
+  <div class="container">
+    <mkb-header-with-select select="true"></mkb-header-with-select>
+    <div class="portfolio__grid">
+      <article class="portfolio__item">
+        <div class="portfolio__tag">Офисы</div>
+        <eleventy-image src="./app/_images/portfolio-grid/01.png" class="portfolio__img" alt="" loading="lazy"></eleventy-image>
+        <h2 class="portfolio__title">
+          <mkb-button href="portfolio/detail" class="button--link portfolio__link">Комплексная установка видеонаблюдения в офисе А1</mkb-button>
+        </h2>
+      </article>
+      <article class="portfolio__item">
+        <div class="portfolio__tag">Офисы</div>
+        <eleventy-image src="./app/_images/portfolio-grid/02.png" class="portfolio__img" alt="" loading="lazy"></eleventy-image>
+        <h2 class="portfolio__title">
+          <mkb-button href="portfolio/detail" class="button--link portfolio__link">Комплексная установка видеонаблюдения в офисе А1</mkb-button>
+        </h2>
+      </article>
+      <article class="portfolio__item">
+        <div class="portfolio__tag">Парковка</div>
+        <eleventy-image src="./app/_images/portfolio-grid/03.png" class="portfolio__img" alt="" loading="lazy"></eleventy-image>
+        <h2 class="portfolio__title">
+          <mkb-button href="portfolio/detail" class="button--link portfolio__link">Комплексная установка видеонаблюдения в офисе А1</mkb-button>
+        </h2>
+      </article>
+      <article class="portfolio__item">
+        <div class="portfolio__tag">Офисы</div>
+        <eleventy-image src="./app/_images/portfolio-grid/04.png" class="portfolio__img" alt="" loading="lazy"></eleventy-image>
+        <h2 class="portfolio__title">
+          <mkb-button href="portfolio/detail" class="button--link portfolio__link">Комплексная установка видеонаблюдения в офисе А1</mkb-button>
+        </h2>
+      </article>
+      <article class="portfolio__item">
+        <div class="portfolio__tag">Офисы</div>
+        <eleventy-image src="./app/_images/portfolio-grid/05.png" class="portfolio__img" alt="" loading="lazy"></eleventy-image>
+        <h2 class="portfolio__title">
+          <mkb-button href="portfolio/detail" class="button--link portfolio__link">Комплексная установка видеонаблюдения в офисе А1</mkb-button>
+        </h2>
+      </article>
+      <article class="portfolio__item">
+        <div class="portfolio__tag">Парковка</div>
+        <eleventy-image src="./app/_images/portfolio-grid/06.png" class="portfolio__img" alt="" loading="lazy"></eleventy-image>
+        <h2 class="portfolio__title">
+          <mkb-button href="portfolio/detail" class="button--link portfolio__link">Комплексная установка видеонаблюдения в офисе А1</mkb-button>
+        </h2>
+      </article>
+      <article class="portfolio__item">
+        <div class="portfolio__tag">Офисы</div>
+        <eleventy-image src="./app/_images/portfolio-grid/07.png" class="portfolio__img" alt="" loading="lazy"></eleventy-image>
+        <h2 class="portfolio__title">
+          <mkb-button href="portfolio/detail" class="button--link portfolio__link">Комплексная установка видеонаблюдения в офисе А1</mkb-button>
+        </h2>
+      </article>
+      <article class="portfolio__item">
+        <div class="portfolio__tag">Офисы</div>
+        <eleventy-image src="./app/_images/portfolio-grid/08.png" class="portfolio__img" alt="" loading="lazy"></eleventy-image>
+        <h2 class="portfolio__title">
+          <mkb-button href="portfolio/detail" class="button--link portfolio__link">Комплексная установка видеонаблюдения в офисе А1</mkb-button>
+        </h2>
+      </article>
+      <article class="portfolio__item">
+        <div class="portfolio__tag">Офисы</div>
+        <eleventy-image src="./app/_images/portfolio-grid/09.png" class="portfolio__img" alt="" loading="lazy"></eleventy-image>
+        <h2 class="portfolio__title">
+          <mkb-button href="portfolio/detail" class="button--link portfolio__link">Комплексная установка видеонаблюдения в офисе А1</mkb-button>
+        </h2>
+      </article>
+      <article class="portfolio__item">
+        <div class="portfolio__tag">Парковка</div>
+        <eleventy-image src="./app/_images/portfolio-grid/10.png" class="portfolio__img" alt="" loading="lazy"></eleventy-image>
+        <h2 class="portfolio__title">
+          <mkb-button href="portfolio/detail" class="button--link portfolio__link">Комплексная установка видеонаблюдения в офисе А1</mkb-button>
+        </h2>
+      </article>
+    </div>
+    <mkb-pagination></mkb-pagination>
+  </div>
+</section>

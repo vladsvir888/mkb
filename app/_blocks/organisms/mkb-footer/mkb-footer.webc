@@ -1,29 +1,29 @@
-<footer class="footer">
+<footer class="footer" webc:if="isFooter">
   <div class="container footer__container">
     <ul class="footer__list">
       <li>
-        <mkb-button class="button--link footer__link" href="#">О компании</mkb-button>
+        <mkb-button class="button--link footer__link" href="/about">О компании</mkb-button>
       </li>
       <li>
-        <mkb-button class="button--link footer__link" href="#">Продукция</mkb-button>
+        <mkb-button class="button--link footer__link" href="/products">Продукция</mkb-button>
       </li>
       <li>
-        <mkb-button class="button--link footer__link" href="#">Документация</mkb-button>
+        <mkb-button class="button--link footer__link" href="/docs">Документация</mkb-button>
       </li>
       <li>
-        <mkb-button class="button--link footer__link" href="#">Галерея</mkb-button>
+        <mkb-button class="button--link footer__link" href="/gallery">Галерея</mkb-button>
       </li>
       <li>
-        <mkb-button class="button--link footer__link" href="#">Услуги</mkb-button>
+        <mkb-button class="button--link footer__link" href="/services">Услуги</mkb-button>
       </li>
       <li>
-        <mkb-button class="button--link footer__link" href="#">Контакты</mkb-button>
+        <mkb-button class="button--link footer__link" href="/contacts">Контакты</mkb-button>
       </li>
       <li>
-        <mkb-button class="button--link footer__link" href="#">Статьи</mkb-button>
+        <mkb-button class="button--link footer__link" href="/blog">Статьи</mkb-button>
       </li>
       <li>
-        <mkb-button class="button--link footer__link" href="#">Карта сайта</mkb-button>
+        <mkb-button class="button--link footer__link" href="/sitemap">Карта сайта</mkb-button>
       </li>
     </ul>
     <address class="footer__address">
@@ -33,11 +33,11 @@
         ООО "ФорматЛайн" УНП 191853402, <br> 223016, Минский р-н, Новодворский <br> с/с, аг. Новый Двор, ул. Новая, 12
       </div>
       <mkb-button class="button--link footer__email" href="mailto:info@mkb.by">info@mkb.by</mkb-button>
-      <mkb-button class="button--link footer__insta" href="#" target="_blank">instagram</mkb-button>
+      <mkb-button class="button--link footer__insta" href="https://www.instagram.com/" target="_blank">instagram</mkb-button>
     </address>
     <div class="footer__info">
-      <mkb-button href="#" class="button--link footer__info-link">Пользовательское соглашение</mkb-button>
-      <mkb-button href="#" class="button--link footer__info-link">Политика конфиденциальности</mkb-button>
+      <mkb-button href="/policy" class="button--link footer__info-link">Пользовательское соглашение</mkb-button>
+      <mkb-button href="/policy" class="button--link footer__info-link">Политика конфиденциальности</mkb-button>
       <div class="footer__info-text">
         Разработка сайта — <mkb-button href="https://www.imedia.by/" class="button--link footer__info-link" target="_blank">Imedia Solutions</mkb-button>
       </div>

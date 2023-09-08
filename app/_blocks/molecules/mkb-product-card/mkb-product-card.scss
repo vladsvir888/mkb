@@ -8,6 +8,8 @@
   background-color: var(--palette-white);
 
   &__img {
+    height: rem(192);
+    object-fit: contain;
     margin: 0 auto;
   }
 

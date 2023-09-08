@@ -14,6 +14,6 @@
         Установка видеокамер с единым пунктом наблюдения - это простой и бюджетный вариант для охраны складов, автостоянок, частных домовладений. Мы работаем "под ключ" и сдаем в эксплуатацию полностью готовый комплекс для наблюдения за охраняемой территорией
       </p>
     </div>
-    <mkb-button href="/complex-solutions/detail-complex-solutions" class="button--outline button--outline-gray complex-solution-card__button">Узнать подробнее</mkb-button>
+    <mkb-button href="/complex-solutions/detail" class="button--outline button--outline-gray complex-solution-card__button">Узнать подробнее</mkb-button>
   </div>
 </article>

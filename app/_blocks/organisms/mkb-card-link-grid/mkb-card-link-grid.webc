@@ -16,7 +16,7 @@
         </mkb-button>
         <mkb-button
           webc:else
-          href="#"
+          href="/activities/some-activity"
           class="card-link-grid__item"
         >
           <span @text="item.text"></span>

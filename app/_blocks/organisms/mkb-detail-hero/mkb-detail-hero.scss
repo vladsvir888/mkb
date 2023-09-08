@@ -20,6 +20,11 @@
     background-color: var(--palette-white);
   }
 
+  &__img {
+    height: rem(246);
+    object-fit: contain;
+  }
+
   &__content {
     @include flex-column;
 
@@ -51,6 +56,10 @@
       padding-bottom: rem(20);
       column-gap: rem(40);
       border-bottom: none;
+    }
+
+    &::part(active-tab-indicator) {
+      border-bottom: 0;
     }
   }
 

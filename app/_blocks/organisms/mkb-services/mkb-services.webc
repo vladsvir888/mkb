@@ -7,7 +7,7 @@
     <ol class="services__list">
       <li class="services__card" webc:for="service of services.list.items">
         <h3 class="services__card-title" @text="service.title"></h3>
-        <mkb-button href="#" class="button--outline button--outline-gray services__card-button">Узнать подробнее</mkb-button>
+        <mkb-button href="/complex-solutions/detail" class="button--outline button--outline-gray services__card-button">Узнать подробнее</mkb-button>
       </li>
     </ol>
   </div>

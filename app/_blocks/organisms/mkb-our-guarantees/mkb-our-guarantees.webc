@@ -2,7 +2,7 @@
   <div class="container">
     <div class="our-guarantees__header">
       <h2 class="our-guarantees__title">Наши гарантии</h2>
-      <mkb-button href="#" class="button--outline button--outline-gray our-guarantees__button">Подробнее о нас</mkb-button>
+      <mkb-button href="/about" class="button--outline button--outline-gray our-guarantees__button">Подробнее о нас</mkb-button>
     </div>
     <div class="our-guarantees__info">
       <div class="our-guarantees__img-wrap">

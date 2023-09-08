@@ -27,20 +27,7 @@
       </h2>
       <slot name="button"></slot>
     </div>
-    <div class="similar-products__links" webc:if="similarProductsLinks">
-      <mkb-button aria-current="page" class="similar-products__link">
-        Все
-      </mkb-button>
-      <mkb-button href="#" class="similar-products__link">
-        Видеокамеры и видеоаналитика
-      </mkb-button>
-      <mkb-button href="#" class="similar-products__link">
-        Прочее оборудование для видеонаблюдения
-      </mkb-button>
-      <mkb-button href="#" class="similar-products__link">
-        Кабель и монтажные материалы
-      </mkb-button>
-    </div>
+    <mkb-header-with-select webc:if="similarProductsLinks"></mkb-header-with-select>
     <div class="similar-products__grid">
       <mkb-product-card webc:for="card of cards" :card="card"></mkb-product-card>
     </div>

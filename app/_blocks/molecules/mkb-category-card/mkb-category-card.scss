@@ -28,6 +28,8 @@
   }
 
   &__img {
+    height: rem(197);
+    object-fit: cover;
     border-radius: var(--bdrs20);
 
     @at-root #{$this}__img-wrap {

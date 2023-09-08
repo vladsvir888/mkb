@@ -1,0 +1,15 @@
+.location {
+  @include center-fullhd;
+
+  &__title {
+    @include font56;
+
+    margin-bottom: rem(40);
+  }
+
+  &__img {
+    height: rem(480);
+    width: 100%;
+    object-fit: cover;
+  }
+}

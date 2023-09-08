@@ -1,0 +1,23 @@
+<div class="header-with-select">
+  <div class="header-with-select__links">
+    <mkb-button aria-current="page" class="header-with-select__link">
+      Все
+    </mkb-button>
+    <mkb-button href="/category/1" class="header-with-select__link">
+      Больницы
+    </mkb-button>
+    <mkb-button href="/category/2" class="header-with-select__link">
+      Офисы
+    </mkb-button>
+    <mkb-button href="/category/3" class="header-with-select__link">
+      Категория 3
+    </mkb-button>
+    <mkb-button href="/category/4" class="header-with-select__link">
+      Категория 4
+    </mkb-button>
+    <mkb-button href="/category/5" class="header-with-select__link">
+      Категория 5
+    </mkb-button>
+  </div>
+  <mkb-select webc:if="select"></mkb-select>
+</div>

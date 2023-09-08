@@ -44,7 +44,10 @@
   }
 </script>
 
-<mkb-base webc:nokeep>
+<mkb-base
+  webc:nokeep
+  is-footer="true"
+>
   <mkb-page-top
     :breadcrumbs="breadcrumbs"
     title="Аналоговая цветная камера TS-10202T"
@@ -65,5 +68,5 @@
 
   <mkb-callback title="Оставьте заявку и наш специалист ответит на любые вопросы по установке"></mkb-callback>
 
-  <mkb-faq faq-class="faq--2"></mkb-faq>
+  <mkb-faq faq-class="faq--with-mt"></mkb-faq>
 </mkb-base>

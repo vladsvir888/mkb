@@ -1,5 +1,5 @@
 function changeColorHeader() {
-  const target = document.querySelector('.js-title');
+  const target = document.querySelector('.js-target');
   const header = document.querySelector('.header');
 
   if (!target) return;

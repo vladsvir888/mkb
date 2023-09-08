@@ -1,4 +1,4 @@
-<nav class="breadcrumbs" aria-label="Хлебные крошки">
+<nav class="breadcrumbs" :class="breadcrumbs.class || ''" aria-label="Хлебные крошки">
   <ol class="breadcrumbs__list">
     <li class="breadcrumbs__item" webc:for="breadcrumb of breadcrumbs.items">
       <mkb-button

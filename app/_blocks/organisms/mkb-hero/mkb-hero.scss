@@ -28,4 +28,35 @@
     margin-left: auto;
     text-align: right;
   }
+
+  &__content {
+    @include flex-center-between;
+
+    margin-top: auto;
+
+    &-text {
+      @include font40;
+
+      max-width: rem(690);
+    }
+  }
+
+  &__benefits {
+    display: flex;
+    column-gap: rem(103);
+  }
+
+  &__benefit {
+    @include flex-column;
+
+    row-gap: rem(5);
+
+    &-num {
+      @include font48;
+    }
+
+    &-text {
+      @include font16;
+    }
+  }
 }

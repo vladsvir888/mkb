@@ -1,8 +1,41 @@
 <div class="hero" style="background-image: url('/assets/images/hero-section/01.png');">
   <div class="container hero__container">
-    <h1 class="hero__title js-title">Мир комфорта и безопасности</h1>
-    <p class="hero__text">
+    <mkb-breadcrumbs webc:if="breadcrumbs" :breadcrumbs="breadcrumbs"></mkb-breadcrumbs>
+    <h1 class="hero__title js-target" @text="title"></h1>
+    <p class="hero__text" webc:if="isText">
       Профессиональный интегратор систем автоматизации доступа и безопасности
     </p>
+    <div class="hero__content" webc:if="content">
+      <p class="hero__content-text">
+        Реализуем решения полного цикла.
+        Воплотим ваши идеи в готовом проекте.
+      </p>
+      <div class="hero__benefits">
+        <div class="hero__benefit">
+          <span class="hero__benefit-num">
+            >10
+          </span>
+          <span class="hero__benefit-text">
+            лет опыта
+          </span>
+        </div>
+        <div class="hero__benefit">
+          <span class="hero__benefit-num">
+            1000+
+          </span>
+          <span class="hero__benefit-text">
+            проектов
+          </span>
+        </div>
+        <div class="hero__benefit">
+          <span class="hero__benefit-num">
+            >30
+          </span>
+          <span class="hero__benefit-text">
+            лет на рынке
+          </span>
+        </div>
+      </div>
+    </div>
   </div>
 </div>

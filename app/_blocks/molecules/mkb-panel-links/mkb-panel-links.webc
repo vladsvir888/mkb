@@ -1,0 +1,18 @@
+<div class="panel-links" :class="panelLinks.class || ''">
+  <div webc:for="item of panelLinks.items" class="panel-links__item">
+    <mkb-button
+      webc:if="item.isCurrent"
+      @text="item.text"
+      class="panel-links__link"
+      aria-current="page"
+      webc:nokeep
+    ></mkb-button>
+    <mkb-button
+      webc:else
+      @text="item.text"
+      :href="item.href"
+      class="button--link panel-links__link"
+      webc:nokeep
+    ></mkb-button>
+  </div>
+</div>

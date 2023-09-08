@@ -1,4 +1,4 @@
-<section class="callback">
+<section class="callback" :class="callbackClass || ''">
   <div class="container">
     <div class="callback__content">
       <h2 class="callback__title" @html="title"></h2>

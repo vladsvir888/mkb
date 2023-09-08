@@ -2,7 +2,7 @@
   const activities = [
     {
       title: {
-        href: '/turnkey-videoanalytics',
+        href: '/activities',
         text: 'Системы видеонаблюдения “под ключ”'
       },
       image: {
@@ -11,7 +11,7 @@
     },
     {
       title: {
-        href: '/turnkey-videoanalytics',
+        href: '/activities',
         text: 'Шлагбаумы и дорожные блокираторы “под ключ”'
       },
       image: {
@@ -20,7 +20,7 @@
     },
     {
       title: {
-        href: '/turnkey-videoanalytics',
+        href: '/activities',
         text: 'Системы контроля и управления доступом СКУД'
       },
       image: {
@@ -29,7 +29,7 @@
     },
     {
       title: {
-        href: '/turnkey-videoanalytics',
+        href: '/activities',
         text: 'Турникеты, ограждения, системы управления'
       },
       image: {
@@ -38,7 +38,7 @@
     },
     {
       title: {
-        href: '/turnkey-videoanalytics',
+        href: '/activities',
         text: 'Учет рабочего времени и биометрический контроль доступа'
       },
       image: {
@@ -47,7 +47,7 @@
     },
     {
       title: {
-        href: '/turnkey-videoanalytics',
+        href: '/activities',
         text: 'Автоматизация доступа, пропускных систем, системы оплаты'
       },
       image: {
@@ -56,7 +56,7 @@
     },
     {
       title: {
-        href: '/turnkey-videoanalytics',
+        href: '/activities',
         text: 'Автоматические парковочные системы со взиманием платежей'
       },
       image: {
@@ -65,7 +65,7 @@
     },
     {
       title: {
-        href: '/turnkey-videoanalytics',
+        href: '/activities',
         text: 'Программное обеспечение для СКУД'
       },
       image: {
@@ -74,7 +74,7 @@
     },
     {
       title: {
-        href: '/turnkey-videoanalytics',
+        href: '/activities',
         text: 'Оснащение парковки и паркинга, средства ОДД '
       },
       image: {
@@ -83,7 +83,7 @@
     },
     {
       title: {
-        href: '/turnkey-videoanalytics',
+        href: '/activities',
         text: 'Системы аналоговой и IP домофонии'
       },
       image: {

@@ -2,8 +2,8 @@
   <div class="container hero-inner__container">
     <div class="hero-inner__content">
       <h2 class="hero-inner__title" @html="heroInner.title"></h2>
-      <mkb-button webc:if="heroInner?.button?.type === 'first'" class="button--outline button--outline-white hero-inner__button hero-inner__button--1" href="#">Перейти к товарам</mkb-button>
-      <mkb-button webc:else class="button--purple hero-inner__button hero-inner__button--2" href="#">Заказать консультацию</mkb-button>
+      <mkb-button webc:if="heroInner?.button?.type === 'first'" class="button--outline button--outline-white hero-inner__button hero-inner__button--1" href="/catalog">Перейти к товарам</mkb-button>
+      <mkb-button webc:else class="button--purple hero-inner__button hero-inner__button--2" @is-button="true">Заказать консультацию</mkb-button>
     </div>
     <form webc:if="heroInner.form" class="hero-inner__form" action="/" method="post">
       <mkb-input @type-input="default" class="hero-inner__form-input" placeholder="Ваше имя" name="name"></mkb-input>

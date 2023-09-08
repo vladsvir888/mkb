@@ -3,13 +3,13 @@
 
   padding: rem(136) 0 rem(60);
 
-  &--turnkey-videoanalytics {
+  &--activities {
     #{$this}__title {
       max-width: rem(684);
     }
   }
 
-  &--catalog {
+  &--decorative {
     position: relative;
 
     &::before {
@@ -26,7 +26,18 @@
     }
   }
 
+  + .text-block {
+    padding-top: rem(20);
+  }
+
   &__title {
     @include font56;
+  }
+
+  &__img {
+    width: 100%;
+    height: rem(458);
+    margin-top: rem(60);
+    object-fit: cover;
   }
 }

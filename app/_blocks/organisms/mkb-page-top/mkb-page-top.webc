@@ -3,4 +3,5 @@
     <mkb-breadcrumbs :breadcrumbs="breadcrumbs"></mkb-breadcrumbs>
     <h1 class="page-top__title" @text="title"></h1>
   </div>
+  <eleventy-image webc:if="pageTopImg" class="page-top__img" src="./app/_images/hero-section/09.png" alt=""></eleventy-image>
 </div>
