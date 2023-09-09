@@ -41,20 +41,6 @@
   }
 
   &__form {
-    @include flex-column;
-
     grid-column: span 2;
-
-    &-input {
-      border-bottom: none;
-
-      &:last-of-type {
-        border-bottom: rem(1) solid var(--palette-blue-marguerite);
-      }
-    }
-
-    &-button {
-      margin-top: auto;
-    }
   }
 }

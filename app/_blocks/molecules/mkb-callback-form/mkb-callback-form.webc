@@ -1,0 +1,67 @@
+<form
+  v-scope="Validation()"
+  v-on:submit="onFormSubmit"
+  class="callback-form"
+  action="/"
+  method="get"
+  novalidate
+>
+  <div class="callback-form__inputs">
+    <mkb-input
+      model="formData.name.value"
+      v-on:input="validateInput('name');"
+      v-bind:class="formData.name.isError ? 'error' : ''"
+      @type-input="default"
+      id="inputName"
+      class="callback-form__input"
+      placeholder="Ваше имя"
+      name="name"
+      required="true"
+    ></mkb-input>
+    <div
+      v-cloak
+      v-show="formData.name.isError"
+      class="error-message"
+    >
+      {{ formData.name.errorMessage }}
+    </div>
+    <mkb-input
+      model="formData.phone.value"
+      v-on:input="validateInput('phone');"
+      v-bind:class="formData.phone.isError ? 'error' : ''"
+      @type-input="default"
+      id="phoneInput"
+      class="callback-form__input"
+      placeholder="Номер телефона"
+      type="tel"
+      name="phone"
+      required="true"
+    ></mkb-input>
+    <div
+      v-cloak
+      v-show="formData.phone.isError"
+      class="error-message"
+    >
+      {{ formData.phone.errorMessage }}
+    </div>
+    <mkb-input
+      model="formData.comment.value"
+      v-on:input="validateInput('comment');"
+      v-bind:class="formData.comment.isError ? 'error' : ''"
+      @type-input="default"
+      id="commentInput"
+      class="callback-form__input"
+      placeholder="Комментарий"
+      name="comment"
+      required="true"
+    ></mkb-input>
+    <div
+      v-cloak
+      v-show="formData.comment.isError"
+      class="error-message"
+    >
+      {{ formData.comment.errorMessage }}
+    </div>
+  </div>
+  <mkb-button @is-button="true" class="button--purple callback-form__button" type="submit">Оставить заявку</mkb-button>
+</form>

@@ -5,11 +5,8 @@
       <mkb-button webc:if="heroInner?.button?.type === 'first'" class="button--outline button--outline-white hero-inner__button hero-inner__button--1" href="/catalog">Перейти к товарам</mkb-button>
       <mkb-button webc:else class="button--purple hero-inner__button hero-inner__button--2" @is-button="true">Заказать консультацию</mkb-button>
     </div>
-    <form webc:if="heroInner.form" class="hero-inner__form" action="/" method="post">
-      <mkb-input @type-input="default" class="hero-inner__form-input" placeholder="Ваше имя" name="name"></mkb-input>
-      <mkb-input @type-input="default" class="hero-inner__form-input" placeholder="Номер телефона" type="tel" name="phone"></mkb-input>
-      <mkb-input @type-input="default" class="hero-inner__form-input" placeholder="Комментарий" name="comment"></mkb-input>
-      <mkb-button @is-button="true" class="button--purple hero-inner__form-button" type="submit">Оставить заявку</mkb-button>
-    </form>
+    <div class="hero-inner__form">
+      <mkb-callback-form webc:if="heroInner.form"></mkb-callback-form>
+    </div>
   </div>
 </section>

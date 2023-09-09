@@ -1,0 +1,23 @@
+.callback-form {
+  &__inputs {
+    margin-bottom: auto;
+  }
+
+  &__input {
+    width: 100%;
+    border-bottom: none;
+
+    &:last-of-type {
+      border-bottom: rem(1) solid var(--palette-blue-marguerite);
+    }
+
+    &.error {
+      border: rem(1) solid var(--palette-valencia);
+    }
+  }
+
+  &__button {
+    width: 100%;
+    margin-top: rem(90);
+  }
+}

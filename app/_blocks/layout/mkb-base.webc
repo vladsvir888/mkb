@@ -27,5 +27,55 @@
     <slot></slot>
   </main>
   <mkb-footer :is-footer="isFooter"></mkb-footer>
+  <script webc:keep type="module">
+    import { createApp } from 'https://unpkg.com/petite-vue@0.2.2/dist/petite-vue.es.js';
+
+    function Validation() {
+      return {
+        formData: {
+          name: {
+            value: '',
+            isError: false,
+            regExp: /[а-яА-Я]+/,
+            errorMessage: 'Поле является обязательным. Допускается ввод букв русского алфавита.',
+          },
+          phone: {
+            value: '',
+            isError: false,
+            regExp: /./,
+            errorMessage: 'Поле является обязательным.',
+            // regExp: /^\+375\d{9}$/,
+            // errorMessage: 'Поле является обязательным. Ввведите телефон в следующем формате: +375XXXXXXXXX',
+          },
+          comment: {
+            value: '',
+            isError: false,
+            regExp: /./,
+            errorMessage: 'Поле является обязательным.',
+          },
+        },
+        validateInput(type) {
+          const dataElement = this.formData[type];
+
+          if (!dataElement.value.match(dataElement.regExp)) {
+            dataElement.isError = true;
+          } else {
+            dataElement.isError = false;
+          }
+        },
+        onFormSubmit(event) {
+          const arrayFormData = Object.entries(this.formData);
+          arrayFormData.forEach((formData) => {
+            this.validateInput(formData[0]);
+          });
+          if (arrayFormData.find((formData) => formData[1].isError)) event.preventDefault();
+        }
+      }
+    }
+
+    createApp({
+      Validation,
+    }).mount();
+  </script>
 </body>
 </html>

@@ -24,21 +24,7 @@
     margin-bottom: rem(80);
   }
 
-  &__form {
+  &__form-wrap {
     max-width: rem(325);
-
-    &-button {
-      width: 100%;
-      margin-top: rem(90);
-    }
-
-    &-input {
-      width: 100%;
-      border-bottom: none;
-
-      &:last-of-type {
-        border-bottom: rem(1) solid var(--palette-blue-marguerite);
-      }
-    }
   }
 }

@@ -1,9 +1,12 @@
 <input
+  :v-model.sync="model"
   webc:if="typeInput === 'default'"
   class="input input--default"
+  :id="id"
   :placeholder="placeholder"
   :type="type ? type : 'text'"
   :name="name ? name : 'name'"
+  :required="required ? true : false"
   webc:root="override"
 >
 

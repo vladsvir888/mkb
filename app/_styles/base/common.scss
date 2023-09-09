@@ -189,4 +189,16 @@ body {
   background-position: center center;
 }
 
+.error-message {
+  margin: rem(4) 0;
+  font-size: rem(12);
+  letter-spacing: rem(-0.24);
+  color: var(--palette-valencia);
+  text-align: left;
+}
+
+[v-cloak] {
+  display: none;
+}
+
 @layer text-block, about-text;
