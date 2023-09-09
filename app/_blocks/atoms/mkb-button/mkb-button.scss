@@ -9,7 +9,7 @@
     border-color var(--transition300ms);
 
   &--link {
-    @media (hover: hover) {
+    @media #{$mouse-device} {
       &:hover {
         color: var(--palette-blue-marguerite);
       }
@@ -27,7 +27,7 @@
       outline: rem(2) solid var(--palette-cod-gray);
     }
 
-    @media (hover: hover) {
+    @media #{$mouse-device} {
       &:hover {
         background-color: var(--palette-indigo);
       }
@@ -63,7 +63,7 @@
       border-color: var(--palette-blue-marguerite);
     }
 
-    @media (hover: hover) {
+    @media #{$mouse-device} {
       &:hover {
         background-color: var(--palette-blue-marguerite);
         border-color: transparent;

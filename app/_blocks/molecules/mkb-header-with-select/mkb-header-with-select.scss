@@ -16,7 +16,7 @@
     color: var(--palette-spun-pearl);
     border-bottom: rem(1) solid transparent;
 
-    @media (hover: hover) {
+    @media #{$mouse-device} {
       &:hover {
         color: var(--palette-blue-marguerite);
         border-bottom-color: var(--palette-blue-marguerite);

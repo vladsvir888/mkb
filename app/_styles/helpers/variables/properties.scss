@@ -18,6 +18,7 @@
   --palette-abbey: #4a494e;
   --palette-mystic: #e9ecf3;
   --palette-french-gray: #b7b5c3;
+  --palette-french-gray-a50: color-mix(in srgb, var(--palette-french-gray), transparent 50%);
   --palette-athens-gray-2: #e4e7ec;
 
   // containers
@@ -43,6 +44,8 @@
   // transform-animation
   --trY: #{rem(-2)};
 }
+
+$mouse-device: '(hover: hover)';
 
 @mixin font56 {
   @include font-size(56, 44.8);

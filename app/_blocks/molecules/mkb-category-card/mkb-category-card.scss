@@ -13,7 +13,7 @@
   background-repeat: no-repeat;
   background-position: left #{rem(40)} bottom #{rem(40)};
 
-  @media (hover: hover) {
+  @media #{$mouse-device} {
     &:hover {
       transform: translateY(var(--trY));
     }

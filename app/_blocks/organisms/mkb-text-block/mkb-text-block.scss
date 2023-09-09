@@ -1,8 +1,11 @@
 .text-block {
   max-width: calc(#{rem(800)} + 2 * var(--container-padding));
-  margin: 0 auto;
-  padding: rem(100) var(--container-padding) rem(70);
   counter-reset: white-block-with-number;
+
+  @layer text-block {
+    margin: 0 auto;
+    padding: rem(100) var(--container-padding) rem(70);
+  }
 
   &--2 {
     padding: rem(100) var(--container-padding);
