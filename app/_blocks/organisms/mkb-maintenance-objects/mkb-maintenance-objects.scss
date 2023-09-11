@@ -1,12 +1,6 @@
 .maintenance-objects {
   padding: rem(30) 0 rem(100);
 
-  &__header {
-    @include flex-center-between;
-
-    margin-bottom: rem(40);
-  }
-
   &__title {
     @include font56;
 

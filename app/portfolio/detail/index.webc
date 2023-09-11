@@ -1,0 +1,50 @@
+<script webc:setup>
+  const breadcrumbs = {
+    items: [
+      {
+        text: 'Главная',
+        href: '/'
+      },
+      {
+        text: 'Наше портфолио',
+      },
+    ]
+  }
+
+  const header = {
+    isSecondary: true,
+    class: "header--without-bg"
+  }
+</script>
+
+<mkb-base
+  webc:nokeep
+  :header="header"
+  is-footer="true"
+>
+  <mkb-thumbs-gallery :breadcrumbs="breadcrumbs"></mkb-thumbs-gallery>
+  <div class="text-block">
+    <p>
+      Задачами традиционной системы видеонаблюдения являются трансляция картинки в режиме реального времени и создание и хранение архива записи. Таким образом, система видеонаблюдения служит для фиксации и хранения массива данных без возможности аналитики по параметрам. Работа с массивом данных требует много временных и трудовых ресурсов для анализа и определения необходимых моментов, а в условиях наличия множества потоков - нет возможности моментально реагировать на нарушения или злоупотребления.
+    </p>
+    <p>
+      Множество задач различного направления призвана решать система видео аналитики, базирующаяся на нейросетях, системах машинного зрения.
+    </p>
+  </div>
+
+  <mkb-callback title="Понравился кейс? Оставьте <br> заявку и мы с Вами свяжемся"></mkb-callback>
+
+  <mkb-similar-products similar-products-class="similar-products--secondary">
+    <span slot="title" webc:nokeep>
+      Каталог продукции для данного решения
+    </span>
+    <mkb-button slot="button" href="/catalog" class="button--outline button--outline-gray similar-products__button">Перейти к каталогу</mkb-button>
+  </mkb-similar-products>
+
+  <mkb-next-solution next-solution-class="next-solution--with-mb" title="Мы предлагаем решения для любой задачи"></mkb-next-solution>
+
+  <mkb-callback-banner>
+    <span slot="heading" webc:nokeep>Компания мкб реализовала большое количество реальных комплексных проектов</span>
+    <mkb-button slot="button" class="button--white callback-banner__button" @is-button="true">Ознакомиться с портфолио</mkb-button>
+  </mkb-callback-banner>
+</mkb-base>

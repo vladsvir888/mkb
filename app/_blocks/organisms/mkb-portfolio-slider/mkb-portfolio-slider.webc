@@ -1,6 +1,6 @@
 <section class="portfolio-slider-block" :class="portfolioSliderBlockClass ? portfolioSliderBlockClass : ''">
   <div class="container">
-    <div class="portfolio-slider-block__header">
+    <div class="portfolio-slider-block__header section-header">
       <h2 class="portfolio-slider-block__title" @html="title"></h2>
       <div class="portfolio-slider-block__actions">
         <div class="portfolio-slider-block__buttons">

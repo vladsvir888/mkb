@@ -6,12 +6,25 @@
   background-color: var(--palette-white);
   border-radius: var(--bdrs20);
 
+  @include media('900', max) {
+    column-gap: rem(40);
+  }
+
+  @include media('767', max) {
+    grid-template-columns: 1fr;
+  }
+
   &__content {
     @include flex-column;
 
     padding: rem(30) 0 rem(35) rem(147);
     align-items: flex-start;
     row-gap: rem(32);
+
+    @include media('900', max) {
+      row-gap: rem(16);
+      padding: rem(20) rem(10) rem(20) rem(100);
+    }
   }
 
   &__title {
@@ -31,6 +44,15 @@
       border-radius: var(--bdrs30);
       counter-increment: list;
       content: counter(list, decimal-leading-zero);
+
+      @include media('900', max) {
+        @include font24;
+
+        top: rem(20);
+        left: rem(20);
+        min-width: rem(55);
+        min-height: rem(40)
+      }
     }
   }
 
@@ -49,5 +71,10 @@
     object-fit: cover;
     border-top-right-radius: var(--bdrs20);
     border-bottom-right-radius: var(--bdrs20);
+
+    @include media('767', max) {
+      width: 100%;
+      border-radius: var(--bdrs20);
+    }
   }
 }

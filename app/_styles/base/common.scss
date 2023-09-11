@@ -201,4 +201,12 @@ body {
   display: none;
 }
 
+.section-header {
+  @include flex-center-between;
+
+  gap: var(--gap20);
+  flex-wrap: wrap;
+  margin-bottom: rem(40);
+}
+
 @layer text-block, about-text;

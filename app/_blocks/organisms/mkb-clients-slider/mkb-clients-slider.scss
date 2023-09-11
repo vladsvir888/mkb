@@ -1,12 +1,6 @@
 .clients-slider-block {
   padding: rem(37) 0 rem(56);
 
-  &__header {
-    @include flex-center-between;
-
-    margin-bottom: rem(40);
-  }
-
   &__title {
     @include font56;
   }
@@ -49,9 +43,15 @@
     @include flex-center;
 
     height: 100%;
-    padding: rem(50);
+    padding: rem(24) rem(16);
     background-color: var(--palette-white);
     border-radius: var(--bdrs20);
     border: rem(1) solid var(--palette-link-water);
+  }
+
+  &__img {
+    width: rem(293);
+    height: rem(102);
+    object-fit: contain;
   }
 }

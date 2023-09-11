@@ -5,11 +5,19 @@
   background-position: right top rem(-400);
   background-repeat: no-repeat;
 
+  @include media('600', max) {
+    background-image: none;
+  }
+
   &__title {
     @include font36;
 
     max-width: rem(1084);
     margin-bottom: rem(60);
+
+    @include media('600', max) {
+      margin-bottom: rem(30);
+    }
   }
 
   &__list {

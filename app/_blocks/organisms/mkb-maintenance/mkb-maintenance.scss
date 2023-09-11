@@ -9,6 +9,10 @@
     background-position: center center;
     background-size: cover;
 
+    @include media('767', max) {
+      padding: rem(36) 0;
+    }
+
     &::before {
       position: absolute;
       inset: 0;
@@ -24,7 +28,8 @@
 
   &__content {
     display: flex;
-    column-gap: rem(40);
+    flex-wrap: wrap;
+    gap: rem(20) rem(40);
     opacity: 0.999;
   }
 
@@ -34,6 +39,12 @@
     width: 46%;
     padding-right: rem(10);
     border-right: rem(2) solid rgba(var(--palette-rgb-white), 0.5);
+
+    @include media('767', max) {
+      width: 100%;
+      padding-right: 0;
+      border-right: 0;
+    }
   }
 
   &__list {
@@ -41,6 +52,11 @@
 
     width: 43%;
     list-style: disc;
+
+    @include media('767', max) {
+      width: 65%;
+      padding-left: var(--container-padding);
+    }
 
     > * {
       &:not(:last-child) {

@@ -1,6 +1,6 @@
 <section class="clients-slider-block">
   <div class="container">
-    <div class="clients-slider-block__header">
+    <div class="clients-slider-block__header section-header">
       <h2 class="clients-slider-block__title">
         Наши клиенты
       </h2>

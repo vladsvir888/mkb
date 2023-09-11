@@ -26,6 +26,10 @@
   --container-width: #{rem(1440)};
   --container-padding: #{rem(40)};
 
+  @include media('900', max) {
+    --container-padding: #{rem(16)};
+  }
+
   // transitions
   --transition300ms: 0.3s;
 
@@ -53,6 +57,16 @@ $mouse-device: '(hover: hover)';
 
   font-weight: 500;
   letter-spacing: rem(-1.12);
+
+  @include media('600', max) {
+    @include font-size(40, 32);
+
+    letter-spacing: rem(-0.8);
+  }
+
+  @include media('359', max) {
+    font-size: rem(34);
+  }
 }
 
 @mixin font48 {
@@ -60,6 +74,12 @@ $mouse-device: '(hover: hover)';
 
   font-weight: 500;
   letter-spacing: rem(-0.96);
+
+  @include media('600', max) {
+    @include font-size(36, 28.8);
+
+    letter-spacing: rem(-0.72);
+  }
 }
 
 @mixin font40 {
@@ -67,6 +87,12 @@ $mouse-device: '(hover: hover)';
 
   font-weight: 500;
   letter-spacing: rem(-0.8);
+
+  @include media('600', max) {
+    @include font-size(30, 33);
+
+    letter-spacing: rem(-0.6);
+  }
 }
 
 @mixin font36 {
@@ -74,6 +100,12 @@ $mouse-device: '(hover: hover)';
 
   font-weight: 500;
   letter-spacing: rem(-0.72);
+
+  @include media('600', max) {
+    @include font-size(24, 26.4);
+
+    letter-spacing: rem(-0.48)
+  }
 }
 
 @mixin font24 {
@@ -81,6 +113,12 @@ $mouse-device: '(hover: hover)';
 
   font-weight: 500;
   letter-spacing: rem(-0.48);
+
+  @include media('600', max) {
+    @include font-size(20, 20);
+
+    letter-spacing: rem(-0.4);
+  }
 }
 
 @mixin font24-light {
@@ -88,6 +126,12 @@ $mouse-device: '(hover: hover)';
 
   font-weight: 300;
   letter-spacing: rem(-0.48);
+
+  @include media('600', max) {
+    @include font-size(20, 22);
+
+    letter-spacing: rem(-0.4);
+  }
 }
 
 @mixin font20 {

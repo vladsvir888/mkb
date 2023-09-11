@@ -3,12 +3,6 @@
   margin-top: rem(50);
   background-color: var(--palette-white);
 
-  &__header {
-    @include flex-center-between;
-
-    margin-bottom: rem(40);
-  }
-
   &__title {
     @include font56;
 
@@ -19,6 +13,10 @@
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: var(--gap20);
+
+    @include media('767', max) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
   }
 
   &__item {

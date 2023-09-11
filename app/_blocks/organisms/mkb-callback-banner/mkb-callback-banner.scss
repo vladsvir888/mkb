@@ -16,6 +16,10 @@
     background-size: cover;
     background-position: center center;
 
+    @include media('600', max) {
+      padding: rem(60) 0;
+    }
+
     &::before {
       position: absolute;
       inset: 0;
@@ -28,7 +32,7 @@
     @include flex-center-between;
 
     flex-wrap: wrap;
-    gap: rem(10);
+    gap: rem(20) rem(10);
     opacity: 0.999;
   }
 
@@ -49,5 +53,10 @@
 
   &__button {
     min-width: rem(294);
+
+    @include media('600', max) {
+      min-width: unset;
+      width: 100%;
+    }
   }
 }

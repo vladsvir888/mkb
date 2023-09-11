@@ -177,7 +177,7 @@
     </div>
   </div>
 
-  <mkb-next-solution></mkb-next-solution>
+  <mkb-next-solution title="Посмотрите следующее решение"></mkb-next-solution>
 
   <mkb-portfolio-slider portfolio-slider-block-class="portfolio-slider-block--no-decorative-element" title="Портфолио <br> наших работ"></mkb-portfolio-slider>
 

@@ -4,11 +4,22 @@ function clientsSlider() {
   if (!sliderElement) return;
 
   const sliderParams = {
-    slidesPerView: 4,
+    slidesPerView: 1,
     spaceBetween: 20,
     navigation: {
       nextEl: '.clients-slider-block__button--right',
       prevEl: '.clients-slider-block__button--left',
+    },
+    breakpoints: {
+      601: {
+        slidesPerView: 2,
+      },
+      768: {
+        slidesPerView: 3,
+      },
+      901: {
+        slidesPerView: 4,
+      },
     },
   };
 

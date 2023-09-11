@@ -19,6 +19,12 @@
     }
   }
 
+  @include media('600', max) {
+    min-height: rem(360);
+    padding: rem(20);
+    background-position: left #{rem(10)} bottom #{rem(20)};
+  }
+
   &__title {
     @include font24;
 

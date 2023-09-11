@@ -22,11 +22,18 @@
   <script src="/scripts/main.js" defer webc:keep></script>
 </head>
 <body>
-  <mkb-header :header="header"></mkb-header>
+  <mkb-header-secondary
+    webc:if="header?.isSecondary"
+    :header="header"
+  ></mkb-header-secondary>
+  <mkb-header webc:else :header="header"></mkb-header>
+
   <main class="main">
     <slot></slot>
   </main>
+
   <mkb-footer :is-footer="isFooter"></mkb-footer>
+
   <script webc:keep type="module">
     import { createApp } from 'https://unpkg.com/petite-vue@0.2.2/dist/petite-vue.es.js';
 

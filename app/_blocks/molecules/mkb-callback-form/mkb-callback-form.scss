@@ -19,5 +19,9 @@
   &__button {
     width: 100%;
     margin-top: rem(90);
+
+    @include media('767', max) {
+      margin-top: rem(45);
+    }
   }
 }

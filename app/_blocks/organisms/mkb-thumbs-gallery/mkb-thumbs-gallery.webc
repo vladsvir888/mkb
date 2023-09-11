@@ -1,0 +1,92 @@
+<section class="thumbs-gallery">
+  <swiper-container
+    class="thumbs-gallery__slider thumbs-gallery__slider--big"
+    thumbs-swiper=".thumbs-gallery__slider--small"
+    space-between="10"
+  >
+    <swiper-slide class="thumbs-gallery__slide">
+      <div class="thumbs-gallery__img-wrap">
+        <eleventy-image class="thumbs-gallery__img" src="./app/_images/hero-section/07.png" alt="" loading="lazy"></eleventy-image>
+      </div>
+      <div class="thumbs-gallery__content">
+        <div class="container">
+          <div class="thumbs-gallery__text">
+            Установка системы видеонаблюдения в офисе компании А1
+          </div>
+        </div>
+      </div>
+    </swiper-slide>
+    <swiper-slide class="thumbs-gallery__slide">
+      <div class="thumbs-gallery__img-wrap">
+        <eleventy-image class="thumbs-gallery__img" src="./app/_images/hero-section/07.png" alt="" loading="lazy"></eleventy-image>
+      </div>
+      <div class="thumbs-gallery__content">
+        <div class="container">
+          <div class="thumbs-gallery__text">
+            Установка системы видеонаблюдения в офисе компании А1
+          </div>
+        </div>
+      </div>
+    </swiper-slide>
+    <swiper-slide class="thumbs-gallery__slide">
+      <div class="thumbs-gallery__img-wrap">
+        <eleventy-image class="thumbs-gallery__img" src="./app/_images/hero-section/07.png" alt="" loading="lazy"></eleventy-image>
+      </div>
+      <div class="thumbs-gallery__content">
+        <div class="container">
+          <div class="thumbs-gallery__text">
+            Установка системы видеонаблюдения в офисе компании А1
+          </div>
+        </div>
+      </div>
+    </swiper-slide>
+    <swiper-slide class="thumbs-gallery__slide">
+      <div class="thumbs-gallery__img-wrap">
+        <eleventy-image class="thumbs-gallery__img" src="./app/_images/hero-section/07.png" alt="" loading="lazy"></eleventy-image>
+      </div>
+      <div class="thumbs-gallery__content">
+        <div class="container">
+          <div class="thumbs-gallery__text">
+            Установка системы видеонаблюдения в офисе компании А1
+          </div>
+        </div>
+      </div>
+    </swiper-slide>
+    <swiper-slide class="thumbs-gallery__slide">
+      <div class="thumbs-gallery__img-wrap">
+        <eleventy-image class="thumbs-gallery__img" src="./app/_images/hero-section/07.png" alt="" loading="lazy"></eleventy-image>
+      </div>
+      <div class="thumbs-gallery__content">
+        <div class="container">
+          <div class="thumbs-gallery__text">
+            Установка системы видеонаблюдения в офисе компании А1
+          </div>
+        </div>
+      </div>
+    </swiper-slide>
+  </swiper-container>
+
+  <swiper-container
+    class="thumbs-gallery__slider thumbs-gallery__slider--small"
+    space-between="20"
+    slides-per-view="4"
+    free-mode="true"
+    watch-slides-progress="true"
+  >
+    <swiper-slide>
+      <eleventy-image class="thumbs-gallery__img" src="./app/_images/hero-section/08.png" alt=""></eleventy-image>
+    </swiper-slide>
+    <swiper-slide>
+      <eleventy-image class="thumbs-gallery__img" src="./app/_images/hero-section/08.png" alt=""></eleventy-image>
+    </swiper-slide>
+    <swiper-slide>
+      <eleventy-image class="thumbs-gallery__img" src="./app/_images/hero-section/08.png" alt=""></eleventy-image>
+    </swiper-slide>
+    <swiper-slide>
+      <eleventy-image class="thumbs-gallery__img" src="./app/_images/hero-section/08.png" alt=""></eleventy-image>
+    </swiper-slide>
+    <swiper-slide>
+      <eleventy-image class="thumbs-gallery__img" src="./app/_images/hero-section/08.png" alt="" loading="lazy"></eleventy-image>
+    </swiper-slide>
+  </swiper-container>
+</section>

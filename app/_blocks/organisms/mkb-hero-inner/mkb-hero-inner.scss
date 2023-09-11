@@ -6,6 +6,10 @@
   background-position: center center;
   color: var(--palette-white);
 
+  @include media('767', max) {
+    padding: rem(30) 0;
+  }
+
   &::before {
     position: absolute;
     inset: 0;
@@ -19,9 +23,15 @@
     grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: rem(20);
     opacity: 0.999;
+
+    @include media('767', max) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
   }
 
   &__content {
+    @include flex-column;
+
     grid-column: span 3;
   }
 
@@ -30,10 +40,16 @@
 
     max-width: rem(698);
     margin-bottom: rem(142);
+
+    @include media('767', max) {
+      margin-bottom: rem(50);
+    }
   }
 
   &__button {
     display: inline-flex;
+    align-self: flex-start;
+    margin-top: auto;
 
     &--2 {
       padding: rem(20) rem(51);
@@ -42,5 +58,9 @@
 
   &__form {
     grid-column: span 2;
+
+    @include media('767', max) {
+      grid-column: span 3;
+    }
   }
 }

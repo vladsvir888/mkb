@@ -9,7 +9,7 @@
     @include flex-center-y;
 
     flex-wrap: wrap;
-    column-gap: var(--col-gap);
+    gap: rem(10) var(--col-gap);
   }
 
   &__link {

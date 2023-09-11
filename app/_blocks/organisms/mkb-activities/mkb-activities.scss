@@ -7,14 +7,30 @@
     background-image: url('../assets/images/decorative-element/activities-home.svg');
     background-repeat: no-repeat;
     background-position: right bottom rem(-80);
+
+    @include media('767', max) {
+      padding-top: rem(40);
+    }
+
+    @include media('600', max) {
+      background-image: none;
+    }
   }
 
   &__header {
     @include flex-center-between;
 
     flex-wrap: wrap;
-    gap: rem(20);
+    gap: var(--gap20);
     margin-bottom: rem(138);
+
+    @include media('900', max) {
+      margin-bottom: rem(70);
+    }
+
+    @include media('600', max) {
+      margin-bottom: rem(35);
+    }
 
     &-text {
       @include font40;
@@ -28,7 +44,8 @@
 
     &-benefits {
       display: flex;
-      column-gap: rem(100);
+      flex-wrap: wrap;
+      gap: rem(20) rem(100);
     }
 
     &-benefit {
@@ -52,8 +69,6 @@
 
   &__title {
     @include font56;
-
-    margin-bottom: rem(40);
   }
 
   &__list {
