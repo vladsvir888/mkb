@@ -21,11 +21,14 @@
   <link rel="stylesheet" href="/styles/main.css" webc:keep>
   <script src="/scripts/main.js" defer webc:keep></script>
 </head>
-<body>
-  <mkb-header-secondary
-    webc:if="header?.isSecondary"
+<body
+  ref="body"
+  v-scope
+>
+  <mkb-header-with-breadcrumbs
+    webc:if="header?.withBreadcrumbs"
     :header="header"
-  ></mkb-header-secondary>
+  ></mkb-header-with-breadcrumbs>
   <mkb-header webc:else :header="header"></mkb-header>
 
   <main class="main">
@@ -33,6 +36,8 @@
   </main>
 
   <mkb-footer :is-footer="isFooter"></mkb-footer>
+
+  <mkb-callback-modal></mkb-callback-modal>
 
   <script webc:keep type="module">
     import { createApp } from 'https://unpkg.com/petite-vue@0.2.2/dist/petite-vue.es.js';
@@ -80,8 +85,23 @@
       }
     }
 
+    function toggleFilter() {
+      return {
+        isShow: false,
+        show() {
+          this.isShow = true;
+          this.$refs.body.classList.add('lock');
+        },
+        hide() {
+          this.isShow = false;
+          this.$refs.body.classList.remove('lock');
+        }
+      }
+    }
+
     createApp({
       Validation,
+      toggleFilter,
     }).mount();
   </script>
 </body>

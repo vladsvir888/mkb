@@ -7,7 +7,7 @@
   background-size: contain;
 
   @include media('767', max) {
-    padding: rem(70) 0;
+    padding: rem(50) 0;
   }
 
   @include media('600', max) {

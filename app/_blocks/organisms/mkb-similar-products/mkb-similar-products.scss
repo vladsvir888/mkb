@@ -3,12 +3,10 @@
 
   &--secondary {
     padding: rem(50) 0 rem(100);
-  }
 
-  &__header {
-    @include flex-center-between;
-
-    margin-bottom: rem(21);
+    @include media('767', max) {
+      padding: rem(50) 0;
+    }
   }
 
   &__title {
@@ -19,5 +17,15 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(#{rem(325)}, 1fr));
     gap: var(--gap20);
+
+    @include media('600', max) {
+      display: block;
+
+      > * {
+        &:not(:last-child) {
+          margin-bottom: rem(20);
+        }
+      }
+    }
   }
 }

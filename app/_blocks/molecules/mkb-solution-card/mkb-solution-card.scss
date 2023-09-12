@@ -3,13 +3,6 @@
 
   background-color: var(--palette-athens-gray);
   border-radius: var(--bdrs20);
-  transition: transform var(--transition300ms);
-
-  @media #{$mouse-device} {
-    &:hover {
-      transform: translateY(var(--trY));
-    }
-  }
 
   &--big {
     #{$this}__img {

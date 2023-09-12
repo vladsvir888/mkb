@@ -16,6 +16,10 @@
     background-size: cover;
     background-position: center center;
 
+    @include media('767', max) {
+      margin: rem(30) 0 rem(50);
+    }
+
     @include media('600', max) {
       padding: rem(60) 0;
     }
@@ -53,10 +57,5 @@
 
   &__button {
     min-width: rem(294);
-
-    @include media('600', max) {
-      min-width: unset;
-      width: 100%;
-    }
   }
 }

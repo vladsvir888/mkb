@@ -4,9 +4,14 @@
   gap: rem(16);
   color: var(--palette-ship-gray);
 
+  @include media('600', max) {
+    gap: rem(5);
+  }
+
   &__list {
     @include flex-center-y;
 
+    flex-wrap: wrap;
     gap: rem(6);
   }
 

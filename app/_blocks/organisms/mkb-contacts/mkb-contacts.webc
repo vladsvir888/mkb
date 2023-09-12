@@ -1,5 +1,6 @@
 <script webc:setup>
   const panelLinks = {
+    class: 'contacts__panel-links',
     items: [
       {
         text: 'О компании',

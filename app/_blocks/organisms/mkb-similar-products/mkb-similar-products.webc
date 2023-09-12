@@ -21,7 +21,7 @@
 
 <section class="similar-products" :class="similarProductsClass || ''">
   <div class="container">
-    <div class="similar-products__header">
+    <div class="similar-products__header section-header">
       <h2 class="similar-products__title">
         <slot name="title"></slot>
       </h2>

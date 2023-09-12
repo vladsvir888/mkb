@@ -3,6 +3,10 @@
 
   padding: rem(136) 0 rem(60);
 
+  @include media('600', max) {
+    padding: rem(136) 0 rem(30);
+  }
+
   &--activities {
     #{$this}__title {
       max-width: rem(684);
@@ -23,6 +27,10 @@
       background-repeat: no-repeat;
       background-position: right top;
       content: '';
+
+      @include media('600', max) {
+        background-image: none;
+      }
     }
   }
 

@@ -23,14 +23,28 @@
 
     margin-top: rem(28);
     font-weight: 400;
+
+    @include media('900', max) {
+      flex-wrap: wrap;
+      gap: rem(20);
+    }
   }
 
   &__icon-item {
     width: calc(100% / 4);
 
+    @include media('900', max) {
+      width: auto;
+    }
+
     &:not(:last-child) {
       margin-right: rem(26);
       border-right: 1px solid rgba(183, 181, 195, 0.5);
+
+      @include media('900', max) {
+        margin-right: 0;
+        border-right: 0;
+      }
     }
   }
 

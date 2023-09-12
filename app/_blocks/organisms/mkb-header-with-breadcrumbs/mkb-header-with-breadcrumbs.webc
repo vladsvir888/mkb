@@ -1,0 +1,19 @@
+<script webc:setup>
+  const breadcrumbs = {
+    class: 'header-wrap__breadcrumbs js-target',
+    items: [
+      {
+        text: 'Главная',
+        href: '/'
+      },
+      {
+        text: 'Наше портфолио',
+      },
+    ]
+  }
+</script>
+
+<div class="header-wrap container">
+  <mkb-header :header="header"></mkb-header>
+  <mkb-breadcrumbs :breadcrumbs="breadcrumbs"></mkb-breadcrumbs>
+</div>

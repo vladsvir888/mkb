@@ -40,7 +40,10 @@
         </div>
         <mkb-button class="header__phone button--link" href="tel:+375445735357">+375 (44) 57-353-57</mkb-button>
         <mkb-button class="header__email button--link" href="mailto:info@mkb.by">info@mkb.by</mkb-button>
-        <mkb-button class="button--purple header__callback" @is-button="true">Расчёт стоимости</mkb-button>
+        <mkb-button
+          class="button--purple header__callback"
+          @is-button="true"
+        >Расчёт стоимости</mkb-button>
       </div>
     </div>
   </div>

@@ -1,10 +1,18 @@
 .contacts {
   padding-bottom: rem(70);
 
+  @include media('767', max) {
+    padding-bottom: rem(50);
+  }
+
   &__container {
     @include flex-between;
 
     gap: rem(20);
+
+    @include media('1200', max) {
+      flex-wrap: wrap;
+    }
   }
 
   &__address {
@@ -12,6 +20,14 @@
     @include font14;
 
     color: var(--palette-ship-gray);
+
+    @include media('1200', max) {
+      width: 40%;
+    }
+
+    @include media('600', max) {
+      width: 100%;
+    }
   }
 
   &__phone {
@@ -33,6 +49,16 @@
 
     &-map-img {
       border-radius: inherit;
+    }
+  }
+
+  &__panel-links {
+    @include media('1200', max) {
+      width: 50%;
+    }
+
+    @include media('600', max) {
+      width: 100%;
     }
   }
 }

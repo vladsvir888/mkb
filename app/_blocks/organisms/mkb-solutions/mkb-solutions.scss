@@ -3,6 +3,10 @@
   margin-top: rem(50);
   background-color: var(--palette-white);
 
+  @include media('767', max) {
+    margin-top: 0;
+  }
+
   &__title {
     @include font56;
 

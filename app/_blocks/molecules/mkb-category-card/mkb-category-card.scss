@@ -8,16 +8,9 @@
   min-height: rem(449);
   background-color: var(--palette-white);
   border-radius: var(--bdrs20);
-  transition: transform var(--transition300ms);
   background-image: url('../assets/images/icons/chevron-right-circle.svg');
   background-repeat: no-repeat;
   background-position: left #{rem(40)} bottom #{rem(40)};
-
-  @media #{$mouse-device} {
-    &:hover {
-      transform: translateY(var(--trY));
-    }
-  }
 
   @include media('600', max) {
     min-height: rem(360);

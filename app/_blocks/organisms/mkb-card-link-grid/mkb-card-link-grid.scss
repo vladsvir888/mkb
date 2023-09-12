@@ -3,6 +3,10 @@
 
   &--with-title {
     padding: rem(100) 0;
+
+    @include media('767', max) {
+      padding: rem(50) 0;
+    }
   }
 
   &__title {

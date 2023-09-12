@@ -1,6 +1,6 @@
 <section class="next-solution" :class="nextSolutionClass || ''">
   <div class="container">
-    <div class="next-solution__header">
+    <div class="next-solution__header section-header">
       <h2 class="next-solution__title" @text="title"></h2>
       <mkb-button class="button--outline button--outline-gray next-solution__button" webc:if="button">Перейти к решениям</mkb-button>
     </div>

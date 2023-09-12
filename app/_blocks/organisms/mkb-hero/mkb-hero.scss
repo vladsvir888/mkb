@@ -32,7 +32,9 @@
   &__content {
     @include flex-center-between;
 
+    flex-wrap: wrap;
     margin-top: auto;
+    gap: rem(20);
 
     &-text {
       @include font40;
@@ -43,7 +45,8 @@
 
   &__benefits {
     display: flex;
-    column-gap: rem(103);
+    flex-wrap: wrap;
+    gap: rem(20) rem(103);
   }
 
   &__benefit {

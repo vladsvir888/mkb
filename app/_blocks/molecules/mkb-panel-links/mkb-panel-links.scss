@@ -6,6 +6,11 @@
       margin-bottom: rem(24);
       padding-bottom: rem(24);
       border-bottom: rem(1) solid var(--palette-french-gray);
+
+      @include media('600', max) {
+        margin-bottom: rem(12);
+        padding-bottom: rem(12);
+      }
     }
   }
 

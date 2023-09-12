@@ -4,7 +4,6 @@ function maintenanceSlider() {
   if (!sliderElement) return;
 
   const sliderParams = {
-    spaceBetween: 10,
     navigation: {
       nextEl: '.maintenance__slide-button',
     },

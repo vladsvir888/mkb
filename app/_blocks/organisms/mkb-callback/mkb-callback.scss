@@ -6,6 +6,10 @@
 
   &--with-mb {
     margin-bottom: rem(100);
+
+    @include media('767', max) {
+      margin-bottom: rem(50);
+    }
   }
 
   &__content {

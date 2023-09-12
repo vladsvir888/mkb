@@ -7,6 +7,10 @@
   border-radius: var(--bdrs20);
   background-color: var(--palette-white);
 
+  @include media('767', max) {
+    display: block;
+  }
+
   &:not(:last-child) {
     margin-bottom: rem(20);
   }
@@ -20,11 +24,19 @@
       border-bottom-left-radius: 0;
       border-top-right-radius: var(--bdrs20);
       border-bottom-right-radius: var(--bdrs20);
+
+      @include media('767', max) {
+        border-radius: var(--bdrs20);
+      }
     }
 
     #{$this}__content {
       max-width: rem(640);
       padding: rem(30);
+
+      @include media('900', max) {
+        padding: rem(20);
+      }
     }
 
     #{$this}__button {
@@ -41,6 +53,11 @@
     object-fit: cover;
     border-top-left-radius: var(--bdrs20);
     border-bottom-left-radius: var(--bdrs20);
+
+    @include media('767', max) {
+      width: 100%;
+      border-radius: var(--bdrs20);
+    }
   }
 
   &__content {
@@ -49,12 +66,20 @@
     grid-area: content;
     align-items: flex-start;
     padding: rem(40);
+
+    @include media('900', max) {
+      padding: rem(20);
+    }
   }
 
   &__title {
     @include font36;
 
     margin-bottom: rem(32);
+
+    @include media('767', max) {
+      margin-bottom: rem(16);
+    }
   }
 
   &__text {

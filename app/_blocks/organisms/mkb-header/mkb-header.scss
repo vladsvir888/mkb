@@ -3,6 +3,10 @@
   margin-bottom: rem(-147);
   padding-top: rem(80);
 
+  @include media('600', max) {
+    padding-top: rem(50);
+  }
+
   &__breadcrumbs {
     position: relative;
     z-index: 10;

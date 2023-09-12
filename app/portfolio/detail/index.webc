@@ -12,7 +12,7 @@
   }
 
   const header = {
-    isSecondary: true,
+    withBreadcrumbs: true,
     class: "header--without-bg"
   }
 </script>

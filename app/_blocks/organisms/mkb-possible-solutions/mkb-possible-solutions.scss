@@ -4,6 +4,10 @@
   margin-bottom: rem(100);
   background-color: var(--palette-white);
 
+  @include media('767', max) {
+    margin-bottom: rem(25);
+  }
+
   &--without-mb {
     margin-bottom: 0;
   }
@@ -19,6 +23,10 @@
       background-image: url('../assets/images/decorative-element/possible-solutions-2.svg');
       background-repeat: no-repeat;
       content: '';
+
+      @include media('600', max) {
+        background-image: none;
+      }
     }
   }
 

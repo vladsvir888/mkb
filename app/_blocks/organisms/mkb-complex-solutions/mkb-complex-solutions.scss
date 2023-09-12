@@ -1,6 +1,10 @@
 .complex-solutions {
   padding-bottom: rem(100);
 
+  @include media('767', max) {
+    padding-bottom: rem(50);
+  }
+
   &__pagination {
     margin-top: rem(32);
   }

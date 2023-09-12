@@ -1,8 +1,16 @@
 .videoanalytics-common-hero {
   padding-bottom: rem(100);
 
+  @include media('767', max) {
+    padding-bottom: rem(50);
+  }
+
   &__search {
     margin-bottom: rem(60);
     max-width: rem(550);
+
+    @include media('767', max) {
+      margin-bottom: rem(30);
+    }
   }
 }

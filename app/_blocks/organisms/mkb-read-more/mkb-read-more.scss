@@ -4,12 +4,6 @@
   max-width: calc(var(--card-width) * 2 + var(--gap20) + var(--container-padding) * 2);
   margin: 0 auto;
 
-  &__header {
-    @include flex-center-between;
-
-    margin-bottom: rem(40);
-  }
-
   &__title {
     @include font56;
   }
@@ -18,5 +12,15 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(var(--card-width), 1fr));
     gap: var(--gap20);
+
+    @include media('600', max) {
+      display: block;
+
+      > * {
+        &:not(:last-child) {
+          margin-bottom: rem(20);
+        }
+      }
+    }
   }
 }

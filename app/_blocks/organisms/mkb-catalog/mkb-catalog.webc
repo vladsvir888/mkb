@@ -51,12 +51,29 @@
   ]
 </script>
 
-<section class="catalog">
+<section class="catalog" v-scope="toggleFilter()">
   <div class="container">
     <mkb-search search-class="catalog__search"></mkb-search>
-
+    <mkb-button
+      class="button--outline button--outline-gray catalog__filter-btn"
+      @is-button="true"
+      v-on:click="show"
+    >
+      Показать фильтры
+    </mkb-button>
     <div class="catalog__wrap">
-      <div class="catalog__left">
+      <div
+        class="catalog__left"
+        v-bind:class="{ active: isShow }"
+      >
+        <mkb-button
+          class="catalog__close"
+          aria-label="Закрыть фильтры"
+          @is-button="true"
+          v-on:click="hide"
+        >
+          <mkb-icon class="catalog__close-icon" @type="mono" @name="close"></mkb-icon>
+        </mkb-button>
         <aside class="catalog__filter">
           <sl-details class="catalog__details" summary="Цена">
             <div class="catalog__details-icon" slot="expand-icon">

@@ -14,7 +14,7 @@
       </div>
     </div>
 
-    <sl-tab-group class="detail-hero__tabs">
+    <sl-tab-group class="detail-hero__tabs" no-scroll-controls>
       <sl-tab class="detail-hero__tab" slot="nav" panel="spec_product">Характеристики товара</sl-tab>
       <sl-tab class="detail-hero__tab" slot="nav" panel="doc_product">Документация</sl-tab>
 

@@ -1,10 +1,18 @@
 .services {
   padding: rem(50) 0 rem(100);
 
+  @include media('767', max) {
+    padding: rem(50) 0;
+  }
+
   &__container {
     @include flex-column;
 
     row-gap: rem(48);
+
+    @include media('767', max) {
+      row-gap: rem(24);
+    }
   }
 
   &__title {
@@ -32,14 +40,29 @@
     @include flex-center-y;
 
     padding: rem(30);
+    gap: rem(20) rem(10);
     background-color: var(--palette-white);
     border-radius: var(--bdrs20);
+
+    @include media('767', max) {
+      padding: rem(20);
+    }
+
+    @include media('600', max) {
+      padding: rem(10);
+      flex-direction: column;
+      align-items: flex-start;
+    }
 
     &-title {
       @include flex-center-y;
       @include font36;
 
       column-gap: rem(48);
+
+      @include media('767', max) {
+        column-gap: rem(12);
+      }
 
       &::before {
         @include font36;
@@ -52,11 +75,23 @@
         border-radius: var(--bdrs30);
         counter-increment: num-list;
         content: counter(num-list, decimal-leading-zero);
+
+        @include media('767', max) {
+          @include font24;
+
+          min-width: rem(55);
+          min-height: rem(40);
+        }
       }
     }
 
     &-button {
+      text-align: center;
       margin-left: auto;
+
+      @include media('600', max) {
+        margin-left: 0;
+      }
     }
   }
 }

@@ -180,6 +180,10 @@ body {
   background-image: url('../assets/images/decorative-element/text-block.svg');
   background-repeat: no-repeat;
   background-position: left top;
+
+  @include media('600', max) {
+    background-image: none;
+  }
 }
 
 .text-block-decorative-complex {
@@ -187,6 +191,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+
+  @include media('600', max) {
+    background-image: none;
+  }
 }
 
 .error-message {
@@ -207,6 +215,10 @@ body {
   gap: var(--gap20);
   flex-wrap: wrap;
   margin-bottom: rem(40);
+
+  @include media('600', max) {
+    margin-bottom: rem(20);
+  }
 }
 
 @layer text-block, about-text;

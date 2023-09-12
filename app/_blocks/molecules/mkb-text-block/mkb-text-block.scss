@@ -1,10 +1,11 @@
 .text-block {
   max-width: calc(#{rem(800)} + 2 * var(--container-padding));
   counter-reset: white-block-with-number;
+  margin: 0 auto;
+  padding: rem(100) var(--container-padding) rem(70);
 
-  @layer text-block {
-    margin: 0 auto;
-    padding: rem(100) var(--container-padding) rem(70);
+  @include media('767', max) {
+    padding: rem(30) var(--container-padding);
   }
 
   &--2 {
@@ -18,6 +19,10 @@
   h5,
   h6 {
     margin-bottom: rem(40);
+
+    @include media('767', max) {
+      margin-bottom: rem(20);
+    }
   }
 
   h1 {
@@ -51,6 +56,10 @@
 
     &:not(:last-child) {
       margin-bottom: rem(20);
+
+      @include media('767', max) {
+        margin-bottom: rem(12);
+      }
     }
   }
 
@@ -58,12 +67,20 @@
     margin-top: rem(40);
     border-radius: var(--bdrs20);
 
+    @include media('767', max) {
+      margin-top: rem(20);
+    }
+
     + img {
       margin-top: rem(16);
     }
 
     + .white-block {
       margin-top: rem(40);
+
+      @include media('767', max) {
+        margin-top: rem(20);
+      }
     }
   }
 
@@ -141,6 +158,10 @@
 
     &:not(:last-child) {
       margin: rem(32) 0 rem(100);
+
+      @include media('600', max) {
+        margin: rem(32) 0;
+      }
     }
 
     p {
@@ -171,6 +192,11 @@
       background-repeat: no-repeat;
       padding-top: rem(156);
       background-position: center top rem(50);
+
+      @include media('600', max) {
+        padding-top: rem(100);
+        background-position: center top rem(10);
+      }
     }
 
     &:not(:last-child) {
@@ -197,5 +223,9 @@
   .video {
     margin: rem(40) 0;
     border-radius: var(--bdrs20);
+
+    @include media('767', max) {
+      margin: rem(20) 0;
+    }
   }
 }

@@ -1,6 +1,6 @@
 <section class="read-more blog">
   <div class="container">
-    <div class="read-more__header">
+    <div class="read-more__header section-header">
       <h2 class="read-more__title">Читайте также</h2>
       <mkb-button href="/blog" class="button--outline button--outline-gray read-more__button">Все новости</mkb-button>
     </div>

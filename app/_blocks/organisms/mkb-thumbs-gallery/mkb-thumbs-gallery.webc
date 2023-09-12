@@ -1,8 +1,7 @@
 <section class="thumbs-gallery">
   <swiper-container
     class="thumbs-gallery__slider thumbs-gallery__slider--big"
-    thumbs-swiper=".thumbs-gallery__slider--small"
-    space-between="10"
+    init="false"
   >
     <swiper-slide class="thumbs-gallery__slide">
       <div class="thumbs-gallery__img-wrap">
@@ -68,10 +67,7 @@
 
   <swiper-container
     class="thumbs-gallery__slider thumbs-gallery__slider--small"
-    space-between="20"
-    slides-per-view="4"
-    free-mode="true"
-    watch-slides-progress="true"
+    init="false"
   >
     <swiper-slide>
       <eleventy-image class="thumbs-gallery__img" src="./app/_images/hero-section/08.png" alt=""></eleventy-image>

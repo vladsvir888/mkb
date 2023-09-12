@@ -5,6 +5,11 @@
     gap: var(--gap20);
     margin-bottom: rem(100);
 
+    @include media('767', max) {
+      display: block;
+      margin-bottom: rem(50);
+    }
+
     > * {
       grid-column: span 3;
     }
@@ -18,6 +23,14 @@
     align-self: start;
     border-radius: var(--bdrs20);
     background-color: var(--palette-white);
+
+    @include media('767', max) {
+      margin-bottom: rem(20);
+    }
+
+    @include media('600', max) {
+      min-height: rem(300);
+    }
   }
 
   &__img {
@@ -30,6 +43,10 @@
 
     align-items: flex-start;
     margin-left: rem(12);
+
+    @include media('767', max) {
+      margin-left: 0;
+    }
   }
 
   &__text {
@@ -56,6 +73,10 @@
       padding-bottom: rem(20);
       column-gap: rem(40);
       border-bottom: none;
+
+      @include media('600', max) {
+        column-gap: rem(15);
+      }
     }
 
     &::part(active-tab-indicator) {
@@ -94,14 +115,29 @@
   }
 
   &__list {
-    column-count: 3;
-    column-gap: rem(56);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(#{rem(416)}, 1fr));
+    gap: rem(40) rem(56);
+
+    @include media('600', max) {
+      display: block;
+
+      > * {
+        &:not(:last-child) {
+          margin-bottom: rem(30);
+        }
+      }
+    }
   }
 
   &__col {
     @include flex-column;
 
     row-gap: rem(32);
+
+    @include media('900', max) {
+      row-gap: rem(16);
+    }
   }
 
   &__row {
@@ -130,6 +166,10 @@
     &-link {
       display: flex;
       margin-left: rem(152);
+
+      @include media('600', max) {
+        margin-left: rem(20);
+      }
     }
 
     &-icon {

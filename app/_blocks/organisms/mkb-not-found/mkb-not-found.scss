@@ -17,6 +17,10 @@
     margin-bottom: rem(56);
     font-weight: 500;
     color: var(--palette-blue-marguerite);
+
+    @include media('767', max) {
+      margin-bottom: rem(30);
+    }
   }
 
   &__group {

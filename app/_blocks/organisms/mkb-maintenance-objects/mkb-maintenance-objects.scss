@@ -1,6 +1,10 @@
 .maintenance-objects {
   padding: rem(30) 0 rem(100);
 
+  @include media('767', max) {
+    padding: rem(30) 0;
+  }
+
   &__title {
     @include font56;
 

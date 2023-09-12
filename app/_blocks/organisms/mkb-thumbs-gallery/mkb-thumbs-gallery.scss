@@ -29,6 +29,16 @@
       bottom: rem(40);
       width: calc(152px * 4);
 
+      @include media('767', max) {
+        width: calc(152px * 3);
+      }
+
+      @include media('600', max) {
+        width: calc(120px * 2);
+        right: rem(10);
+        bottom: rem(10);
+      }
+
       img {
         border-radius: var(--bdrs10);
       }
