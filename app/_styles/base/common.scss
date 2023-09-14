@@ -1,3 +1,8 @@
+@include font-face('Roboto Flex', 300, '../assets/', 'Roboto-Flex-300');
+@include font-face('Roboto Flex', 400, '../assets/', 'Roboto-Flex-400');
+@include font-face('Roboto Flex', 500, '../assets/', 'Roboto-Flex-500');
+@include font-face('Roboto Flex', 700, '../assets/', 'Roboto-Flex-700');
+
 *,
 *::before,
 *::after {

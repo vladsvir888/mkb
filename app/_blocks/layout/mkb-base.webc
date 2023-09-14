@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,9 +13,9 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
   <!-- google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" webc:keep>
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com" webc:keep>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin webc:keep>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,700&display=swap" rel="stylesheet" webc:keep>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,700&display=swap" rel="stylesheet" webc:keep> -->
   <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" webc:if="isMap" defer webc:keep></script>
   <!-- my scripts -->
   <link rel="stylesheet" href="/styles/main.css" webc:keep>
