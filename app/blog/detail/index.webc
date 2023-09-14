@@ -29,6 +29,7 @@
     title="Как современные шлагбаумы защищены от неблагоприятных природных явлений?"
     page-top-class="page-top--decorative"
     page-top-img="true"
+    time="true"
   ></mkb-page-top>
 
   <div class="text-block text-block-2">

@@ -15,7 +15,7 @@ function changeColorHeader() {
   }
 
   const observer = new IntersectionObserver(callback, {
-    rootMargin: '-100px 0px 0px 0px',
+    rootMargin: '-140px 0px 0px 0px',
   });
   observer.observe(target);
 }

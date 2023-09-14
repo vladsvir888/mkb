@@ -14,7 +14,7 @@
         <mkb-button class="button--link footer__link" href="/gallery">Галерея</mkb-button>
       </li>
       <li>
-        <mkb-button class="button--link footer__link" href="/services">Услуги</mkb-button>
+        <mkb-button class="button--link footer__link" href="/designers">Услуги</mkb-button>
       </li>
       <li>
         <mkb-button class="button--link footer__link" href="/contacts">Контакты</mkb-button>

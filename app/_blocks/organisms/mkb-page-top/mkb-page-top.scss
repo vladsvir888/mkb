@@ -48,4 +48,12 @@
     margin-top: rem(60);
     object-fit: cover;
   }
+
+  &__time {
+    @include font14;
+
+    display: block;
+    margin-bottom: rem(12);
+    color: var(--palette-french-gray);
+  }
 }
