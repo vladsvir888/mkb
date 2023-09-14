@@ -128,8 +128,8 @@
             method: 'POST',
             body: new FormData(form),
           });
-          console.log(response);
           const result = await response.json();
+
           if (result.status) {
             form.reset();
             store.isCallbackModalShow = false;
