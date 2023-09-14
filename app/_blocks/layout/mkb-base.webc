@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Мир комфорта и безопасности - mkb.by</title>
   <!-- favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
@@ -12,16 +12,15 @@
   <link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
-  <!-- google fonts -->
-  <!-- <link rel="preconnect" href="https://fonts.googleapis.com" webc:keep>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin webc:keep>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,700&display=swap" rel="stylesheet" webc:keep> -->
-  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" webc:if="isMap" defer webc:keep></script>
-  <!-- my scripts -->
+  <!-- scripts -->
   <link rel="stylesheet" href="/styles/main.css" webc:keep>
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" webc:if="isMap" defer webc:keep></script>
   <script src="/scripts/main.js" defer webc:keep></script>
 </head>
-<body v-scope>
+<body
+  v-scope
+  v-on:mounted="store.mounted"
+>
   <mkb-header-with-breadcrumbs
     webc:if="header?.withBreadcrumbs"
     :header="header"
@@ -36,15 +35,19 @@
 
   <mkb-callback-modal></mkb-callback-modal>
 
+  <mkb-thanks-modal></mkb-thanks-modal>
+
   <mkb-desktop-menu></mkb-desktop-menu>
 
   <mkb-mobile-menu></mkb-mobile-menu>
 
   <script webc:keep type="module">
     import { createApp, reactive } from 'https://unpkg.com/petite-vue@0.2.2/dist/petite-vue.es.js';
+    import lodash from 'https://cdn.jsdelivr.net/npm/lodash@4.17.21/+esm';
 
     const store = reactive({
       isCallbackModalShow: false,
+      isThanksModalShow: false,
       isMobileCatalogFilterShow: false,
       isDesktopMenuShow: false,
       isMobileMenuShow: false,
@@ -58,9 +61,24 @@
           document.body.classList.remove('lock');
         }
       },
+      mounted() {
+        const header = document.querySelector('.header');
+
+        if (!header) return;
+
+        function changeColorHeader() {
+          if (window.pageYOffset > 0) {
+            header.classList.add('active');
+          } else {
+            header.classList.remove('active');
+          }
+        }
+
+        window.addEventListener('scroll', lodash.throttle(changeColorHeader, 150));
+      }
     });
 
-    function Validation() {
+    function Form() {
       return {
         formData: {
           name: {
@@ -93,18 +111,36 @@
             dataElement.isError = false;
           }
         },
-        onFormSubmit(event) {
+        async onFormSubmit(event) {
+          event.preventDefault();
+
+          const form = this.$refs.form;
           const arrayFormData = Object.entries(this.formData);
           arrayFormData.forEach((formData) => {
             this.validateInput(formData[0]);
           });
-          if (arrayFormData.find((formData) => formData[1].isError)) event.preventDefault();
+
+          if (arrayFormData.find((formData) => formData[1].isError)) {
+            return;
+          }
+
+          const response = await fetch(form.action, {
+            method: 'POST',
+            body: new FormData(form),
+          });
+          const result = await response.json();
+
+          if (result.status) {
+            form.reset();
+            store.isCallbackModalShow = false;
+            store.isThanksModalShow = true;
+          }
         }
       }
     }
 
     createApp({
-      Validation,
+      Form,
       store
     }).mount();
   </script>

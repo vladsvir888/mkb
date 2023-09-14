@@ -7,7 +7,6 @@ import maintenanceSlider from '../_blocks/organisms/mkb-maintenance/mkb-maintena
 import portfolioSlider from '../_blocks/organisms/mkb-portfolio-slider/mkb-portfolio-slider';
 import clientsSlider from '../_blocks/organisms/mkb-clients-slider/mkb-clients-slider';
 import thumbsGallery from '../_blocks/organisms/mkb-thumbs-gallery/mkb-thumbs-gallery';
-import changeColorHeader from '../_blocks/organisms/mkb-header/mkb-header';
 import initMap from './map';
 // eslint-disable-next-line no-unused-vars
 import MkbRangeSlider from '../_blocks/molecules/mkb-range-slider/mkb-range-slider';
@@ -29,7 +28,6 @@ register();
 document.addEventListener('DOMContentLoaded', () => {
   document.documentElement.style.setProperty('--scrollbar-width', `${getScrollbarWidth()}px`);
 
-  changeColorHeader();
   maintenanceSlider();
   portfolioSlider();
   clientsSlider();

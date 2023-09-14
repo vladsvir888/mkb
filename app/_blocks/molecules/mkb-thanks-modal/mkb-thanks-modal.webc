@@ -1,0 +1,10 @@
+<sl-dialog
+  v-bind:open="store.isThanksModalShow ? 'open' : ''"
+  v-on:sl-hide="store.isThanksModalShow = false"
+  label="Спасибо!"
+  class="thanks-modal"
+>
+  <div class="thanks-modal__text">
+    Наш менеджер скоро с Вами свяжется, ответит на все интересующие вопросы и сориентирует по стоимости.
+  </div>
+</sl-dialog>
