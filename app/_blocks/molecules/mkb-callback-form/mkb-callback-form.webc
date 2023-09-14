@@ -3,8 +3,7 @@
   v-on:submit="onFormSubmit"
   ref="form"
   class="callback-form"
-  action="assets/callback-form.json"
-  method="get"
+  action="/assets/callback-form.json"
   novalidate
 >
   <div class="callback-form__inputs">
