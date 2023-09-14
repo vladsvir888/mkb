@@ -45,7 +45,7 @@
       display: none;
     }
 
-    &[aria-selected="true"] {
+    &[aria-selected='true'] {
       &::part(base) {
         background-color: var(--palette-athens-gray);
       }

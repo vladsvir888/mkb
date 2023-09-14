@@ -5,6 +5,7 @@
     padding: rem(20) rem(12);
     background-color: var(--palette-white);
     border: rem(1) solid var(--palette-blue-marguerite);
+    border-radius: 0;
   }
 
   &::placeholder {

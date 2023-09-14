@@ -19,6 +19,7 @@
 <mkb-base
   webc:nokeep
   is-footer="true"
+  is-map="true"
 >
   <mkb-page-top
     :breadcrumbs="breadcrumbs"

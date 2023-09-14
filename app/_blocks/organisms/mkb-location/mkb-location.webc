@@ -4,5 +4,5 @@
       Где нас найти?
     </h2>
   </div>
-  <eleventy-image class="location__img" src="./app/_images/map/01.png" alt=""></eleventy-image>
+  <div class="map location__map" data-map-coords="55.751574, 37.573856"></div>
 </section>

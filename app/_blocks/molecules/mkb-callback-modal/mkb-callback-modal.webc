@@ -1,4 +1,9 @@
-<sl-dialog label="Обратный звонок" class="callback-modal">
+<sl-dialog
+  v-bind:open="store.isCallbackModalShow ? 'open' : ''"
+  v-on:sl-hide="store.isCallbackModalShow = false"
+  label="Обратный звонок"
+  class="callback-modal"
+>
   <div class="callback-modal__content">
     <div class="callback-modal__text">
       Введите ваше имя, номер телефона, чтобы оставить заявку. Наш менеджер свяжется с вами, ответит на все интересующие вопросы и сориентирует по стоимости.

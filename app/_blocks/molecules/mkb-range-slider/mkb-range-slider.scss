@@ -1,7 +1,8 @@
 .range-slider {
   &__inputs {
-    display: flex;
-    column-gap: rem(30);
+    @include flex-center-y;
+
+    column-gap: rem(8);
     margin-bottom: rem(16);
   }
 
@@ -27,6 +28,11 @@
     font-size: rem(12);
     color: var(--palette-silver);
     letter-spacing: rem(-0.24);
+  }
+
+  &__icon {
+    width: rem(14);
+    height: rem(10);
   }
 
   .noUi-connect {

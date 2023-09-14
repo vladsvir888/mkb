@@ -1,0 +1,97 @@
+.desktop-menu {
+  $this: &;
+
+  --size: #{rem(770)};
+  --padding-wrap: #{rem(40)};
+  --width-col: #{rem(280)};
+  --gap-col: #{rem(72)};
+
+  &::part(base),
+  &::part(overlay) {
+    top: var(--header-size);
+  }
+
+  &::part(body) {
+    padding: 0;
+  }
+
+  &__wrap {
+    position: relative;
+    padding: var(--padding-wrap) 0;
+    border-top: rem(1) solid var(--palette-french-gray);
+  }
+
+  &__list,
+  &__submenu {
+    @include flex-column;
+
+    row-gap: rem(24);
+    width: var(--width-col);
+  }
+
+  &__item {
+    &:hover,
+    &:focus-within {
+      > {
+        #{$this} {
+          &__submenu {
+            opacity: 1;
+            visibility: visible;
+          }
+
+          &__link {
+            color: var(--palette-blue-marguerite);
+          }
+        }
+      }
+    }
+  }
+
+  &__link {
+    @include flex-center-between;
+    @include font14;
+
+    column-gap: rem(10);
+
+    > span {
+      max-width: rem(215);
+    }
+
+    &-icon {
+      width: rem(18);
+      height: rem(18);
+      margin-top: rem(2);
+      fill: transparent;
+      stroke: currentcolor;
+    }
+  }
+
+  &__submenu {
+    opacity: 0;
+    visibility: hidden;
+    transition: all var(--transition300ms);
+
+    &::before {
+      position: absolute;
+      left: calc(var(--gap-col) * -1);
+      height: 100%;
+      width: var(--gap-col);
+      background-color: transparent;
+      content: '';
+    }
+
+    &--2,
+    &--3 {
+      position: absolute;
+      left: calc(var(--width-col) + var(--gap-col));
+    }
+
+    &--2 {
+      top: var(--padding-wrap);
+    }
+
+    &--3 {
+      top: 0;
+    }
+  }
+}

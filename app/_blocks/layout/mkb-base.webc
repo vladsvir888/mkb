@@ -15,16 +15,13 @@
   <!-- google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" webc:keep>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin webc:keep>
-  <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,500&display=swap" rel="stylesheet" webc:keep> -->
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,700&display=swap" rel="stylesheet" webc:keep>
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" webc:if="isMap" defer webc:keep></script>
   <!-- my scripts -->
   <link rel="stylesheet" href="/styles/main.css" webc:keep>
   <script src="/scripts/main.js" defer webc:keep></script>
 </head>
-<body
-  ref="body"
-  v-scope
->
+<body v-scope>
   <mkb-header-with-breadcrumbs
     webc:if="header?.withBreadcrumbs"
     :header="header"
@@ -39,8 +36,29 @@
 
   <mkb-callback-modal></mkb-callback-modal>
 
+  <mkb-desktop-menu></mkb-desktop-menu>
+
+  <mkb-mobile-menu></mkb-mobile-menu>
+
   <script webc:keep type="module">
-    import { createApp } from 'https://unpkg.com/petite-vue@0.2.2/dist/petite-vue.es.js';
+    import { createApp, reactive } from 'https://unpkg.com/petite-vue@0.2.2/dist/petite-vue.es.js';
+
+    const store = reactive({
+      isCallbackModalShow: false,
+      isMobileCatalogFilterShow: false,
+      isDesktopMenuShow: false,
+      isMobileMenuShow: false,
+      isSubmenuInMobileMenuShow: false,
+      toggleMobileCatalogFilter(state) {
+        if (state === 'open') {
+          this.isMobileCatalogFilterShow = true;
+          document.body.classList.add('lock');
+        } else {
+          this.isMobileCatalogFilterShow = false;
+          document.body.classList.remove('lock');
+        }
+      },
+    });
 
     function Validation() {
       return {
@@ -85,23 +103,9 @@
       }
     }
 
-    function toggleFilter() {
-      return {
-        isShow: false,
-        show() {
-          this.isShow = true;
-          this.$refs.body.classList.add('lock');
-        },
-        hide() {
-          this.isShow = false;
-          this.$refs.body.classList.remove('lock');
-        }
-      }
-    }
-
     createApp({
       Validation,
-      toggleFilter,
+      store
     }).mount();
   </script>
 </body>

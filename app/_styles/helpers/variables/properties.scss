@@ -20,7 +20,7 @@
   --palette-french-gray: #b7b5c3;
   --palette-french-gray-a50: color-mix(in srgb, var(--palette-french-gray), transparent 50%);
   --palette-athens-gray-2: #e4e7ec;
-  --palette-valencia: #D73C3C;
+  --palette-valencia: #d73c3c;
 
   // containers
   --container-width: #{rem(1440)};
@@ -45,6 +45,13 @@
 
   // gaps
   --gap20: #{rem(20)};
+
+  // header-size
+  --header-size: #{rem(80)};
+
+  @include media('1200', max) {
+    --header-size: #{rem(65)};
+  }
 }
 
 $mouse-device: '(hover: hover)';
@@ -101,7 +108,7 @@ $mouse-device: '(hover: hover)';
   @include media('600', max) {
     @include font-size(24, 26.4);
 
-    letter-spacing: rem(-0.48)
+    letter-spacing: rem(-0.48);
   }
 }
 

@@ -44,6 +44,7 @@
   webc:nokeep
   :header="header"
   is-footer="true"
+  is-map="true"
 >
   <mkb-hero title="О компании МКБ" :breadcrumbs="breadcrumbs" content="true"></mkb-hero>
 

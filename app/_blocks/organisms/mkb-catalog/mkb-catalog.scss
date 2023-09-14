@@ -151,8 +151,12 @@
   }
 
   &__close {
-    display: flex;
+    display: none;
     margin: rem(10) 0 0 auto;
+
+    @include media('1200', max) {
+      display: flex;
+    }
 
     &-icon {
       width: rem(25);

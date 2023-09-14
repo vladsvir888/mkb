@@ -3,7 +3,12 @@
     <div class="hero-inner__content">
       <h2 class="hero-inner__title" @html="heroInner.title"></h2>
       <mkb-button webc:if="heroInner?.button?.type === 'first'" class="button--outline button--outline-white hero-inner__button hero-inner__button--1" href="/catalog">Перейти к товарам</mkb-button>
-      <mkb-button webc:else class="button--purple hero-inner__button hero-inner__button--2" @is-button="true">Заказать консультацию</mkb-button>
+      <mkb-button
+        v-on:click="store.isCallbackModalShow = true"
+        webc:else
+        @is-button="true"
+        class="button--purple hero-inner__button hero-inner__button--2"
+      >Заказать консультацию</mkb-button>
     </div>
     <div class="hero-inner__form">
       <mkb-callback-form webc:if="heroInner.form"></mkb-callback-form>

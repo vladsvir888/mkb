@@ -45,11 +45,8 @@
   }
 
   &__map {
-    border-radius: var(--bdrs12);
-
-    &-map-img {
-      border-radius: inherit;
-    }
+    width: rem(670);
+    height: rem(336);
   }
 
   &__panel-links {

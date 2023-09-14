@@ -30,8 +30,6 @@
       <mkb-button class="button--link contacts__email" href="mailto:info@mkb.by">info@mkb.by</mkb-button>
       <mkb-button class="button--link contacts__insta" href="https://www.instagram.com/" target="_blank">instagram</mkb-button>
     </div>
-    <div class="contacts__map">
-      <eleventy-image src="./app/_images/map/02.png" class="contacts__map-img" alt=""></eleventy-image>
-    </div>
+    <div class="map contacts__map" data-map-coords="55.751574, 37.573856"></div>
   </div>
 </div>

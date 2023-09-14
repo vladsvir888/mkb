@@ -1,49 +1,75 @@
-<header class="header" :class="header?.class ? header.class : ''">
-  <div class="container">
-    <div class="header__wrap">
-      <div class="header__item header__item--start">
-        <mkb-button href="/" class="header__logo-link">
-          <eleventy-image class="header__logo-img" src="./app/_images/icons/logo.png" alt="МКБ главная"></eleventy-image>
-        </mkb-button>
-        <mkb-button @is-button="true" class="header__burger" aria-label="Открыть меню">
-          <mkb-icon class="header__burger-icon" @type="mono" @name="menu"></mkb-icon>
-        </mkb-button>
-        <nav class="header__nav" aria-label="Главное">
-          <ul class="header__list">
-            <li class="header__item">
-              <mkb-button href="/catalog" class="button--link header__link">
-                Каталог
-              </mkb-button>
-            </li>
-            <li class="header__item">
-              <mkb-button href="/videoanalytics-common" class="button--link header__link">
-                Направления
-              </mkb-button>
-            </li>
-            <li class="header__item">
-              <mkb-button href="/designers" class="button--link header__link">
-                Обслуживание
-              </mkb-button>
-            </li>
-            <li class="header__item">
-              <mkb-button href="/contacts" class="button--link header__link">
-                Контакты
-              </mkb-button>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <div class="header__item header__item--end">
-        <div class="header__work">
-          <mkb-icon class="header__work-icon" @type="multi" @name="map-belarus"></mkb-icon>
-          <div class="header__work-text">Работаем по всей Беларуси</div>
+<header
+  class="header"
+  :class="header?.class ? header.class : ''"
+>
+  <div
+    v-bind:class="(store.isDesktopMenuShow || store.isMobileMenuShow) ? 'menu-show' : ''"
+    class="header__container"
+  >
+    <div class="container">
+      <div class="header__wrap">
+        <div class="header__item header__item--start">
+          <mkb-button href="/" class="header__logo-link">
+            <eleventy-image class="header__logo-img" src="./app/_images/icons/logo.png" alt="МКБ главная"></eleventy-image>
+          </mkb-button>
+          <mkb-button
+            v-on:click="store.isDesktopMenuShow = !store.isDesktopMenuShow"
+            v-bind:class="store.isDesktopMenuShow ? 'active' : ''"
+            @is-button="true"
+            class="header__burger header__burger--desktop"
+            aria-label="Открыть десктопное меню"
+          >
+            <mkb-icon class="header__burger-icon header__burger-icon--menu" @type="mono" @name="menu"></mkb-icon>
+            <mkb-icon class="header__burger-icon header__burger-icon--close" @type="mono" @name="close"></mkb-icon>
+          </mkb-button>
+          <nav class="header__nav" aria-label="Главное">
+            <ul class="header__list">
+              <li class="header__item">
+                <mkb-button href="/catalog" class="button--link header__link">
+                  Каталог
+                </mkb-button>
+              </li>
+              <li class="header__item">
+                <mkb-button href="/videoanalytics-common" class="button--link header__link">
+                  Направления
+                </mkb-button>
+              </li>
+              <li class="header__item">
+                <mkb-button href="/designers" class="button--link header__link">
+                  Обслуживание
+                </mkb-button>
+              </li>
+              <li class="header__item">
+                <mkb-button href="/contacts" class="button--link header__link">
+                  Контакты
+                </mkb-button>
+              </li>
+            </ul>
+          </nav>
+          <mkb-button
+            v-on:click="store.isMobileMenuShow = !store.isMobileMenuShow"
+            v-bind:class="store.isMobileMenuShow ? 'active' : ''"
+            @is-button="true"
+            class="header__burger header__burger--mobile"
+            aria-label="Открыть мобильное меню"
+          >
+            <mkb-icon class="header__burger-icon header__burger-icon--menu" @type="mono" @name="menu"></mkb-icon>
+            <mkb-icon class="header__burger-icon header__burger-icon--close" @type="mono" @name="close"></mkb-icon>
+          </mkb-button>
         </div>
-        <mkb-button class="header__phone button--link" href="tel:+375445735357">+375 (44) 57-353-57</mkb-button>
-        <mkb-button class="header__email button--link" href="mailto:info@mkb.by">info@mkb.by</mkb-button>
-        <mkb-button
-          class="button--purple header__callback"
-          @is-button="true"
-        >Расчёт стоимости</mkb-button>
+        <div class="header__item header__item--end">
+          <div class="header__work">
+            <mkb-icon class="header__work-icon" @type="multi" @name="map-belarus"></mkb-icon>
+            <div class="header__work-text">Работаем по всей Беларуси</div>
+          </div>
+          <mkb-button class="header__phone button--link" href="tel:+375445735357">+375 (44) 57-353-57</mkb-button>
+          <mkb-button class="header__email button--link" href="mailto:info@mkb.by">info@mkb.by</mkb-button>
+          <mkb-button
+            class="button--purple header__callback"
+            @is-button="true"
+            v-on:click="store.isCallbackModalShow = true"
+          >Расчёт стоимости</mkb-button>
+        </div>
       </div>
     </div>
   </div>

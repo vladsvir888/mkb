@@ -1,6 +1,7 @@
 <mkb-range-slider class="range-slider" webc:keep>
   <div class="range-slider__inputs">
     <input type="text" class="input range-slider__input range-slider__input--from">
+    <mkb-icon class="range-slider__icon" @type="multi" @name="dash"></mkb-icon>
     <input type="text" class="input range-slider__input range-slider__input--to">
   </div>
   <div

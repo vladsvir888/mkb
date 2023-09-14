@@ -51,26 +51,26 @@
   ]
 </script>
 
-<section class="catalog" v-scope="toggleFilter()">
+<section class="catalog">
   <div class="container">
     <mkb-search search-class="catalog__search"></mkb-search>
     <mkb-button
       class="button--outline button--outline-gray catalog__filter-btn"
       @is-button="true"
-      v-on:click="show"
+      v-on:click="store.toggleMobileCatalogFilter('open')"
     >
       Показать фильтры
     </mkb-button>
     <div class="catalog__wrap">
       <div
         class="catalog__left"
-        v-bind:class="{ active: isShow }"
+        v-bind:class="{ active: store.isMobileCatalogFilterShow }"
       >
         <mkb-button
           class="catalog__close"
           aria-label="Закрыть фильтры"
           @is-button="true"
-          v-on:click="hide"
+          v-on:click="store.toggleMobileCatalogFilter('close')"
         >
           <mkb-icon class="catalog__close-icon" @type="mono" @name="close"></mkb-icon>
         </mkb-button>

@@ -13,10 +13,7 @@ export default class MkbRangeSlider extends HTMLElement {
 
   initSlider() {
     noUiSlider.create(this.slider, {
-      start: [
-        Number(this.slider.dataset.rangeSliderStartValue),
-        Number(this.slider.dataset.rangeSliderEndValue),
-      ],
+      start: [Number(this.slider.dataset.rangeSliderStartValue), Number(this.slider.dataset.rangeSliderEndValue)],
       connect: true,
       range: {
         min: Number(this.slider.dataset.rangeSliderMinValue),

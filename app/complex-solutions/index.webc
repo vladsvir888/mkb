@@ -42,6 +42,11 @@
 
   <mkb-callback-banner>
     <span slot="heading" webc:nokeep>Компания мкб реализовала большое количество реальных комплексных проектов</span>
-    <mkb-button slot="button" class="button--white callback-banner__button" @is-button="true">Ознакомиться с процессом</mkb-button>
+    <mkb-button
+      v-on:click="store.isCallbackModalShow = true"
+      @is-button="true"
+      slot="button"
+      class="button--white callback-banner__button"
+    >Ознакомиться с процессом</mkb-button>
   </mkb-callback-banner>
 </mkb-base>
