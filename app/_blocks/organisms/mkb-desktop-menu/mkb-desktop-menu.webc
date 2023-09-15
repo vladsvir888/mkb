@@ -11,7 +11,154 @@
         <li class="desktop-menu__item">
           <mkb-button href="/" class="button--link desktop-menu__link">
             <span>Видеонаблюдение и видеоаналитика</span>
+            <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
           </mkb-button>
+          <ul class="desktop-menu__submenu desktop-menu__submenu--2">
+            <li class="desktop-menu__item desktop-menu__submenu-item">
+              <mkb-button href="/" class="button--link desktop-menu__link">
+                <span>Автоматические шлагбаумы</span>
+                <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
+              </mkb-button>
+              <ul class="desktop-menu__submenu desktop-menu__submenu--3">
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы ALUETECH</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы FAAC</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы NICE</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы DEA</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы BFT</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаум механический</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы CAME</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы Comunello</span>
+                  </mkb-button>
+                </li>
+              </ul>
+            </li>
+            <li class="desktop-menu__item desktop-menu__submenu-item">
+              <mkb-button href="/" class="button--link desktop-menu__link">
+                <span>Комплектация шлагбаума</span>
+                <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
+              </mkb-button>
+              <ul class="desktop-menu__submenu desktop-menu__submenu--3">
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы ALUETECH</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы FAAC</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы NICE</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы DEA</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы BFT</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаум механический</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы CAME</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы Comunello</span>
+                  </mkb-button>
+                </li>
+              </ul>
+            </li>
+            <li class="desktop-menu__item desktop-menu__submenu-item">
+              <mkb-button href="/" class="button--link desktop-menu__link">
+                <span>Управление шлагбаумом</span>
+                <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
+              </mkb-button>
+              <ul class="desktop-menu__submenu desktop-menu__submenu--3">
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы ALUETECH</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы FAAC</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы NICE</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы DEA</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы BFT</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаум механический</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы CAME</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы Comunello</span>
+                  </mkb-button>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </li>
         <li class="desktop-menu__item">
           <mkb-button href="/" class="button--link desktop-menu__link">
@@ -168,52 +315,1522 @@
         <li class="desktop-menu__item">
           <mkb-button href="/" class="button--link desktop-menu__link">
             <span>Дорожные блокиаторы (болларды, барьеры)</span>
+            <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
           </mkb-button>
+          <ul class="desktop-menu__submenu desktop-menu__submenu--2">
+            <li class="desktop-menu__item desktop-menu__submenu-item">
+              <mkb-button href="/" class="button--link desktop-menu__link">
+                <span>Автоматические шлагбаумы</span>
+                <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
+              </mkb-button>
+              <ul class="desktop-menu__submenu desktop-menu__submenu--3">
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы ALUETECH</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы FAAC</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы NICE</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы DEA</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы BFT</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаум механический</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы CAME</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы Comunello</span>
+                  </mkb-button>
+                </li>
+              </ul>
+            </li>
+            <li class="desktop-menu__item desktop-menu__submenu-item">
+              <mkb-button href="/" class="button--link desktop-menu__link">
+                <span>Комплектация шлагбаума</span>
+                <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
+              </mkb-button>
+              <ul class="desktop-menu__submenu desktop-menu__submenu--3">
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы ALUETECH</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы FAAC</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы NICE</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы DEA</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы BFT</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаум механический</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы CAME</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы Comunello</span>
+                  </mkb-button>
+                </li>
+              </ul>
+            </li>
+            <li class="desktop-menu__item desktop-menu__submenu-item">
+              <mkb-button href="/" class="button--link desktop-menu__link">
+                <span>Управление шлагбаумом</span>
+                <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
+              </mkb-button>
+              <ul class="desktop-menu__submenu desktop-menu__submenu--3">
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы ALUETECH</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы FAAC</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы NICE</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы DEA</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы BFT</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаум механический</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы CAME</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы Comunello</span>
+                  </mkb-button>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </li>
         <li class="desktop-menu__item">
           <mkb-button href="/" class="button--link desktop-menu__link">
             <span>Системы контроля и управления доступом</span>
+            <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
           </mkb-button>
+          <ul class="desktop-menu__submenu desktop-menu__submenu--2">
+            <li class="desktop-menu__item desktop-menu__submenu-item">
+              <mkb-button href="/" class="button--link desktop-menu__link">
+                <span>Автоматические шлагбаумы</span>
+                <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
+              </mkb-button>
+              <ul class="desktop-menu__submenu desktop-menu__submenu--3">
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы ALUETECH</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы FAAC</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы NICE</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы DEA</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы BFT</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаум механический</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы CAME</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы Comunello</span>
+                  </mkb-button>
+                </li>
+              </ul>
+            </li>
+            <li class="desktop-menu__item desktop-menu__submenu-item">
+              <mkb-button href="/" class="button--link desktop-menu__link">
+                <span>Комплектация шлагбаума</span>
+                <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
+              </mkb-button>
+              <ul class="desktop-menu__submenu desktop-menu__submenu--3">
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы ALUETECH</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы FAAC</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы NICE</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы DEA</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы BFT</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаум механический</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы CAME</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы Comunello</span>
+                  </mkb-button>
+                </li>
+              </ul>
+            </li>
+            <li class="desktop-menu__item desktop-menu__submenu-item">
+              <mkb-button href="/" class="button--link desktop-menu__link">
+                <span>Управление шлагбаумом</span>
+                <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
+              </mkb-button>
+              <ul class="desktop-menu__submenu desktop-menu__submenu--3">
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы ALUETECH</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы FAAC</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы NICE</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы DEA</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы BFT</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаум механический</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы CAME</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы Comunello</span>
+                  </mkb-button>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </li>
         <li class="desktop-menu__item">
           <mkb-button href="/" class="button--link desktop-menu__link">
             <span>Турникеты, ограждения, системы управления</span>
+            <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
           </mkb-button>
+          <ul class="desktop-menu__submenu desktop-menu__submenu--2">
+            <li class="desktop-menu__item desktop-menu__submenu-item">
+              <mkb-button href="/" class="button--link desktop-menu__link">
+                <span>Автоматические шлагбаумы</span>
+                <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
+              </mkb-button>
+              <ul class="desktop-menu__submenu desktop-menu__submenu--3">
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы ALUETECH</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы FAAC</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы NICE</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы DEA</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы BFT</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаум механический</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы CAME</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы Comunello</span>
+                  </mkb-button>
+                </li>
+              </ul>
+            </li>
+            <li class="desktop-menu__item desktop-menu__submenu-item">
+              <mkb-button href="/" class="button--link desktop-menu__link">
+                <span>Комплектация шлагбаума</span>
+                <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
+              </mkb-button>
+              <ul class="desktop-menu__submenu desktop-menu__submenu--3">
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы ALUETECH</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы FAAC</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы NICE</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы DEA</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы BFT</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаум механический</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы CAME</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы Comunello</span>
+                  </mkb-button>
+                </li>
+              </ul>
+            </li>
+            <li class="desktop-menu__item desktop-menu__submenu-item">
+              <mkb-button href="/" class="button--link desktop-menu__link">
+                <span>Управление шлагбаумом</span>
+                <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
+              </mkb-button>
+              <ul class="desktop-menu__submenu desktop-menu__submenu--3">
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы ALUETECH</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы FAAC</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы NICE</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы DEA</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы BFT</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаум механический</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы CAME</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы Comunello</span>
+                  </mkb-button>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </li>
         <li class="desktop-menu__item">
           <mkb-button href="/" class="button--link desktop-menu__link">
             <span>Учет рабочего времени и биометрический контроль доступа</span>
+            <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
           </mkb-button>
+          <ul class="desktop-menu__submenu desktop-menu__submenu--2">
+            <li class="desktop-menu__item desktop-menu__submenu-item">
+              <mkb-button href="/" class="button--link desktop-menu__link">
+                <span>Автоматические шлагбаумы</span>
+                <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
+              </mkb-button>
+              <ul class="desktop-menu__submenu desktop-menu__submenu--3">
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы ALUETECH</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы FAAC</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы NICE</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы DEA</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы BFT</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаум механический</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы CAME</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы Comunello</span>
+                  </mkb-button>
+                </li>
+              </ul>
+            </li>
+            <li class="desktop-menu__item desktop-menu__submenu-item">
+              <mkb-button href="/" class="button--link desktop-menu__link">
+                <span>Комплектация шлагбаума</span>
+                <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
+              </mkb-button>
+              <ul class="desktop-menu__submenu desktop-menu__submenu--3">
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы ALUETECH</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы FAAC</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы NICE</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы DEA</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы BFT</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаум механический</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы CAME</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы Comunello</span>
+                  </mkb-button>
+                </li>
+              </ul>
+            </li>
+            <li class="desktop-menu__item desktop-menu__submenu-item">
+              <mkb-button href="/" class="button--link desktop-menu__link">
+                <span>Управление шлагбаумом</span>
+                <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
+              </mkb-button>
+              <ul class="desktop-menu__submenu desktop-menu__submenu--3">
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы ALUETECH</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы FAAC</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы NICE</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы DEA</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы BFT</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаум механический</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы CAME</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы Comunello</span>
+                  </mkb-button>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </li>
         <li class="desktop-menu__item">
           <mkb-button href="/" class="button--link desktop-menu__link">
             <span>Автоматизация доступа, пропускных систем, систем оплаты</span>
+            <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
           </mkb-button>
+          <ul class="desktop-menu__submenu desktop-menu__submenu--2">
+            <li class="desktop-menu__item desktop-menu__submenu-item">
+              <mkb-button href="/" class="button--link desktop-menu__link">
+                <span>Автоматические шлагбаумы</span>
+                <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
+              </mkb-button>
+              <ul class="desktop-menu__submenu desktop-menu__submenu--3">
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы ALUETECH</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы FAAC</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы NICE</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы DEA</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы BFT</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаум механический</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы CAME</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы Comunello</span>
+                  </mkb-button>
+                </li>
+              </ul>
+            </li>
+            <li class="desktop-menu__item desktop-menu__submenu-item">
+              <mkb-button href="/" class="button--link desktop-menu__link">
+                <span>Комплектация шлагбаума</span>
+                <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
+              </mkb-button>
+              <ul class="desktop-menu__submenu desktop-menu__submenu--3">
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы ALUETECH</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы FAAC</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы NICE</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы DEA</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы BFT</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаум механический</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы CAME</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы Comunello</span>
+                  </mkb-button>
+                </li>
+              </ul>
+            </li>
+            <li class="desktop-menu__item desktop-menu__submenu-item">
+              <mkb-button href="/" class="button--link desktop-menu__link">
+                <span>Управление шлагбаумом</span>
+                <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
+              </mkb-button>
+              <ul class="desktop-menu__submenu desktop-menu__submenu--3">
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы ALUETECH</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы FAAC</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы NICE</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы DEA</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы BFT</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаум механический</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы CAME</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы Comunello</span>
+                  </mkb-button>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </li>
         <li class="desktop-menu__item">
           <mkb-button href="/" class="button--link desktop-menu__link">
             <span>Автоматические парковочные системы со взимание платежей</span>
+            <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
           </mkb-button>
+          <ul class="desktop-menu__submenu desktop-menu__submenu--2">
+            <li class="desktop-menu__item desktop-menu__submenu-item">
+              <mkb-button href="/" class="button--link desktop-menu__link">
+                <span>Автоматические шлагбаумы</span>
+                <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
+              </mkb-button>
+              <ul class="desktop-menu__submenu desktop-menu__submenu--3">
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы ALUETECH</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы FAAC</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы NICE</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы DEA</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы BFT</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаум механический</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы CAME</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы Comunello</span>
+                  </mkb-button>
+                </li>
+              </ul>
+            </li>
+            <li class="desktop-menu__item desktop-menu__submenu-item">
+              <mkb-button href="/" class="button--link desktop-menu__link">
+                <span>Комплектация шлагбаума</span>
+                <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
+              </mkb-button>
+              <ul class="desktop-menu__submenu desktop-menu__submenu--3">
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы ALUETECH</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы FAAC</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы NICE</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы DEA</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы BFT</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаум механический</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы CAME</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы Comunello</span>
+                  </mkb-button>
+                </li>
+              </ul>
+            </li>
+            <li class="desktop-menu__item desktop-menu__submenu-item">
+              <mkb-button href="/" class="button--link desktop-menu__link">
+                <span>Управление шлагбаумом</span>
+                <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
+              </mkb-button>
+              <ul class="desktop-menu__submenu desktop-menu__submenu--3">
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы ALUETECH</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы FAAC</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы NICE</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы DEA</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы BFT</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаум механический</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы CAME</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы Comunello</span>
+                  </mkb-button>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </li>
         <li class="desktop-menu__item">
           <mkb-button href="/" class="button--link desktop-menu__link">
             <span>Сервисное техническое обслуживание и ремонт</span>
+            <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
           </mkb-button>
+          <ul class="desktop-menu__submenu desktop-menu__submenu--2">
+            <li class="desktop-menu__item desktop-menu__submenu-item">
+              <mkb-button href="/" class="button--link desktop-menu__link">
+                <span>Автоматические шлагбаумы</span>
+                <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
+              </mkb-button>
+              <ul class="desktop-menu__submenu desktop-menu__submenu--3">
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы ALUETECH</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы FAAC</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы NICE</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы DEA</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы BFT</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаум механический</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы CAME</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы Comunello</span>
+                  </mkb-button>
+                </li>
+              </ul>
+            </li>
+            <li class="desktop-menu__item desktop-menu__submenu-item">
+              <mkb-button href="/" class="button--link desktop-menu__link">
+                <span>Комплектация шлагбаума</span>
+                <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
+              </mkb-button>
+              <ul class="desktop-menu__submenu desktop-menu__submenu--3">
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы ALUETECH</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы FAAC</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы NICE</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы DEA</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы BFT</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаум механический</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы CAME</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы Comunello</span>
+                  </mkb-button>
+                </li>
+              </ul>
+            </li>
+            <li class="desktop-menu__item desktop-menu__submenu-item">
+              <mkb-button href="/" class="button--link desktop-menu__link">
+                <span>Управление шлагбаумом</span>
+                <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
+              </mkb-button>
+              <ul class="desktop-menu__submenu desktop-menu__submenu--3">
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы ALUETECH</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы FAAC</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы NICE</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы DEA</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы BFT</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаум механический</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы CAME</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы Comunello</span>
+                  </mkb-button>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </li>
         <li class="desktop-menu__item">
           <mkb-button href="/" class="button--link desktop-menu__link">
             <span>Программное обеспечение для СКУД</span>
+            <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
           </mkb-button>
+          <ul class="desktop-menu__submenu desktop-menu__submenu--2">
+            <li class="desktop-menu__item desktop-menu__submenu-item">
+              <mkb-button href="/" class="button--link desktop-menu__link">
+                <span>Автоматические шлагбаумы</span>
+                <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
+              </mkb-button>
+              <ul class="desktop-menu__submenu desktop-menu__submenu--3">
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы ALUETECH</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы FAAC</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы NICE</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы DEA</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы BFT</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаум механический</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы CAME</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы Comunello</span>
+                  </mkb-button>
+                </li>
+              </ul>
+            </li>
+            <li class="desktop-menu__item desktop-menu__submenu-item">
+              <mkb-button href="/" class="button--link desktop-menu__link">
+                <span>Комплектация шлагбаума</span>
+                <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
+              </mkb-button>
+              <ul class="desktop-menu__submenu desktop-menu__submenu--3">
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы ALUETECH</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы FAAC</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы NICE</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы DEA</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы BFT</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаум механический</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы CAME</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы Comunello</span>
+                  </mkb-button>
+                </li>
+              </ul>
+            </li>
+            <li class="desktop-menu__item desktop-menu__submenu-item">
+              <mkb-button href="/" class="button--link desktop-menu__link">
+                <span>Управление шлагбаумом</span>
+                <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
+              </mkb-button>
+              <ul class="desktop-menu__submenu desktop-menu__submenu--3">
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы ALUETECH</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы FAAC</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы NICE</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы DEA</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы BFT</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаум механический</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы CAME</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы Comunello</span>
+                  </mkb-button>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </li>
         <li class="desktop-menu__item">
           <mkb-button href="/" class="button--link desktop-menu__link">
             <span>Оснащение парковки и паркинга, средства ОДД</span>
+            <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
           </mkb-button>
+          <ul class="desktop-menu__submenu desktop-menu__submenu--2">
+            <li class="desktop-menu__item desktop-menu__submenu-item">
+              <mkb-button href="/" class="button--link desktop-menu__link">
+                <span>Автоматические шлагбаумы</span>
+                <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
+              </mkb-button>
+              <ul class="desktop-menu__submenu desktop-menu__submenu--3">
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы ALUETECH</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы FAAC</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы NICE</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы DEA</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы BFT</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаум механический</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы CAME</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы Comunello</span>
+                  </mkb-button>
+                </li>
+              </ul>
+            </li>
+            <li class="desktop-menu__item desktop-menu__submenu-item">
+              <mkb-button href="/" class="button--link desktop-menu__link">
+                <span>Комплектация шлагбаума</span>
+                <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
+              </mkb-button>
+              <ul class="desktop-menu__submenu desktop-menu__submenu--3">
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы ALUETECH</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы FAAC</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы NICE</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы DEA</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы BFT</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаум механический</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы CAME</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы Comunello</span>
+                  </mkb-button>
+                </li>
+              </ul>
+            </li>
+            <li class="desktop-menu__item desktop-menu__submenu-item">
+              <mkb-button href="/" class="button--link desktop-menu__link">
+                <span>Управление шлагбаумом</span>
+                <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
+              </mkb-button>
+              <ul class="desktop-menu__submenu desktop-menu__submenu--3">
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы ALUETECH</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы FAAC</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы NICE</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы DEA</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы BFT</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаум механический</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы CAME</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы Comunello</span>
+                  </mkb-button>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </li>
         <li class="desktop-menu__item">
           <mkb-button href="/" class="button--link desktop-menu__link">
             <span>Системы Аналоговой и IP домофонии</span>
+            <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
           </mkb-button>
+          <ul class="desktop-menu__submenu desktop-menu__submenu--2">
+            <li class="desktop-menu__item desktop-menu__submenu-item">
+              <mkb-button href="/" class="button--link desktop-menu__link">
+                <span>Автоматические шлагбаумы</span>
+                <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
+              </mkb-button>
+              <ul class="desktop-menu__submenu desktop-menu__submenu--3">
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы ALUETECH</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы FAAC</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы NICE</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы DEA</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы BFT</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаум механический</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы CAME</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы Comunello</span>
+                  </mkb-button>
+                </li>
+              </ul>
+            </li>
+            <li class="desktop-menu__item desktop-menu__submenu-item">
+              <mkb-button href="/" class="button--link desktop-menu__link">
+                <span>Комплектация шлагбаума</span>
+                <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
+              </mkb-button>
+              <ul class="desktop-menu__submenu desktop-menu__submenu--3">
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы ALUETECH</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы FAAC</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы NICE</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы DEA</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы BFT</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаум механический</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы CAME</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы Comunello</span>
+                  </mkb-button>
+                </li>
+              </ul>
+            </li>
+            <li class="desktop-menu__item desktop-menu__submenu-item">
+              <mkb-button href="/" class="button--link desktop-menu__link">
+                <span>Управление шлагбаумом</span>
+                <mkb-icon class="desktop-menu__link-icon" @type="mono" @name="chevron-right"></mkb-icon>
+              </mkb-button>
+              <ul class="desktop-menu__submenu desktop-menu__submenu--3">
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы ALUETECH</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы FAAC</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы NICE</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы DEA</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы BFT</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаум механический</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы CAME</span>
+                  </mkb-button>
+                </li>
+                <li class="desktop-menu__submenu-item">
+                  <mkb-button href="/" class="button--link desktop-menu__link">
+                    <span>Шлагбаумы Comunello</span>
+                  </mkb-button>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </li>
       </ul>
     </div>

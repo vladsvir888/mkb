@@ -1,9 +1,17 @@
+import { A11y } from 'swiper/modules';
+
 function clientsSlider() {
   const sliderElement = document.querySelector('.clients-slider-block__slider');
 
   if (!sliderElement) return;
 
   const sliderParams = {
+    modules: [A11y],
+    a11y: {
+      id: null,
+      prevSlideMessage: 'Предыдущий клиент',
+      nextSlideMessage: 'Следующий клиент',
+    },
     slidesPerView: 1,
     spaceBetween: 20,
     navigation: {

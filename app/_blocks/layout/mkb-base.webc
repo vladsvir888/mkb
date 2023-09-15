@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
   <title>Мир комфорта и безопасности - mkb.by</title>
+  <meta name="description" content="Мир комфорта и безопасности - mkb.by">
   <!-- favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
@@ -111,7 +113,31 @@
             dataElement.isError = false;
           }
         },
-        async onFormSubmit(event) {
+        async fetchData(form) {
+          try {
+            const response = await fetch(form.action, {
+              method: 'POST',
+              body: new FormData(form),
+            });
+
+            if (!response.ok) {
+              throw new Error(`HTTP error. Status: ${response.status}`);
+            }
+
+            const result = await response.json();
+
+            if (!result.status) return;
+
+            form.reset();
+            store.isCallbackModalShow = false;
+            store.isThanksModalShow = true;
+          } catch (error) {
+            console.error(error);
+            form.reset();
+            store.isCallbackModalShow = false;
+          }
+        },
+        onFormSubmit(event) {
           event.preventDefault();
 
           const form = this.$refs.form;
@@ -124,17 +150,7 @@
             return;
           }
 
-          const response = await fetch(form.action, {
-            method: 'POST',
-            body: new FormData(form),
-          });
-          const result = await response.json();
-
-          if (result.status) {
-            form.reset();
-            store.isCallbackModalShow = false;
-            store.isThanksModalShow = true;
-          }
+          this.fetchData(form);
         }
       }
     }

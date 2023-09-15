@@ -74,7 +74,7 @@
     &::before {
       position: absolute;
       left: calc(var(--gap-col) * -1);
-      height: 100%;
+      height: calc(var(--size) - var(--padding-wrap) * 2);
       width: var(--gap-col);
       background-color: transparent;
       content: '';
