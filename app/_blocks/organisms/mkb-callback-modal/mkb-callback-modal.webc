@@ -8,6 +8,6 @@
     <div class="callback-modal__text">
       Введите ваше имя, номер телефона, чтобы оставить заявку. Наш менеджер свяжется с вами, ответит на все интересующие вопросы и сориентирует по стоимости.
     </div>
-    <mkb-callback-form></mkb-callback-form>
+    <mkb-callback-form callback-form-class="callback-form--with-captcha" is-captcha="true"></mkb-callback-form>
   </div>
 </sl-dialog>

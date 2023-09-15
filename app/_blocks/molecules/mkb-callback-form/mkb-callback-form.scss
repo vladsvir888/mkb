@@ -1,4 +1,12 @@
 .callback-form {
+  $this: &;
+
+  &--with-captcha {
+    #{$this}__button {
+      margin-top: rem(30);
+    }
+  }
+
   &__inputs {
     margin-bottom: auto;
   }
@@ -23,5 +31,9 @@
     @include media('767', max) {
       margin-top: rem(45);
     }
+  }
+
+  &__captcha {
+    margin-top: rem(30);
   }
 }

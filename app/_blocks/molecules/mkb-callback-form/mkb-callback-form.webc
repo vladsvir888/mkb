@@ -3,7 +3,10 @@
   v-on:submit="onFormSubmit"
   ref="form"
   class="callback-form"
+  :class="callbackFormClass || ''"
   action="/assets/callback-form.json"
+  method="post"
+  enctype="multipart/form-data"
   novalidate
 >
   <div class="callback-form__inputs">
@@ -60,5 +63,12 @@
       {{ formData.comment.errorMessage }}
     </div>
   </div>
+  <eleventy-image
+    webc:if="isCaptcha"
+    class="callback-form__captcha"
+    src="./app/_images/callback-modal/captcha.png"
+    alt=""
+    loading="lazy"
+  ></eleventy-image>
   <mkb-button @is-button="true" class="button--purple callback-form__button" type="submit">Оставить заявку</mkb-button>
 </form>
