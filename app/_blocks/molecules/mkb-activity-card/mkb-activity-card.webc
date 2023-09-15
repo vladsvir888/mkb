@@ -1,5 +1,5 @@
 <article class="activity-card">
-  <img class="activity-card__img" :src="activity.image.src" alt="" loading="lazy">
+  <img class="activity-card__img" :src="activity.image.src" alt="" loading="lazy" width="140" height="140">
   <h3 class="activity-card__title">
     <mkb-button
       class="activity-card__link"
