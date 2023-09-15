@@ -166,4 +166,11 @@
       display: none;
     }
   }
+
+  &__logo {
+    &-img {
+      width: rem(74);
+      height: rem(32);
+    }
+  }
 }
