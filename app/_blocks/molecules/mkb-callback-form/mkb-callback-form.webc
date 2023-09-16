@@ -18,12 +18,16 @@
       class="callback-form__input"
       placeholder="Ваше имя"
       name="name"
-      required="true"
+      required
+      v-bind:aria-invalid="formData.name.isError ? true : false"
+      aria-describedby="name-error"
     ></mkb-input>
     <div
       v-cloak
       v-show="formData.name.isError"
+      id="name-error"
       class="error-message"
+      aria-live="assertive"
     >
       {{ formData.name.errorMessage }}
     </div>
@@ -36,12 +40,16 @@
       placeholder="Номер телефона"
       type="tel"
       name="phone"
-      required="true"
+      required
+      v-bind:aria-invalid="formData.phone.isError ? true : false"
+      :aria-describedby="phone-error"
     ></mkb-input>
     <div
       v-cloak
       v-show="formData.phone.isError"
+      id="phone-error"
       class="error-message"
+      aria-live="assertive"
     >
       {{ formData.phone.errorMessage }}
     </div>
@@ -53,12 +61,16 @@
       class="callback-form__input"
       placeholder="Комментарий"
       name="comment"
-      required="true"
+      required
+      v-bind:aria-invalid="formData.comment.isError ? true : false"
+      aria-describedby="comment-error"
     ></mkb-input>
     <div
       v-cloak
       v-show="formData.comment.isError"
+      id="comment-error"
       class="error-message"
+      aria-live="assertive"
     >
       {{ formData.comment.errorMessage }}
     </div>
