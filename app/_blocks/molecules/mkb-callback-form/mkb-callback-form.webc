@@ -1,6 +1,6 @@
 <form
   v-scope="Form()"
-  v-on:submit="onFormSubmit"
+  v-on:submit.prevent="onFormSubmit"
   ref="form"
   class="callback-form"
   :class="callbackFormClass || ''"

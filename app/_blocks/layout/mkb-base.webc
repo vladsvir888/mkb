@@ -140,9 +140,7 @@
             store.isCallbackModalShow = false;
           }
         },
-        onFormSubmit(event) {
-          event.preventDefault();
-
+        onFormSubmit() {
           const form = this.$refs.form;
           const arrayFormData = Object.entries(this.formData);
           arrayFormData.forEach((formData) => {
