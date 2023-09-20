@@ -21,7 +21,7 @@
 </head>
 <body
   v-scope
-  v-on:mounted="store.mounted"
+  v-on:mounted="store.handleScroll"
 >
   <mkb-header-with-breadcrumbs
     webc:if="header?.withBreadcrumbs"
@@ -54,6 +54,7 @@
       isDesktopMenuShow: false,
       isMobileMenuShow: false,
       isSubmenuInMobileMenuShow: false,
+      isHeaderHasActiveClass: false,
       toggleMobileCatalogFilter(state) {
         if (state === 'open') {
           this.isMobileCatalogFilterShow = true;
@@ -63,16 +64,12 @@
           document.body.classList.remove('lock');
         }
       },
-      mounted() {
-        const header = document.querySelector('.header');
-
-        if (!header) return;
-
-        function changeColorHeader() {
+      handleScroll() {
+        const changeColorHeader = () => {
           if (window.pageYOffset > 0) {
-            header.classList.add('active');
+            this.isHeaderHasActiveClass = true;
           } else {
-            header.classList.remove('active');
+            this.isHeaderHasActiveClass = false;
           }
         }
 

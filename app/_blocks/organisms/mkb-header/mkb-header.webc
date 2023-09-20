@@ -1,6 +1,7 @@
 <header
   class="header"
   :class="header?.class ? header.class : ''"
+  v-bind:class="store.isHeaderHasActiveClass ? 'active' : ''"
 >
   <div
     v-bind:class="(store.isDesktopMenuShow || store.isMobileMenuShow) ? 'menu-show' : ''"
