@@ -9,6 +9,7 @@ function thumbsGallery() {
     slidesPerView: 2,
     freeMode: true,
     watchSlidesProgress: true,
+    loop: true,
     breakpoints: {
       601: {
         spaceBetween: 20,
@@ -21,6 +22,7 @@ function thumbsGallery() {
     },
   });
   Object.assign(galleryBig, {
+    loop: true,
     thumbs: {
       swiper: gallerySmall,
     },

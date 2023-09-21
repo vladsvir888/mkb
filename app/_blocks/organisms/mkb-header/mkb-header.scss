@@ -55,6 +55,7 @@
       width: calc(100% + var(--container-padding) * 2);
       margin-left: calc(var(--container-padding) * -1);
       padding: rem(12) var(--container-padding) rem(20) var(--container-padding);
+      border-bottom: none;
     }
   }
 

@@ -47,6 +47,6 @@
       @is-button="true"
       slot="button"
       class="button--white callback-banner__button"
-    >Ознакомиться с процессом</mkb-button>
+    >Ознакомиться с портфолио</mkb-button>
   </mkb-callback-banner>
 </mkb-base>

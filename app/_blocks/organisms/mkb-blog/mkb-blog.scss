@@ -74,6 +74,7 @@
   &__card {
     @include font14;
 
+    font-weight: 400;
     position: relative;
     padding: rem(12);
     box-shadow: 0 rem(20) rem(40) rem(-10) rgba(69, 66, 110, 0.04);

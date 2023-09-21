@@ -4,6 +4,8 @@
   &::part(combobox) {
     --sl-focus-ring-width: #{rem(1)};
     --sl-input-focus-ring-color: var(--palette-blue-marguerite);
+    --sl-input-border-color: var(--palette-cod-gray);
+    --sl-input-border-color-focus: var(--palette-blue-marguerite);
 
     @include font14;
 
@@ -11,9 +13,11 @@
     font-family: inherit;
     font-weight: 400;
     background-color: transparent;
-    border: none;
-    border-bottom: rem(1) solid var(--palette-cod-gray);
+    border-top: none;
+    border-left: none;
+    border-right: none;
     border-radius: 0;
+    box-shadow: none;
   }
 
   &::part(display-input) {

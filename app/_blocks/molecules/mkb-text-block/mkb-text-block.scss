@@ -91,6 +91,7 @@
 
     row-gap: rem(16);
     color: var(--palette-ship-gray);
+    font-weight: 400;
 
     &:not(:last-child) {
       margin-bottom: rem(24);
@@ -209,6 +210,10 @@
     padding: rem(20);
     box-shadow: 0 rem(20) rem(40) rem(-10) rgba(69, 66, 110, 0.04);
     border-radius: var(--bdrs20);
+
+    > p {
+      font-weight: 400;
+    }
 
     h1,
     h2,

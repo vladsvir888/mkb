@@ -50,7 +50,7 @@
   --header-size: #{rem(80)};
 
   @include media('1200', max) {
-    --header-size: #{rem(65)};
+    --header-size: #{rem(64)};
   }
 }
 

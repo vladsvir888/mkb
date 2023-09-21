@@ -103,5 +103,9 @@
     padding: rem(13) rem(22);
     align-self: flex-start;
     text-transform: unset;
+
+    @include media('600', max) {
+      margin-bottom: rem(40);
+    }
   }
 }

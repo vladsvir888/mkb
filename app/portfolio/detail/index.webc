@@ -41,7 +41,7 @@
     <mkb-button slot="button" href="/catalog" class="button--outline button--outline-gray similar-products__button">Перейти к каталогу</mkb-button>
   </mkb-similar-products>
 
-  <mkb-next-solution next-solution-class="next-solution--with-mb" title="Мы предлагаем решения для любой задачи"></mkb-next-solution>
+  <mkb-next-solution next-solution-class="next-solution--with-mb" title="Мы предлагаем решения для любой задачи" button="true"></mkb-next-solution>
 
   <mkb-callback-banner>
     <span slot="heading" webc:nokeep>Компания мкб реализовала большое количество реальных комплексных проектов</span>
