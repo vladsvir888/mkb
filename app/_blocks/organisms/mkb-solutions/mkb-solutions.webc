@@ -1,9 +1,9 @@
 <section class="solutions">
   <div class="container">
-    <div class="solutions__header section-header">
+    <header class="solutions__header section-header">
       <h2 class="solutions__title">Решения которые мы готовы реализовать</h2>
       <mkb-button class="button--outline button--outline-gray solutions__link" href="/complex-solutions">Посмотреть все решения</mkb-button>
-    </div>
+    </header>
     <div class="solutions__grid">
       <div class="solutions__item">
         <mkb-solution-card

@@ -1,9 +1,9 @@
 <section class="our-guarantees">
   <div class="container">
-    <div class="our-guarantees__header section-header">
+    <header class="our-guarantees__header section-header">
       <h2 class="our-guarantees__title">Наши гарантии</h2>
       <mkb-button href="/about" class="button--outline button--outline-gray our-guarantees__button">Подробнее о нас</mkb-button>
-    </div>
+    </header>
     <div class="our-guarantees__info">
       <div class="our-guarantees__img-wrap">
         <eleventy-image class="our-guarantees__img" src="./app/_images/guarantees/01.png" loading="lazy" alt=""></eleventy-image>

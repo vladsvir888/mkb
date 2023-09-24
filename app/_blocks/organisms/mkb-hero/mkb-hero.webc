@@ -1,4 +1,15 @@
-<div class="hero" style="background-image: url('/assets/images/hero-section/01.png');">
+<div class="hero">
+  <!-- Не удалять -->
+  <style webc:keep>
+    .hero {
+      background-image: url('/assets/images/hero-section/01.png');
+
+      background-image: image-set(
+        url('/assets/images/hero-section/01.webp') type('image/webp'),
+        url('/assets/images/hero-section/01.png')
+      );
+    }
+  </style>
   <div class="container hero__container">
     <mkb-breadcrumbs webc:if="breadcrumbs" :breadcrumbs="breadcrumbs"></mkb-breadcrumbs>
     <h1 class="hero__title js-target" @text="title"></h1>
@@ -10,32 +21,32 @@
         Реализуем решения полного цикла.
         Воплотим ваши идеи в готовом проекте.
       </p>
-      <div class="hero__benefits">
+      <dl class="hero__benefits">
         <div class="hero__benefit">
-          <span class="hero__benefit-num">
+          <dt class="hero__benefit-num">
             >10
-          </span>
-          <span class="hero__benefit-text">
+          </dt>
+          <dd class="hero__benefit-text">
             лет опыта
-          </span>
+          </dd>
         </div>
         <div class="hero__benefit">
-          <span class="hero__benefit-num">
+          <dt class="hero__benefit-num">
             1000+
-          </span>
-          <span class="hero__benefit-text">
+          </dt>
+          <dd class="hero__benefit-text">
             проектов
-          </span>
+          </dd>
         </div>
         <div class="hero__benefit">
-          <span class="hero__benefit-num">
+          <dt class="hero__benefit-num">
             >30
-          </span>
-          <span class="hero__benefit-text">
+          </dt>
+          <dd class="hero__benefit-text">
             лет на рынке
-          </span>
+          </dd>
         </div>
-      </div>
+      </dl>
     </div>
   </div>
 </div>

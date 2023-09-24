@@ -14,6 +14,7 @@ function maintenanceSlider() {
     navigation: {
       nextEl: '.maintenance__slide-button',
     },
+    loop: true,
   };
 
   Object.assign(sliderElement, sliderParams);

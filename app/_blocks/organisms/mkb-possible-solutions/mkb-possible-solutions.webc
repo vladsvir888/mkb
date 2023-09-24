@@ -1,9 +1,9 @@
 <section class="possible-solutions" :class="possibleSolutionsClass || ''">
   <div class="container">
-    <div class="possible-solutions__header section-header">
+    <header class="possible-solutions__header section-header">
       <h2 class="possible-solutions__title" @html="title"></h2>
       <mkb-button class="button--outline button--outline-gray possible-solutions__link" href="/complex-solutions">Посмотреть все решения</mkb-button>
-    </div>
+    </header>
     <div class="possible-solutions__grid">
       <div class="possible-solutions__item possible-solutions__item--start">
         <mkb-solution-card

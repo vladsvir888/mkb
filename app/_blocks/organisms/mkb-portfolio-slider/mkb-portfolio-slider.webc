@@ -1,6 +1,6 @@
 <section class="portfolio-slider-block" :class="portfolioSliderBlockClass ? portfolioSliderBlockClass : ''">
   <div class="container">
-    <div class="portfolio-slider-block__header section-header">
+    <header class="portfolio-slider-block__header section-header">
       <h2 class="portfolio-slider-block__title" @html="title"></h2>
       <div class="portfolio-slider-block__actions">
         <div class="portfolio-slider-block__buttons">
@@ -13,7 +13,7 @@
         </div>
         <mkb-button class="button--outline button--outline-gray portfolio-slider-block__link" href="/portfolio">Посмотреть все работы</mkb-button>
       </div>
-    </div>
+    </header>
   </div>
   <swiper-container class="portfolio-slider-block__slider" init="false">
     <swiper-slide class="portfolio-slider-block__slide">

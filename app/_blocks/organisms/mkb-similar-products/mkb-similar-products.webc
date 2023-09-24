@@ -21,12 +21,12 @@
 
 <section class="similar-products" :class="similarProductsClass || ''">
   <div class="container">
-    <div class="similar-products__header section-header">
+    <header class="similar-products__header section-header">
       <h2 class="similar-products__title">
         <slot name="title"></slot>
       </h2>
       <slot name="button"></slot>
-    </div>
+    </header>
     <mkb-header-with-select webc:if="similarProductsLinks"></mkb-header-with-select>
     <div class="similar-products__grid">
       <mkb-product-card webc:for="card of cards" :card="card"></mkb-product-card>

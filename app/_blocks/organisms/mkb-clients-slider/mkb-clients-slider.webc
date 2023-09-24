@@ -1,6 +1,6 @@
 <section class="clients-slider-block">
   <div class="container">
-    <div class="clients-slider-block__header section-header">
+    <header class="clients-slider-block__header section-header">
       <h2 class="clients-slider-block__title">
         Наши клиенты
       </h2>
@@ -12,31 +12,31 @@
           <mkb-icon class="clients-slider-block__icon" @type="mono" @name="arrow-right"></mkb-icon>
         </mkb-button>
       </div>
-    </div>
+    </header>
     <swiper-container class="clients-slider-block__slider" init="false">
       <swiper-slide class="clients-slider-block__slide">
         <div class="clients-slider-block__card">
-          <eleventy-image class="clients-slider-block__img" src="./app/_images/clients-slider/01.png" alt="" loading="lazy"></eleventy-image>
+          <eleventy-image class="clients-slider-block__img" src="./app/_images/clients-slider/01.png" alt="БСБ Банк" loading="lazy"></eleventy-image>
         </div>
       </swiper-slide>
       <swiper-slide class="clients-slider-block__slide">
         <div class="clients-slider-block__card">
-          <eleventy-image class="clients-slider-block__img" src="./app/_images/clients-slider/02.png" alt="" loading="lazy"></eleventy-image>
+          <eleventy-image class="clients-slider-block__img" src="./app/_images/clients-slider/02.png" alt="Трайпл" loading="lazy"></eleventy-image>
         </div>
       </swiper-slide>
       <swiper-slide class="clients-slider-block__slide">
         <div class="clients-slider-block__card">
-          <eleventy-image class="clients-slider-block__img" src="./app/_images/clients-slider/03.png" alt="" loading="lazy"></eleventy-image>
+          <eleventy-image class="clients-slider-block__img" src="./app/_images/clients-slider/03.png" alt="Чистый свет" loading="lazy"></eleventy-image>
         </div>
       </swiper-slide>
       <swiper-slide class="clients-slider-block__slide">
         <div class="clients-slider-block__card">
-          <eleventy-image class="clients-slider-block__img" src="./app/_images/clients-slider/04.png" alt="" loading="lazy"></eleventy-image>
+          <eleventy-image class="clients-slider-block__img" src="./app/_images/clients-slider/04.png" alt="МТС" loading="lazy"></eleventy-image>
         </div>
       </swiper-slide>
       <swiper-slide class="clients-slider-block__slide">
         <div class="clients-slider-block__card">
-          <eleventy-image class="clients-slider-block__img" src="./app/_images/clients-slider/01.png" alt="" loading="lazy"></eleventy-image>
+          <eleventy-image class="clients-slider-block__img" src="./app/_images/clients-slider/01.png" alt="БСБ Банк" loading="lazy"></eleventy-image>
         </div>
       </swiper-slide>
     </swiper-container>

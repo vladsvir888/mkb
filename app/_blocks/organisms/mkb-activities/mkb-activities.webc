@@ -98,23 +98,23 @@
     <div class="container">
       <div class="activities__header">
         <div class="activities__header-text">
-          <p class="activities__header-item activities__header-item--1">Реализуем решения полного цикла.</p>
-          <p class="activities__header-item activities__header-item--2">Воплотим ваши идеи в готовом проекте.</p>
+          Реализуем решения полного цикла. <br>
+          Воплотим ваши идеи в готовом проекте.
         </div>
-        <div class="activities__header-benefits">
+        <dl class="activities__header-benefits">
           <div class="activities__header-benefit">
-            <span class="activities__header-benefit-num">>10</span>
-            <span class="activities__header-benefit-text">лет опыта</span>
+            <dt class="activities__header-benefit-num">>10</dt>
+            <dd class="activities__header-benefit-text">лет опыта</dd>
           </div>
           <div class="activities__header-benefit">
-            <span class="activities__header-benefit-num">1000+</span>
-            <span class="activities__header-benefit-text">проектов</span>
+            <dt class="activities__header-benefit-num">1000+</dt>
+            <dd class="activities__header-benefit-text">проектов</dd>
           </div>
           <div class="activities__header-benefit">
-            <span class="activities__header-benefit-num">>30</span>
-            <span class="activities__header-benefit-text">лет на рынке</span>
+            <dt class="activities__header-benefit-num">>30</dt>
+            <dd class="activities__header-benefit-text">лет на рынке</dd>
           </div>
-        </div>
+        </dl>
       </div>
       <div class="activities__body">
         <h2 class="activities__title section-header">

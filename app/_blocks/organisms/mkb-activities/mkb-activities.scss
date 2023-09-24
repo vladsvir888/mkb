@@ -34,11 +34,15 @@
 
     &-text {
       @include font40;
-    }
 
-    &-item {
-      &--2 {
-        color: var(--palette-silver-chalice);
+      color: var(--palette-silver-chalice);
+
+      @include media('600', max) {
+        color: var(--palette-cod-gray);
+      }
+
+      &::first-line {
+        color: var(--palette-cod-gray);
       }
     }
 

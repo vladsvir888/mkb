@@ -33,20 +33,10 @@
     background-color: transparent;
   }
 
-  &.active {
+  &.active,
+  &.menu-show {
     background-color: var(--palette-white);
     color: unset;
-  }
-
-  &__container {
-    &.menu-show {
-      background-color: var(--palette-white);
-      color: var(--palette-cod-gray);
-
-      #{$this}__wrap {
-        border-bottom: none;
-      }
-    }
   }
 
   &__wrap {
@@ -66,7 +56,7 @@
     @include flex-center-y;
 
     &--start {
-      column-gap: rem(32);
+      column-gap: rem(72);
 
       @include media('1400', max) {
         column-gap: rem(16);
@@ -94,18 +84,6 @@
   &__burger {
     &--desktop {
       display: flex;
-
-      @include media('1200', max) {
-        display: none;
-      }
-    }
-
-    &--mobile {
-      display: none;
-
-      @include media('1200', max) {
-        display: flex;
-      }
     }
 
     &.active {
@@ -163,6 +141,7 @@
   &__callback {
     padding: rem(12) rem(22);
     text-transform: unset;
+    margin-left: rem(32);
   }
 
   &__nav {

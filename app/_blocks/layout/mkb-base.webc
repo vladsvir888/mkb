@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
   <title>Мир комфорта и безопасности - mkb.by</title>
   <meta name="description" content="Мир комфорта и безопасности - mkb.by">
   <!-- favicon -->
@@ -15,6 +14,81 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
   <!-- scripts -->
+  <link rel="preload" as="font" href="/assets/Roboto-Flex-300.woff2" type="font/woff2" crossorigin webc:keep>
+  <link rel="preload" as="font" href="/assets/Roboto-Flex-500.woff2" type="font/woff2" crossorigin webc:keep>
+  <style webc:keep>
+    @font-face {
+      font-family: "Roboto Flex";
+      src: url("../assets/Roboto-Flex-300.woff2") format("woff2");
+      font-weight: 300;
+      font-display: swap;
+      font-style: normal;
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+
+    @font-face {
+      font-family: "Roboto Flex";
+      src: url("../assets/Roboto-Flex-400.woff2") format("woff2");
+      font-weight: 400;
+      font-display: swap;
+      font-style: normal;
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+
+    @font-face {
+      font-family: "Roboto Flex";
+      src: url("../assets/Roboto-Flex-500.woff2") format("woff2");
+      font-weight: 500;
+      font-display: swap;
+      font-style: normal;
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+
+    @font-face {
+      font-family: "Roboto Flex";
+      src: url("../assets/Roboto-Flex-700.woff2") format("woff2");
+      font-weight: 700;
+      font-display: swap;
+      font-style: normal;
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+
+    @font-face {
+      font-family: "Roboto Flex";
+      src: url("../assets/Roboto-Flex-300-L.woff2") format("woff2");
+      font-weight: 300;
+      font-display: swap;
+      font-style: normal;
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    @font-face {
+      font-family: "Roboto Flex";
+      src: url("../assets/Roboto-Flex-400-L.woff2") format("woff2");
+      font-weight: 400;
+      font-display: swap;
+      font-style: normal;
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    @font-face {
+      font-family: "Roboto Flex";
+      src: url("../assets/Roboto-Flex-500-L.woff2") format("woff2");
+      font-weight: 500;
+      font-display: swap;
+      font-style: normal;
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    @font-face {
+      font-family: "Roboto Flex";
+      src: url("../assets/Roboto-Flex-700-L.woff2") format("woff2");
+      font-weight: 700;
+      font-display: swap;
+      font-style: normal;
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+  </style>
   <link rel="stylesheet" href="/styles/main.css" webc:keep>
   <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" webc:if="isMap" defer webc:keep></script>
   <script src="/scripts/main.js" defer webc:keep></script>
@@ -22,6 +96,7 @@
 <body
   v-scope
   v-on:mounted="store.handleScroll"
+  v-bind:class="{ lock: store.isMobileCatalogFilterShow }"
 >
   <mkb-header-with-breadcrumbs
     webc:if="header?.withBreadcrumbs"
@@ -35,128 +110,10 @@
 
   <mkb-footer :is-footer="isFooter"></mkb-footer>
 
+  <mkb-menu></mkb-menu>
+
   <mkb-callback-modal></mkb-callback-modal>
 
   <mkb-thanks-modal></mkb-thanks-modal>
-
-  <mkb-desktop-menu></mkb-desktop-menu>
-
-  <mkb-mobile-menu></mkb-mobile-menu>
-
-  <script webc:keep type="module">
-    import { createApp, reactive } from 'https://unpkg.com/petite-vue@0.2.2/dist/petite-vue.es.js';
-    import lodash from 'https://cdn.jsdelivr.net/npm/lodash@4.17.21/+esm';
-
-    const store = reactive({
-      isCallbackModalShow: false,
-      isThanksModalShow: false,
-      isMobileCatalogFilterShow: false,
-      isDesktopMenuShow: false,
-      isMobileMenuShow: false,
-      isSubmenuInMobileMenuShow: false,
-      isHeaderHasActiveClass: false,
-      toggleMobileCatalogFilter(state) {
-        if (state === 'open') {
-          this.isMobileCatalogFilterShow = true;
-          document.body.classList.add('lock');
-        } else {
-          this.isMobileCatalogFilterShow = false;
-          document.body.classList.remove('lock');
-        }
-      },
-      handleScroll() {
-        const changeColorHeader = () => {
-          if (window.pageYOffset > 0) {
-            this.isHeaderHasActiveClass = true;
-          } else {
-            this.isHeaderHasActiveClass = false;
-          }
-        }
-
-        window.addEventListener('scroll', lodash.throttle(changeColorHeader, 150));
-      }
-    });
-
-    function Form() {
-      return {
-        formData: {
-          name: {
-            value: '',
-            isError: false,
-            regExp: /[а-яА-Я]+/,
-            errorMessage: 'Поле является обязательным. Допускается ввод букв русского алфавита.',
-          },
-          phone: {
-            value: '',
-            isError: false,
-            regExp: /./,
-            errorMessage: 'Поле является обязательным.',
-            // regExp: /^\+375\d{9}$/,
-            // errorMessage: 'Поле является обязательным. Ввведите телефон в следующем формате: +375XXXXXXXXX',
-          },
-          comment: {
-            value: '',
-            isError: false,
-            regExp: /./,
-            errorMessage: 'Поле является обязательным.',
-          },
-        },
-        validateInput(type) {
-          const dataElement = this.formData[type];
-
-          if (!dataElement.value.match(dataElement.regExp)) {
-            dataElement.isError = true;
-          } else {
-            dataElement.isError = false;
-          }
-        },
-        async fetchData(form) {
-          try {
-            const response = await fetch(form.action, {
-              method: 'POST',
-              headers: {
-                'Content-Type': 'multipart/form-data'
-              },
-              body: new FormData(form),
-            });
-
-            if (!response.ok) {
-              throw new Error(`HTTP error. Status: ${response.status}`);
-            }
-
-            const result = await response.json();
-
-            if (!result.status) return;
-
-            form.reset();
-            store.isCallbackModalShow = false;
-            store.isThanksModalShow = true;
-          } catch (error) {
-            console.error(error);
-            form.reset();
-            store.isCallbackModalShow = false;
-          }
-        },
-        onFormSubmit() {
-          const form = this.$refs.form;
-          const arrayFormData = Object.entries(this.formData);
-          arrayFormData.forEach((formData) => {
-            this.validateInput(formData[0]);
-          });
-
-          if (arrayFormData.find((formData) => formData[1].isError)) {
-            return;
-          }
-
-          this.fetchData(form);
-        }
-      }
-    }
-
-    createApp({
-      Form,
-      store
-    }).mount();
-  </script>
 </body>
 </html>

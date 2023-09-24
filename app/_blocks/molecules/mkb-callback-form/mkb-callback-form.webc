@@ -11,68 +11,68 @@
 >
   <div class="callback-form__inputs">
     <mkb-input
-      model="formData.name.value"
+      @model="formData.name.value"
       v-on:input="validateInput('name');"
-      v-bind:class="formData.name.isError ? 'error' : ''"
+      v-bind:class="{ error: formData.name.isError }"
       @type-input="default"
       class="callback-form__input"
       placeholder="Ваше имя"
       name="name"
       required
-      v-bind:aria-invalid="formData.name.isError ? true : false"
-      aria-describedby="name-error"
+      v-bind:aria-invalid="formData.name.isError"
+      :aria-describedby="uid"
     ></mkb-input>
     <div
       v-cloak
       v-show="formData.name.isError"
-      id="name-error"
+      :id="uid"
       class="error-message"
-      aria-live="assertive"
+      aria-live="polite"
     >
-      {{ formData.name.errorMessage }}
+      Поле является обязательным. Допускается ввод букв русского алфавита.
     </div>
     <mkb-input
-      model="formData.phone.value"
+      @model="formData.phone.value"
       v-on:input="validateInput('phone');"
-      v-bind:class="formData.phone.isError ? 'error' : ''"
+      v-bind:class="{ error: formData.phone.isError }"
       @type-input="default"
       class="callback-form__input"
       placeholder="Номер телефона"
       type="tel"
       name="phone"
       required
-      v-bind:aria-invalid="formData.phone.isError ? true : false"
-      :aria-describedby="phone-error"
+      v-bind:aria-invalid="formData.phone.isError"
+      :aria-describedby="uid"
     ></mkb-input>
     <div
       v-cloak
       v-show="formData.phone.isError"
-      id="phone-error"
+      :id="uid"
       class="error-message"
-      aria-live="assertive"
+      aria-live="polite"
     >
-      {{ formData.phone.errorMessage }}
+      Поле является обязательным.
     </div>
     <mkb-input
-      model="formData.comment.value"
+      @model="formData.comment.value"
       v-on:input="validateInput('comment');"
-      v-bind:class="formData.comment.isError ? 'error' : ''"
+      v-bind:class="{ error: formData.comment.isError }"
       @type-input="default"
       class="callback-form__input"
       placeholder="Комментарий"
       name="comment"
       required
-      v-bind:aria-invalid="formData.comment.isError ? true : false"
-      aria-describedby="comment-error"
+      v-bind:aria-invalid="formData.comment.isError"
+      :aria-describedby="uid"
     ></mkb-input>
     <div
       v-cloak
       v-show="formData.comment.isError"
-      id="comment-error"
+      :id="uid"
       class="error-message"
-      aria-live="assertive"
+      aria-live="polite"
     >
-      {{ formData.comment.errorMessage }}
+      Поле является обязательным.
     </div>
   </div>
   <eleventy-image
