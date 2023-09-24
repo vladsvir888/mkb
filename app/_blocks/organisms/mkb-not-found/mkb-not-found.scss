@@ -3,6 +3,10 @@
   min-height: 100vh;
   text-align: center;
   background-image: url('../assets/images/decorative-element/not-found.png');
+  background-image: image-set(
+    url('../assets/images/decorative-element/not-found.webp'),
+    url('../assets/images/decorative-element/not-found.png')
+  );
   background-repeat: no-repeat;
   background-position: center bottom;
 

@@ -19,7 +19,7 @@
   <style webc:keep>
     @font-face {
       font-family: "Roboto Flex";
-      src: url("../assets/Roboto-Flex-300.woff2") format("woff2");
+      src: url("/assets/Roboto-Flex-300.woff2") format("woff2");
       font-weight: 300;
       font-display: swap;
       font-style: normal;
@@ -28,7 +28,7 @@
 
     @font-face {
       font-family: "Roboto Flex";
-      src: url("../assets/Roboto-Flex-400.woff2") format("woff2");
+      src: url("/assets/Roboto-Flex-400.woff2") format("woff2");
       font-weight: 400;
       font-display: swap;
       font-style: normal;
@@ -37,7 +37,7 @@
 
     @font-face {
       font-family: "Roboto Flex";
-      src: url("../assets/Roboto-Flex-500.woff2") format("woff2");
+      src: url("/assets/Roboto-Flex-500.woff2") format("woff2");
       font-weight: 500;
       font-display: swap;
       font-style: normal;
@@ -46,7 +46,7 @@
 
     @font-face {
       font-family: "Roboto Flex";
-      src: url("../assets/Roboto-Flex-700.woff2") format("woff2");
+      src: url("/assets/Roboto-Flex-700.woff2") format("woff2");
       font-weight: 700;
       font-display: swap;
       font-style: normal;
@@ -55,7 +55,7 @@
 
     @font-face {
       font-family: "Roboto Flex";
-      src: url("../assets/Roboto-Flex-300-L.woff2") format("woff2");
+      src: url("/assets/Roboto-Flex-300-L.woff2") format("woff2");
       font-weight: 300;
       font-display: swap;
       font-style: normal;
@@ -64,7 +64,7 @@
 
     @font-face {
       font-family: "Roboto Flex";
-      src: url("../assets/Roboto-Flex-400-L.woff2") format("woff2");
+      src: url("/assets/Roboto-Flex-400-L.woff2") format("woff2");
       font-weight: 400;
       font-display: swap;
       font-style: normal;
@@ -73,7 +73,7 @@
 
     @font-face {
       font-family: "Roboto Flex";
-      src: url("../assets/Roboto-Flex-500-L.woff2") format("woff2");
+      src: url("/assets/Roboto-Flex-500-L.woff2") format("woff2");
       font-weight: 500;
       font-display: swap;
       font-style: normal;
@@ -82,7 +82,7 @@
 
     @font-face {
       font-family: "Roboto Flex";
-      src: url("../assets/Roboto-Flex-700-L.woff2") format("woff2");
+      src: url("/assets/Roboto-Flex-700-L.woff2") format("woff2");
       font-weight: 700;
       font-display: swap;
       font-style: normal;

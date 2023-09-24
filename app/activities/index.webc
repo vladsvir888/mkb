@@ -17,7 +17,15 @@
       type: 'first'
     },
     form: true,
-    bgi: "background-image: url('/assets/images/hero-section/02.png');",
+    bgi: `
+      .hero-inner {
+        background-image: url('/assets/images/hero-section/02.png');
+        background-image: image-set(
+          url('/assets/images/hero-section/02.webp'),
+          url('/assets/images/hero-section/02.png'),
+        );
+      }
+    `,
   }
 </script>
 

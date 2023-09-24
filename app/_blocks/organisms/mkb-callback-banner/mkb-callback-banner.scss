@@ -12,6 +12,10 @@
     padding: rem(105) 0;
     margin: rem(50) 0 rem(100);
     background-image: url('../assets/images/banner/02.png');
+    background-image: image-set(
+      url('../assets/images/banner/02.webp'),
+      url('../assets/images/banner/02.png')
+    );
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;

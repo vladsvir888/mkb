@@ -17,7 +17,15 @@
 
   const heroInner = {
     title: 'ТО видеонаблюдения является важнейшим этапом в процессе установки видеонаблюдения. Наша команда помогает на любом из этапов.',
-    bgi: "background-image: url('/assets/images/hero-section/05.png');",
+    bgi: `
+      .hero-inner {
+        background-image: url('/assets/images/hero-section/05.png');
+        background-image: image-set(
+          url('/assets/images/hero-section/05.webp'),
+          url('/assets/images/hero-section/05.png'),
+        );
+      }
+    `,
   }
 
   const cardLinkGrid = {

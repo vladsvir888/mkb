@@ -17,7 +17,15 @@
 
   const heroInner = {
     title: 'Автоматизированный процесс позволяет значительно сократить время паровки автомобиля',
-    bgi: "background-image: url('/assets/images/hero-section/06.png');",
+    bgi: `
+      .hero-inner {
+        background-image: url('/assets/images/hero-section/06.png');
+        background-image: image-set(
+          url('/assets/images/hero-section/06.webp'),
+          url('/assets/images/hero-section/06.png'),
+        );
+      }
+    `,
   }
 </script>
 

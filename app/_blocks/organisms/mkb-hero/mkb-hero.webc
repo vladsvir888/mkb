@@ -3,7 +3,6 @@
   <style webc:keep>
     .hero {
       background-image: url('/assets/images/hero-section/01.png');
-
       background-image: image-set(
         url('/assets/images/hero-section/01.webp') type('image/webp'),
         url('/assets/images/hero-section/01.png')

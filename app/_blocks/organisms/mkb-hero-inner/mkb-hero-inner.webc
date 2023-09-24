@@ -1,4 +1,6 @@
-<section class="hero-inner" :style="`${heroInner.bgi}`">
+<section class="hero-inner">
+  <!-- Не удалять -->
+  <style @html="heroInner.bgi" webc:keep></style>
   <div class="container hero-inner__container">
     <div class="hero-inner__content">
       <h2 class="hero-inner__title" @html="heroInner.title"></h2>

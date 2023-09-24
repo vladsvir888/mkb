@@ -17,7 +17,15 @@
 
   const heroInner = {
     title: 'Проектирование видеонаблюдения является важнейшим этапом в процессе установки видеонаблюдения. Наша команда помогает на любом из этапов. ',
-    bgi: "background-image: url('/assets/images/hero-section/03.png');",
+    bgi: `
+      .hero-inner {
+        background-image: url('/assets/images/hero-section/03.png');
+        background-image: image-set(
+          url('/assets/images/hero-section/03.webp'),
+          url('/assets/images/hero-section/03.png'),
+        );
+      }
+    `,
   }
 
   const cardLinkGrid = {
