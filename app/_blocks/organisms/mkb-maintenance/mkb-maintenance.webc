@@ -30,7 +30,7 @@
       </div>
     </swiper-slide>
 
-    <swiper-slide class="maintenance__slide" style="background-image: url('/assets/images/banner/02.png');">
+    <swiper-slide class="maintenance__slide">
       <div class="container">
         <div class="maintenance__content">
           <h2 class="maintenance__title">
@@ -60,7 +60,7 @@
       </div>
     </swiper-slide>
 
-    <swiper-slide class="maintenance__slide" style="background-image: url('/assets/images/banner/02.png');">
+    <swiper-slide class="maintenance__slide">
       <div class="container">
         <div class="maintenance__content">
           <h2 class="maintenance__title">
