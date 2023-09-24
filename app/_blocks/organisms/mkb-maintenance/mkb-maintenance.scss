@@ -6,6 +6,10 @@
     position: relative;
     padding: rem(73) 0;
     background-image: url('../assets/images/banner/02.png');
+    background-image: image-set(
+      url('../assets/images/banner/02.webp'),
+      url('../assets/images/banner/02.png')
+    );
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
