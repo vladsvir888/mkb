@@ -19,8 +19,11 @@ function portfolioSlider() {
       prevEl: '.portfolio-slider-block__button--left',
     },
     breakpoints: {
-      901: {
-        slidesPerView: 2.5,
+      768: {
+        slidesPerView: 2,
+      },
+      1201: {
+        slidesPerView: 3,
       },
     },
   };

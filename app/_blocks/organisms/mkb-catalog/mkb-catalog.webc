@@ -75,7 +75,7 @@
           <mkb-icon class="catalog__close-icon" @type="mono" @name="close"></mkb-icon>
         </mkb-button>
         <aside class="catalog__filter">
-          <sl-details class="catalog__details" summary="Цена">
+          <sl-details class="catalog__details" summary="Цена" open>
             <div class="catalog__details-icon" slot="expand-icon">
               <mkb-icon @type="multi" @name="chevron-bottom"></mkb-icon>
             </div>

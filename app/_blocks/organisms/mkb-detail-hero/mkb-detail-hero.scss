@@ -163,18 +163,10 @@
       margin-bottom: rem(38);
     }
 
-    &-link {
-      display: flex;
-      margin-left: rem(152);
-
-      @include media('600', max) {
-        margin-left: rem(20);
-      }
-    }
-
     &-icon {
       width: rem(24);
       height: rem(24);
+      margin-left: rem(10);
     }
 
     &-text {

@@ -1,0 +1,29 @@
+<script webc:setup>
+  const header = {
+    class: "header--without-bg"
+  }
+</script>
+
+<mkb-base
+  webc:nokeep
+  :header="header"
+  is-footer="true"
+>
+  <mkb-hero title="Мир комфорта и безопасности" is-text="true"></mkb-hero>
+
+  <mkb-activities></mkb-activities>
+
+  <mkb-maintenance></mkb-maintenance>
+
+  <mkb-callback title="Предложим индивидуальное решение&nbsp;вашей задачи"></mkb-callback>
+
+  <mkb-team-professionals is-content="true" is-list="true"></mkb-team-professionals>
+
+  <mkb-portfolio-slider title="Портфолио <br> наших работ"></mkb-portfolio-slider>
+
+  <mkb-solutions></mkb-solutions>
+
+  <mkb-clients-slider></mkb-clients-slider>
+
+  <mkb-category title="Наш каталог продукции <br> по всем категориям"></mkb-category>
+</mkb-base>

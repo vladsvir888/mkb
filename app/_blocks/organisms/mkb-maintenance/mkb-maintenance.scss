@@ -2,7 +2,15 @@
   padding: rem(25) 0;
   color: var(--palette-white);
 
-  &__slide {
+  + .callback {
+    padding-top: rem(56);
+  }
+
+  &:has(+ .callback) {
+    padding-bottom: 0;
+  }
+
+  &__wrapper {
     position: relative;
     padding: rem(73) 0;
     background-image: url('../assets/images/banner/02.png');
@@ -25,14 +33,35 @@
       content: '';
     }
 
-    &-icon {
+    &-button {
+      @include flex-center;
+
       width: rem(60);
       height: rem(60);
+      padding: rem(12);
+      background-color: var(--palette-white);
+      border-radius: 50%;
+      color: var(--palette-cod-gray);
+
+      @media (hover: hover) {
+        &:hover {
+          color: var(--palette-white);
+          background-color: var(--palette-blue-marguerite);
+        }
+      }
+
+      > svg {
+        width: rem(10);
+        height: rem(18);
+        stroke: currentcolor;
+        fill: transparent;
+      }
     }
   }
 
   &__content {
-    display: flex;
+    @include flex-center-y;
+
     flex-wrap: wrap;
     gap: rem(20) rem(40);
     opacity: 0.999;

@@ -10,8 +10,15 @@
 
   &--link {
     @media #{$mouse-device} {
-      &:hover {
-        color: var(--palette-blue-marguerite);
+      &[href] {
+        &:hover {
+          color: var(--palette-blue-marguerite);
+        }
+      }
+
+      &:not([href]) {
+        opacity: 0.5;
+        cursor: default;
       }
     }
   }

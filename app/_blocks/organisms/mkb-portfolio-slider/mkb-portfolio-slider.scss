@@ -27,8 +27,11 @@
   &__slider {
     @include center-fullhd;
 
-    padding-left: var(--container-padding);
     counter-reset: num;
+
+    @include media('767', max) {
+      width: calc(100% + var(--container-padding));
+    }
   }
 
   &__card {
@@ -83,6 +86,24 @@
     @include flex-center-y;
 
     column-gap: rem(30);
+  }
+
+  &__button {
+    display: flex;
+
+    @media (hover: hover) {
+      &:hover {
+        &:not(:disabled) {
+          color: var(--palette-blue-marguerite);
+        }
+      }
+    }
+
+    > svg {
+      width: rem(19);
+      height: rem(18);
+      stroke: currentcolor;
+    }
   }
 
   &__icon {

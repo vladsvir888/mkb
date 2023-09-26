@@ -5,6 +5,13 @@
   position: relative;
   background-color: var(--palette-white);
   border-radius: var(--bdrs20);
+  transition: box-shadow var(--transition300ms);
+
+  @media (hover: hover) {
+    &:hover {
+      box-shadow: 0 0 rem(8) var(--palette-french-gray-a50);
+    }
+  }
 
   @include media('900', max) {
     column-gap: rem(40);

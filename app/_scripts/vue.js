@@ -44,11 +44,6 @@ function Form() {
         isError: false,
         regExp: /./,
       },
-      comment: {
-        value: '',
-        isError: false,
-        regExp: /./,
-      },
     },
     validateInput(type) {
       const dataElement = this.formData[type];

@@ -54,26 +54,11 @@
       Поле является обязательным.
     </div>
     <mkb-input
-      @model="formData.comment.value"
-      v-on:input="validateInput('comment');"
-      v-bind:class="{ error: formData.comment.isError }"
       @type-input="default"
       class="callback-form__input"
       placeholder="Комментарий"
       name="comment"
-      required
-      v-bind:aria-invalid="formData.comment.isError"
-      :aria-describedby="uid"
     ></mkb-input>
-    <div
-      v-cloak
-      v-show="formData.comment.isError"
-      :id="uid"
-      class="error-message"
-      aria-live="polite"
-    >
-      Поле является обязательным.
-    </div>
   </div>
   <eleventy-image
     webc:if="isCaptcha"

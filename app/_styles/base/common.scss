@@ -219,3 +219,15 @@ body {
     margin-bottom: rem(20);
   }
 }
+
+.button.swiper-button-disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.start-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: rem(16);
+  padding-top: rem(100);
+}

@@ -6,10 +6,6 @@
         href: '/'
       },
       {
-        text: 'Направления',
-        href: '/'
-      },
-      {
         text: 'Видеонаблюдение и видеоаналитика',
       },
     ]
@@ -34,8 +30,7 @@
   <mkb-callback-banner top-title="true">
     <span slot="heading" webc:nokeep>Компания МКБ осуществляет работу с системами видеонаблюдения под ключ. Подробнее об этапах работы</span>
     <mkb-button
-      v-on:click="store.isCallbackModalShow = true"
-      @is-button="true"
+      href="/"
       slot="button"
       class="button--white callback-banner__button"
     >Ознакомиться с процессом</mkb-button>

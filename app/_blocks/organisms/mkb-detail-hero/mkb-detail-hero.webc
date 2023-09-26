@@ -131,22 +131,18 @@
         </dl>
       </sl-tab-panel>
       <sl-tab-panel class="detail-hero__tab-panel" name="doc_product">
-        <div class="detail-hero__doc">
-          <div class="detail-hero__doc-text">
+        <mkb-button class="detail-hero__doc" href="/assets/1.pdf" download>
+          <span class="detail-hero__doc-text">
             Документация по продукт.pdf
-          </div>
-          <mkb-button class="detail-hero__doc-link" href="/assets/1.pdf" aria-label="Скачать документ" download>
-            <mkb-icon class="detail-hero__doc-icon" @type="multi" @name="download"></mkb-icon>
-          </mkb-button>
-        </div>
-        <div class="detail-hero__doc">
-          <div class="detail-hero__doc-text">
+          </span>
+          <mkb-icon class="detail-hero__doc-icon" @type="multi" @name="download"></mkb-icon>
+        </mkb-button>
+        <mkb-button class="detail-hero__doc" href="/assets/1.pdf" download>
+          <span class="detail-hero__doc-text">
             Документация по продукт.pdf
-          </div>
-          <mkb-button class="detail-hero__doc-link" href="/assets/1.pdf" aria-label="Скачать документ" download>
-            <mkb-icon class="detail-hero__doc-icon" @type="multi" @name="download"></mkb-icon>
-          </mkb-button>
-        </div>
+          </span>
+          <mkb-icon class="detail-hero__doc-icon" @type="multi" @name="download"></mkb-icon>
+        </mkb-button>
       </sl-tab-panel>
     </sl-tab-group>
 

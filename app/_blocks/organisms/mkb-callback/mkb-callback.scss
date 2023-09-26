@@ -1,12 +1,40 @@
 .callback {
+  position: relative;
   padding: rem(30) 0;
   background-image: url('../assets/images/decorative-element/callback-form.png');
   background-image: image-set(
     url('../assets/images/decorative-element/callback-form.webp'),
     url('../assets/images/decorative-element/callback-form.png')
   );
-  background-position: center top rem(-160);
+  background-position: center top rem(80);
   background-repeat: no-repeat;
+  overflow: hidden;
+
+  &::before,
+  &::after {
+    position: absolute;
+    top: 0;
+    content: '';
+
+    @include media('600', max) {
+      content: none;
+    }
+  }
+
+  &::before {
+    left: 0;
+    width: rem(107);
+    height: rem(844);
+    background-image: url('../assets/images/decorative-element/callback-form-decorative-left.svg');
+    content: '';
+  }
+
+  &::after {
+    right: 0;
+    width: rem(89);
+    height: rem(843);
+    background-image: url('../assets/images/decorative-element/callback-form-decorative-right.svg');
+  }
 
   &--with-mb {
     margin-bottom: rem(100);

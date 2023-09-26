@@ -22,9 +22,11 @@
 
     @media #{$mouse-device} {
       &:hover {
-        color: var(--palette-white);
-        background-color: var(--palette-abbey);
-        border-color: transparent;
+        &:not(:disabled) {
+          color: var(--palette-white);
+          background-color: var(--palette-abbey);
+          border-color: transparent;
+        }
       }
     }
   }

@@ -121,6 +121,10 @@
       margin-top: rem(20);
     }
 
+    @include media('600', max) {
+      --col-gap: #{rem(40)};
+    }
+
     &-item {
       position: relative;
       max-width: rem(120);

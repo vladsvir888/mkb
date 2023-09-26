@@ -1,29 +1,27 @@
-<script webc:setup>
-  const header = {
-    class: "header--without-bg"
-  }
-</script>
-
-<mkb-base
+<mkb-base-2
   webc:nokeep
-  :header="header"
   is-footer="true"
 >
-  <mkb-hero title="Мир комфорта и безопасности" is-text="true"></mkb-hero>
-
-  <mkb-activities></mkb-activities>
-
-  <mkb-maintenance></mkb-maintenance>
-
-  <mkb-callback title="Предложим индивидуальное решение&nbsp;вашей задачи"></mkb-callback>
-
-  <mkb-team-professionals is-content="true" is-list="true"></mkb-team-professionals>
-
-  <mkb-portfolio-slider title="Портфолио <br> наших работ"></mkb-portfolio-slider>
-
-  <mkb-solutions></mkb-solutions>
-
-  <mkb-clients-slider></mkb-clients-slider>
-
-  <mkb-category title="Наш каталог продукции <br> по всем категориям"></mkb-category>
-</mkb-base>
+  <div class="container">
+    <div class="start-block">
+      <mkb-button class="button--link start-block__link" href="/home">Главная</mkb-button>
+      <mkb-button class="button--link start-block__link" href="/activities">Направление</mkb-button>
+      <mkb-button class="button--link start-block__link" href="/activities/project-development">2,1 Разработка проекта для вашего решения</mkb-button>
+      <mkb-button class="button--link start-block__link" href="/activities/equipment-selection">2,2 Подбор оборудования для решения вашей задачи</mkb-button>
+      <mkb-button class="button--link start-block__link" href="/activities/integration-into-control-system">2,3 Интеграция в общую систему контроля</mkb-button>
+      <mkb-button class="button--link start-block__link" href="/videoanalytics-common">3 Системы видеоаналитики и видеонаблюдения</mkb-button>
+      <mkb-button class="button--link start-block__link" href="/catalog">4  Каталог. видеокамеры и видеорегистраторы</mkb-button>
+      <mkb-button class="button--link start-block__link" href="/catalog/detail">4  Аналоговая цветная камера TS-10202T</mkb-button>
+      <mkb-button class="button--link start-block__link" href="/complex-solutions">Комплексные решения компании мкб</mkb-button>
+      <mkb-button class="button--link start-block__link" href="/complex-solutions/detail">Автоматизация паровки. Модель 3 “Оплата через платежный терминал выезд автоматический”</mkb-button>
+      <mkb-button class="button--link start-block__link" href="/portfolio">НАШЕ ПОРТФОЛИО</mkb-button>
+      <mkb-button class="button--link start-block__link" href="/portfolio/detail">Установка системы видеонаблюдения в офисе компании А1</mkb-button>
+      <mkb-button class="button--link start-block__link" href="/about">О компании</mkb-button>
+      <mkb-button class="button--link start-block__link" href="/blog">Блог</mkb-button>
+      <mkb-button class="button--link start-block__link" href="/blog/detail">Новость деталка</mkb-button>
+      <mkb-button class="button--link start-block__link" href="/contacts">Контакты</mkb-button>
+      <mkb-button class="button--link start-block__link" href="/designers/">Проектировщикам</mkb-button>
+      <mkb-button class="button--link start-block__link" href="/not-found">404</mkb-button>
+    </div>
+  </div>
+</mkb-base-2>

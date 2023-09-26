@@ -43,6 +43,13 @@
     gap: rem(20) rem(10);
     background-color: var(--palette-white);
     border-radius: var(--bdrs20);
+    transition: box-shadow var(--transition300ms);
+
+    @media (hover: hover) {
+      &:hover {
+        box-shadow: 0 0 rem(8) var(--palette-french-gray-a50);
+      }
+    }
 
     @include media('767', max) {
       padding: rem(20);
