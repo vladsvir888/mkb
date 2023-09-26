@@ -30,7 +30,7 @@
       }
     }
 
-    @media (hover: hover) {
+    @media #{$mouse-device} {
       &:hover {
         #{$this}__icon-wrap {
           background-color: var(--palette-blue-marguerite);

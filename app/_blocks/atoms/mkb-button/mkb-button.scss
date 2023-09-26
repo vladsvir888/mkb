@@ -47,6 +47,13 @@
     padding: rem(20);
     background-color: var(--palette-white);
     color: var(--palette-cod-gray);
+
+    @media #{$mouse-device} {
+      &:hover {
+        background-color: var(--palette-indigo);
+        color: var(--palette-white);
+      }
+    }
   }
 
   &--outline {

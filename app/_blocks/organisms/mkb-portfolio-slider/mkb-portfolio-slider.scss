@@ -91,7 +91,7 @@
   &__button {
     display: flex;
 
-    @media (hover: hover) {
+    @media #{$mouse-device} {
       &:hover {
         &:not(:disabled) {
           color: var(--palette-blue-marguerite);
