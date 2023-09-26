@@ -226,7 +226,9 @@ body {
 }
 
 .start-block {
-  display: flex;
+  @include flex-column;
+
+  align-items: flex-start;
   flex-wrap: wrap;
   gap: rem(16);
   padding-top: rem(100);
