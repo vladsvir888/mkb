@@ -50,6 +50,10 @@
       display: flex;
       flex-wrap: wrap;
       gap: rem(20) rem(100);
+
+      @include media('600', max) {
+        gap: rem(20) rem(30);
+      }
     }
 
     &-benefit {
@@ -63,10 +67,18 @@
 
         margin-bottom: rem(10);
         color: var(--palette-blue-marguerite);
+
+        @include media('600', max) {
+          font-size: rem(30);
+        }
       }
 
       &-text {
         @include font16;
+
+        @include media('600', max) {
+          font-size: rem(14);
+        }
       }
     }
   }

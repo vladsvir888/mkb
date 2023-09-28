@@ -65,6 +65,12 @@
     flex-wrap: wrap;
     gap: rem(20) rem(40);
     opacity: 0.999;
+
+    @include media('600', max) {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0;
+    }
   }
 
   &__title {
@@ -79,6 +85,13 @@
       padding-right: 0;
       border-right: 0;
     }
+
+    @include media('600', max) {
+      font-size: rem(30);
+      margin-bottom: rem(28);
+      padding-bottom: rem(28);
+      border-bottom: rem(1) solid var(--palette-white);
+    }
   }
 
   &__list {
@@ -90,6 +103,12 @@
     @include media('767', max) {
       width: 65%;
       padding-left: var(--container-padding);
+    }
+
+    @include media('600', max) {
+      max-width: rem(300);
+      width: 100%;
+      margin-bottom: rem(28);
     }
 
     > * {

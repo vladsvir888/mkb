@@ -15,11 +15,11 @@
           color: var(--palette-blue-marguerite);
         }
       }
+    }
 
-      &:not([href]) {
-        opacity: 0.5;
-        cursor: default;
-      }
+    &:not([href]) {
+      opacity: 0.5;
+      cursor: default;
     }
   }
 

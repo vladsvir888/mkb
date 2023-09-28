@@ -81,4 +81,12 @@
       margin-top: auto;
     }
   }
+
+  &__insta,
+  &__email {
+    @include flex-center-y;
+
+    column-gap: rem(6);
+    font-weight: 500;
+  }
 }

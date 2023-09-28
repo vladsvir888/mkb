@@ -176,4 +176,11 @@
       background-position: left center;
     }
   }
+
+  &__text-block {
+    @include media('600', max) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
 }

@@ -61,6 +61,10 @@
   &__banner {
     display: grid;
     color: var(--palette-white);
+
+    @include media('600', max) {
+      min-height: rem(240);
+    }
   }
 
   &__img-wrap {
@@ -80,6 +84,10 @@
     @include img(cover);
 
     border-radius: var(--bdrs20);
+
+    @include media('600', max) {
+      object-position: left center;
+    }
   }
 
   &__content {
@@ -93,7 +101,8 @@
     opacity: 0.999;
 
     @include media('600', max) {
-      padding: rem(20) rem(10);
+      padding: rem(16);
+      margin-top: auto;
     }
   }
 
@@ -122,12 +131,24 @@
     }
 
     @include media('600', max) {
-      --col-gap: #{rem(40)};
+      @include flex-column;
+
+      gap: 0;
     }
 
     &-item {
       position: relative;
       max-width: rem(120);
+
+      @include media('600', max) {
+        max-width: 100%;
+
+        &:not(:last-child) {
+          margin-bottom: rem(20);
+          padding-bottom: rem(20);
+          border-bottom: rem(1) solid var(--palette-mercury);
+        }
+      }
 
       &:not(:last-child) {
         &::after {
