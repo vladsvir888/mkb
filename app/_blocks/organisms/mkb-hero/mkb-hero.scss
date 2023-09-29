@@ -47,6 +47,10 @@
     display: flex;
     flex-wrap: wrap;
     gap: rem(20) rem(103);
+
+    @include media('600', max) {
+      gap: rem(20) rem(30);
+    }
   }
 
   &__benefit {

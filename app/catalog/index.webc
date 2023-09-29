@@ -27,7 +27,7 @@
   <mkb-callback title="Возникли вопросы? Оставьте данные и&nbsp;мы с Вами свяжемся"></mkb-callback>
 
   <mkb-callback-banner callback-banner-class="callback-banner--without-mb" top-title="true">
-    <span slot="heading" webc:nokeep>Компания МКБ осуществляет работу с системами видеонаблюдения под ключ. Подробнее об этапах работы</span>
+    <span slot="heading" webc:nokeep>Компания МКБ осуществляет работу с системами видеонаблюдения под ключ</span>
     <mkb-button
       href="/"
       slot="button"

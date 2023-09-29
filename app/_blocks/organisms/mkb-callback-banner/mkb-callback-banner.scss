@@ -57,6 +57,10 @@
 
     max-width: rem(864);
     color: var(--palette-white);
+
+    @include media('600', max) {
+      @include font-size(26, 24);
+    }
   }
 
   &__button {

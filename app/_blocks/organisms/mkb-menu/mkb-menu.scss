@@ -232,4 +232,10 @@
       margin-bottom: rem(20);
     }
   }
+
+  &__email {
+    @include flex-center-y;
+
+    column-gap: rem(6);
+  }
 }

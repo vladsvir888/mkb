@@ -28,7 +28,7 @@
   <mkb-portfolio-slider portfolio-slider-block-class="portfolio-slider-block--no-decorative-element" title="Разрабатываем проекты для самых сложных объектов"></mkb-portfolio-slider>
 
   <mkb-callback-banner top-title="true">
-    <span slot="heading" webc:nokeep>Компания МКБ осуществляет работу с системами видеонаблюдения под ключ. Подробнее об этапах работы</span>
+    <span slot="heading" webc:nokeep>Компания МКБ осуществляет работу с системами видеонаблюдения под ключ</span>
     <mkb-button
       href="/"
       slot="button"

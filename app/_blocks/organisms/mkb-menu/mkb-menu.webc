@@ -1864,6 +1864,12 @@
         <mkb-button href="/" class="mobile-menu__link">Контакты</mkb-button>
       </div>
       <div class="mobile-menu__wrap">
+        <mkb-button class="mobile-menu__link mobile-menu__email button--link" href="mailto:info@mkb.by">
+          <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+            <path d="M16.7322 4.76721C16.7322 3.94221 16.0572 3.26721 15.2322 3.26721H3.23218C2.40718 3.26721 1.73218 3.94221 1.73218 4.76721V13.7672C1.73218 14.5922 2.40718 15.2672 3.23218 15.2672H15.2322C16.0572 15.2672 16.7322 14.5922 16.7322 13.7672V4.76721ZM15.2322 4.76721L9.23218 8.50971L3.23218 4.76721H15.2322ZM15.2322 13.7672H3.23218V6.26721L9.23218 10.0172L15.2322 6.26721V13.7672Z" fill="#7084C8"/>
+          </svg>
+          info@mkb.by
+        </mkb-button>
         <div class="mobile-menu__work">
           <mkb-icon class="mobile-menu__work-icon" @type="multi" @name="map-belarus"></mkb-icon>
           <div class="mobile-menu__work-text">Работаем по всей Беларуси</div>
