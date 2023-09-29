@@ -6,7 +6,7 @@
     url('../assets/images/decorative-element/callback-form.webp'),
     url('../assets/images/decorative-element/callback-form.png')
   );
-  background-position: center top rem(80);
+  background-position: center top rem(100);
   background-repeat: no-repeat;
   overflow: hidden;
 
@@ -65,6 +65,10 @@
 
     @include media('767', max) {
       margin-bottom: rem(40);
+    }
+
+    @include media('600', max) {
+      @include font-size(26, 24);
     }
   }
 

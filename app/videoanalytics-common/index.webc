@@ -23,7 +23,7 @@
 
   <mkb-videoanalytics-common-hero></mkb-videoanalytics-common-hero>
 
-  <mkb-callback title="Возникли вопросы? Оставьте данные и&nbsp;мы с Вами свяжемся"></mkb-callback>
+  <mkb-callback title="Возникли вопросы? <br> Оставьте данные и&nbsp;мы с Вами свяжемся"></mkb-callback>
 
   <mkb-portfolio-slider portfolio-slider-block-class="portfolio-slider-block--no-decorative-element" title="Разрабатываем проекты для самых сложных объектов"></mkb-portfolio-slider>
 

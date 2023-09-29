@@ -28,7 +28,7 @@
 
   <mkb-contacts></mkb-contacts>
 
-  <mkb-callback callback-class="callback--with-mb" title="Возник вопрос? Оставьте заявку <br> и мы с Вами свяжемся"></mkb-callback>
+  <mkb-callback callback-class="callback--with-mb" title="Возник вопрос? <br> Оставьте заявку и мы с Вами свяжемся"></mkb-callback>
 
   <mkb-location></mkb-location>
 </mkb-base>
