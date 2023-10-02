@@ -37,12 +37,10 @@
 
       color: var(--palette-silver-chalice);
 
-      @include media('600', max) {
-        color: var(--palette-cod-gray);
-      }
-
-      &::first-line {
-        color: var(--palette-cod-gray);
+      > p {
+        &:first-child {
+          color: var(--palette-cod-gray);
+        }
       }
     }
 

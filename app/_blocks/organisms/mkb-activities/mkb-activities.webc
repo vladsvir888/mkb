@@ -98,8 +98,8 @@
     <div class="container">
       <div class="activities__header">
         <div class="activities__header-text">
-          Реализуем решения полного цикла. <br>
-          Воплотим ваши идеи в готовом проекте.
+          <p>Реализуем решения полного цикла.</p>
+          <p>Воплотим ваши идеи в готовом проекте.</p>
         </div>
         <dl class="activities__header-benefits">
           <div class="activities__header-benefit">
