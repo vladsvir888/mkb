@@ -52,19 +52,20 @@
   }
 
   &__phone {
-    @include font24;
+    @include font20;
 
     margin-bottom: rem(16);
   }
 
   &__email {
     margin-bottom: rem(20);
-    margin-top: auto;
+    // margin-top: auto;
   }
 
   &__text {
-    margin-bottom: rem(50);
-    margin-top: rem(20);
+    // margin-bottom: rem(50);
+    // margin-top: rem(20);
+    margin-top: auto;
   }
 
   &__info {
@@ -88,5 +89,9 @@
 
     column-gap: rem(6);
     font-weight: 500;
+  }
+
+  &__wrap {
+    margin: rem(15) 0 rem(30);
   }
 }
