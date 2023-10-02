@@ -63,7 +63,7 @@ $mouse-device: '(hover: hover)';
   letter-spacing: rem(-1.12);
 
   @include media('600', max) {
-    @include font-size(40, 32);
+    @include font-size(26, 28.8);
 
     letter-spacing: rem(-0.8);
   }
@@ -80,7 +80,7 @@ $mouse-device: '(hover: hover)';
   letter-spacing: rem(-0.96);
 
   @include media('600', max) {
-    @include font-size(36, 28.8);
+    @include font-size(32, 28);
 
     letter-spacing: rem(-0.72);
   }
@@ -106,9 +106,9 @@ $mouse-device: '(hover: hover)';
   letter-spacing: rem(-0.72);
 
   @include media('600', max) {
-    @include font-size(24, 26.4);
+    @include font-size(20, 20);
 
-    letter-spacing: rem(-0.48);
+    letter-spacing: rem(-0.4);
   }
 }
 
@@ -119,7 +119,7 @@ $mouse-device: '(hover: hover)';
   letter-spacing: rem(-0.48);
 
   @include media('600', max) {
-    @include font-size(20, 20);
+    @include font-size(18, 20);
 
     letter-spacing: rem(-0.4);
   }
