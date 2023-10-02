@@ -80,7 +80,7 @@ $mouse-device: '(hover: hover)';
   letter-spacing: rem(-0.96);
 
   @include media('600', max) {
-    @include font-size(32, 28);
+    @include font-size(26, 28);
 
     letter-spacing: rem(-0.72);
   }
@@ -93,7 +93,7 @@ $mouse-device: '(hover: hover)';
   letter-spacing: rem(-0.8);
 
   @include media('600', max) {
-    @include font-size(30, 33);
+    @include font-size(26, 28);
 
     letter-spacing: rem(-0.6);
   }
