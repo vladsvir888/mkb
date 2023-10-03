@@ -1,5 +1,5 @@
 <section class="faq" :class="faqClass || ''">
-  <div class="container">
+  <div class="container faq__container">
     <h2 class="faq__title">Часто задаваемые вопросы</h2>
     <sl-details class="faq__details" summary="Какие виды систем безопасности мы предлагаем?">
       <div class="faq__icon" slot="expand-icon">
@@ -46,5 +46,8 @@
       </div>
       Мы предлагаем широкий спектр систем безопасности, включая системы контроля доступа, видеонаблюдение, охранную сигнализацию, системы пожарной безопасности, а также интеграцию этих систем для обеспечения комплексной безопасности объектов.
     </sl-details>
+    <div class="faq__btn-wrap">
+      <button class="button button--purple faq__btn">Показать все</button>
+    </div>
   </div>
 </section>

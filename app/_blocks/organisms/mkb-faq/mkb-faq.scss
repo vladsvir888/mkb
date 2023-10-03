@@ -89,4 +89,23 @@
       height: rem(32);
     }
   }
+
+  &__btn-wrap {
+    @include flex-center-x;
+
+    margin-top: rem(32);
+
+    @include media('600', max) {
+      margin-top: rem(16);
+    }
+  }
+
+  &__btn {
+    min-width: rem(260);
+
+    @include media('600', max) {
+      min-width: unset;
+      width: 100%;
+    }
+  }
 }
