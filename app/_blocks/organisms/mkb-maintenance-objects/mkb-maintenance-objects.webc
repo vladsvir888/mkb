@@ -45,9 +45,9 @@
       <h2 class="maintenance-objects__title">
         Осуществляем техническое обслуживание следующих объектов
       </h2>
-      <mkb-button class="button--outline button--outline-gray maintenance-objects__button" href="/activities">Посмотреть все решения</mkb-button>
+      <mkb-button v-on:click="store.isMaintenanceObjectsShow = !store.isMaintenanceObjectsShow" class="button--outline button--outline-gray maintenance-objects__button" @is-button="true">Посмотреть все объекты</mkb-button>
     </header>
-    <div class="maintenance-objects__grid">
+    <div class="maintenance-objects__grid" v-bind:class="{ show: store.isMaintenanceObjectsShow }">
       <mkb-activity-card webc:for="activity of activities" :activity="activity"></mkb-activity-card>
     </div>
   </div>

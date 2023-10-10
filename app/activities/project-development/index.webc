@@ -101,6 +101,8 @@
 
   <mkb-our-guarantees></mkb-our-guarantees>
 
+  <mkb-equipment></mkb-equipment>
+
   <mkb-portfolio-slider portfolio-slider-block-class="portfolio-slider-block--no-decorative-element" title="Разрабатываем проекты для самых сложных объектов"></mkb-portfolio-slider>
 
   <mkb-callback-banner>

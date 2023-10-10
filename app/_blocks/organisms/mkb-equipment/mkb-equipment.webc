@@ -1,0 +1,126 @@
+<section class="equipment">
+  <div class="container">
+    <h2 class="equipment__title">
+      Оборудование для видеонаблюдения и Модули аналитики
+    </h2>
+    <div class="equipment__grid">
+      <section class="equipment__section">
+        <h3 class="equipment__section-title">
+          Видеокамеры и&nbsp;видеорегистраторы
+        </h3>
+        <div class="equipment__links">
+          <mkb-button class="equipment__link" href="/">
+            IP камеры
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 24">
+              <path d="M10.3333 7L15.3333 12L10.3333 17"/>
+            </svg>
+          </mkb-button>
+          <mkb-button class="equipment__link" href="/">
+            Аналоговые видеорегистраторы
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 24">
+              <path d="M10.3333 7L15.3333 12L10.3333 17"/>
+            </svg>
+          </mkb-button>
+          <mkb-button class="equipment__link" href="/">
+            IP видеорегистраторы
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 24">
+              <path d="M10.3333 7L15.3333 12L10.3333 17"/>
+            </svg>
+          </mkb-button>
+          <mkb-button class="equipment__link" href="/">
+            Аналоговые камеры
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 24">
+              <path d="M10.3333 7L15.3333 12L10.3333 17"/>
+            </svg>
+          </mkb-button>
+          <mkb-button class="equipment__link" href="/">
+            AHD видеорегистраторы
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 24">
+              <path d="M10.3333 7L15.3333 12L10.3333 17"/>
+            </svg>
+          </mkb-button>
+          <mkb-button class="equipment__link" href="/">
+            AHD камеры
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 24">
+              <path d="M10.3333 7L15.3333 12L10.3333 17"/>
+            </svg>
+          </mkb-button>
+        </div>
+      </section>
+      <section class="equipment__section">
+        <h3 class="equipment__section-title">
+          Прочее оборудование для&nbsp;видеонаблюдения
+        </h3>
+        <div class="equipment__links">
+          <mkb-button class="equipment__link" href="/">
+            Коммутаторы
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 24">
+              <path d="M10.3333 7L15.3333 12L10.3333 17"/>
+            </svg>
+          </mkb-button>
+          <mkb-button class="equipment__link" href="/">
+            Блоки питания стабилизированные
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 24">
+              <path d="M10.3333 7L15.3333 12L10.3333 17"/>
+            </svg>
+          </mkb-button>
+          <mkb-button class="equipment__link" href="/">
+            Аккумуляторы
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 24">
+              <path d="M10.3333 7L15.3333 12L10.3333 17"/>
+            </svg>
+          </mkb-button>
+          <mkb-button class="equipment__link" href="/">
+            Блоки питания бесперебойные
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 24">
+              <path d="M10.3333 7L15.3333 12L10.3333 17"/>
+            </svg>
+          </mkb-button>
+          <mkb-button class="equipment__link" href="/">
+            Жесткие диски
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 24">
+              <path d="M10.3333 7L15.3333 12L10.3333 17"/>
+            </svg>
+          </mkb-button>
+          <mkb-button class="equipment__link" href="/">
+            Микрофоны
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 24">
+              <path d="M10.3333 7L15.3333 12L10.3333 17"/>
+            </svg>
+          </mkb-button>
+        </div>
+      </section>
+      <section class="equipment__section">
+        <h3 class="equipment__section-title">
+          Кабель и монтажные материалы для видеонаблюдения
+        </h3>
+        <div class="equipment__links">
+          <mkb-button class="equipment__link" href="/">
+            Монтажные материалы
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 24">
+              <path d="M10.3333 7L15.3333 12L10.3333 17"/>
+            </svg>
+          </mkb-button>
+          <mkb-button class="equipment__link" href="/">
+            Кабель
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 24">
+              <path d="M10.3333 7L15.3333 12L10.3333 17"/>
+            </svg>
+          </mkb-button>
+          <mkb-button class="equipment__link" href="/">
+            Кабель-канал и труба ПВХ
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 24">
+              <path d="M10.3333 7L15.3333 12L10.3333 17"/>
+            </svg>
+          </mkb-button>
+          <mkb-button class="equipment__link" href="/">
+            Разъемы и штекеры
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 24">
+              <path d="M10.3333 7L15.3333 12L10.3333 17"/>
+            </svg>
+          </mkb-button>
+        </div>
+      </section>
+    </div>
+  </div>
+</section>

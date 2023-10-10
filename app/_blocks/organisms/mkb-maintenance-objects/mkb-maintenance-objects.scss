@@ -15,5 +15,26 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(#{rem(325)}, 1fr));
     gap: var(--gap20);
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition-property: max-height, opacity;
+    transition-duration: var(--transition300ms);
+
+    &.show {
+      max-height: unset;
+      overflow: visible;
+      opacity: 1;
+    }
+
+    @include media('600', max) {
+      display: block;
+
+      > * {
+        &:not(:last-child) {
+          margin-bottom: var(--gap20);
+        }
+      }
+    }
   }
 }

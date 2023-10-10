@@ -9,6 +9,7 @@ const store = reactive({
   isMenuShow: false,
   isSubmenuInMenuShow: false,
   isHeaderHasActiveClass: false,
+  isMaintenanceObjectsShow: false,
   toggleMobileCatalogFilter(state) {
     if (state === 'open') {
       this.isMobileCatalogFilterShow = true;
