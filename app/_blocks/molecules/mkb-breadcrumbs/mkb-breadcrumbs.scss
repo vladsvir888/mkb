@@ -21,8 +21,13 @@
       &::after {
         position: absolute;
         right: calc(var(--col-gap) / 2 * -1);
+        margin-top: rem(4);
         color: var(--palette-french-gray);
-        content: '/';
+        width: rem(1);
+        height: rem(13);
+        background-color: var(--palette-french-gray);
+        rotate: 18deg;
+        content: '';
       }
     }
 
