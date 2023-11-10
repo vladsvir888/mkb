@@ -12,6 +12,17 @@
     padding: rem(100) var(--container-padding);
   }
 
+  a {
+    color: var(--palette-blue-marguerite);
+    text-decoration: underline;
+
+    @media #{$mouse-device} {
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
   h1,
   h2,
   h3,
@@ -98,8 +109,13 @@
     }
 
     li {
-      display: flex;
-      column-gap: rem(6);
+      position: relative;
+      padding-left: rem(16);
+
+      &::before {
+        position: absolute;
+        left: 0;
+      }
     }
   }
 
@@ -232,5 +248,12 @@
     @include media('767', max) {
       margin: rem(20) 0;
     }
+  }
+
+  .center-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 }

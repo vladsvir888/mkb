@@ -9,6 +9,16 @@
     }
   }
 
+  &--tertiary {
+    padding-top: rem(90);
+    padding-bottom: 0;
+
+    @include media('767', max) {
+      padding-top: rem(50);
+      padding-bottom: 0;
+    }
+  }
+
   &__title {
     @include font56;
   }
