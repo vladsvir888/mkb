@@ -1,0 +1,46 @@
+<script webc:setup>
+  const breadcrumbs = {
+    items: [
+      {
+        text: 'Главная',
+        href: '/'
+      },
+      {
+        text: 'Направления деятельности',
+      },
+    ]
+  }
+
+  const heroInner = {
+    title: 'Реализуем решения полного цикла. Воплотим ваши идеи в готовом проекте.',
+    button: {
+      type: 'second'
+    },
+    bgi: `
+      .hero-inner {
+        background-image: url('/assets/images/hero-section/02.png');
+        background-image: image-set(
+          url('/assets/images/hero-section/02.webp'),
+          url('/assets/images/hero-section/02.png'),
+        );
+      }
+    `,
+  }
+</script>
+
+<mkb-base
+  webc:nokeep
+  is-footer="true"
+>
+  <mkb-page-top
+    page-top-class="page-top--activities"
+    :breadcrumbs="breadcrumbs"
+    title="Направления деятельности"
+  ></mkb-page-top>
+
+  <mkb-hero-inner :hero-inner="heroInner"></mkb-hero-inner>
+
+  <mkb-activities activities-class="activities--secondary"></mkb-activities>
+
+  <mkb-callback callback-class="callback--with-mb" title="Оставьте заявку и мы бесплатно предоставим Вам концепцию и схемы"></mkb-callback>
+</mkb-base>

@@ -11,7 +11,7 @@
 >
   <mkb-hero title="Мир комфорта и безопасности" is-text="true"></mkb-hero>
 
-  <mkb-activities></mkb-activities>
+  <mkb-activities title="true" header="true"></mkb-activities>
 
   <mkb-maintenance></mkb-maintenance>
 

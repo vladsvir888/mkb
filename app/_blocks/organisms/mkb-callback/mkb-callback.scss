@@ -66,10 +66,6 @@
     @include media('767', max) {
       margin-bottom: rem(40);
     }
-
-    // @include media('600', max) {
-    //   @include font-size(26, 24);
-    // }
   }
 
   &__form-wrap {

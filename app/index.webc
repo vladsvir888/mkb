@@ -23,6 +23,7 @@
       <mkb-button class="button--link start-block__link" href="/designers/">Проектировщикам</mkb-button>
       <mkb-button class="button--link start-block__link" href="/not-found">404</mkb-button>
       <mkb-button class="button--link start-block__link" href="/activities-new">Направление новая</mkb-button>
+      <mkb-button class="button--link start-block__link" href="/activities-common">Направление разводная</mkb-button>
     </div>
   </div>
 </mkb-base-2>

@@ -87,7 +87,6 @@
     }
 
     @include media('600', max) {
-      // font-size: rem(30);
       margin-bottom: rem(28);
       padding-bottom: rem(28);
       border-bottom: rem(1) solid var(--palette-white);
