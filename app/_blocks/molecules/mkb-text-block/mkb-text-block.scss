@@ -12,6 +12,10 @@
     padding: rem(100) var(--container-padding);
   }
 
+  + .container img {
+    margin: 0 auto;
+  }
+
   a {
     color: var(--palette-blue-marguerite);
     text-decoration: underline;

@@ -1,8 +1,8 @@
 <article class="service-card">
   <div class="service-card__content">
     <h3 class="service-card__title" @text="serviceCard.title"></h3>
-    <div class="service-card__text" @html="serviceCard.text"></div>
-    <mkb-button class="button--outline button--outline-gray service-card__link" :href="serviceCard?.link?.href || '#'">Узнать подробнее</mkb-button>
+    <div webc:if="serviceCard.text" class="service-card__text" @html="serviceCard.text"></div>
+    <mkb-button webc:if="serviceCard.link" class="button--outline button--outline-gray service-card__link" :href="serviceCard?.link?.href || '#'">Узнать подробнее</mkb-button>
   </div>
   <div class="service-card__img-wrap">
     <eleventy-image :src="serviceCard.image.src" class="service-card__img" alt="" loading="lazy"></eleventy-image>
