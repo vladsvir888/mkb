@@ -36,7 +36,7 @@
               </mkb-button>
             </li>
             <li class="header__item">
-              <mkb-button class="button--link header__link">
+              <mkb-button href="/activities" class="button--link header__link" aria-current="page">
                 Направления
               </mkb-button>
             </li>
@@ -51,7 +51,7 @@
               </mkb-button>
             </li>
             <li class="header__item">
-              <mkb-button href="/contacts" class="button--link header__link">
+              <mkb-button href="/portfolio" class="button--link header__link">
                 Портфолио
               </mkb-button>
             </li>

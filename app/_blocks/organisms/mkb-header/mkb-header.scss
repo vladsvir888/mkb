@@ -124,6 +124,12 @@
     column-gap: rem(32);
   }
 
+  &__link {
+    &[aria-current="page"] {
+      color: var(--palette-blue-marguerite);
+    }
+  }
+
   &__work {
     @include flex-center-y;
     @include font-size(14, 15.4);
