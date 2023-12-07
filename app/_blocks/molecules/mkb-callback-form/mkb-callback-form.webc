@@ -6,7 +6,6 @@
   :class="callbackFormClass || ''"
   action="/assets/callback-form.json"
   method="post"
-  enctype="multipart/form-data"
   novalidate
 >
   <div class="callback-form__inputs">

@@ -59,9 +59,6 @@ function Form() {
       try {
         const response = await fetch(form.action, {
           method: 'POST',
-          headers: {
-            'Content-Type': 'multipart/form-data',
-          },
           body: new FormData(form),
         });
 
